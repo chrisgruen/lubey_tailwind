@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,300i,400,700,800,900');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$fa-font-path: '../webfonts';
+@import '~@fortawesome/fontawesome-pro/scss/brands';
+@import '~@fortawesome/fontawesome-pro/scss/duotone';
+@import '~@fortawesome/fontawesome-pro/scss/regular';
+@import '~@fortawesome/fontawesome-pro/scss/solid';
+@import '~@fortawesome/fontawesome-pro/scss/light';
+@import '~@fortawesome/fontawesome-pro/scss/fontawesome';
