@@ -2,7 +2,7 @@
 
 	<div class="container mx-auto px-6 pt-10 pb-6 px-5">
 		<h3 class="text-3xl text-center before-line">NEWSLETTER</h3>
-		<div class="flex flex-wrap items-center items-baseline mt-12">
+		<div class="flex flex-wrap mx-auto items-baseline mt-12 w-full lg:w-10/12">
 			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">	
 				Ihr E-Mail Adresse<br />
 				<input type="text" value="tbone" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md "/>
@@ -25,7 +25,7 @@
                 <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">abbonieren</button>
 			</div>
 			<div class="w-full md:w-3/5 px-10">	
-				<div>Lubey Newsletter mit auf meine Bedürfnisse zugeschnittenen Informationen rund um die Themen</div>
+				<div>Lubey Newsletter mit auf meine Bedürfnisse zugeschnittenen <br />Informationen rund um die Themen</div>
 				<div class="flex flex-wrap space-x-4 mt-5">
 					<div class="flex-none w-24">
 						<span>Lubey</span><br />
