@@ -2,7 +2,7 @@
 @section('description')Bei Lubey Trade trifft sich die gesamte Branche. Hier können Sie kostenlose E-Vergaben und Auktionen erstellen, um den Bestpreis für Ihre Stoffe zu erzielen.@endsection
 @section('content')
     <!--Hero-->
-    <section id="start-slider" class="relative" data-carousel="static">
+    <section id="start-slider" class="relative" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="overflow-hidden relative h-56 sm:h-64 md:h-80 xl:h-128 2xl:h-128">
             <!-- Item 1 -->
