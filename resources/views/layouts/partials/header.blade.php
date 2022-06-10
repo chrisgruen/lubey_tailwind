@@ -6,9 +6,9 @@
         <a href="https://www.linkedin.com/company/lubey-ag" target="_blank" class="px-1 text-base"><i class="fab fa-linkedin"></i></a>
     </div>
 </div>
-<nav class="container mx-auto px-6 py-5 pb-8 flex justify-between items-center">
+<nav class="container mx-auto px-6 pt-6 pb-5 flex justify-between items-center">
     <a class="font-bold text-2xl lg:text-4xl" href="{{route('content.page',['pageID'=>'home'])}}">
-    	<img src="{{ url('/img/logo_lubey.png') }}" style="width:140px" alt="logo">
+    	<img src="{{ url('/img/logo_lubey.png') }}" style="width:148px" alt="logo">
 	</a>
     <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
@@ -29,28 +29,28 @@
                 <i class="fas fa-user"></i> Login
             </a>
         </div>
-        <div class="inline-flex divide-x divide-grey-800 text-sm">
+        <div class="inline-flex divide-x divide-gray-600 text-sm">
             <div>
-                <ul class="inline-flex">
+                <ul class="inline-flex mr-3">
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('digit*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'digit'])}}">Digitale Lösungen</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('digit*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'digit'])}}">Digitale Lösungen</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'trade'])}}">Trade</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'trade'])}}">Trade</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('connect*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'connect'])}}">Connect</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('connect*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'connect'])}}">Connect</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('consult*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'consult'])}}">Consult</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('consult*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'consult'])}}">Consult</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('lubey_ag*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'lubey_ag'])}}">Lubey AG</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('lubey_ag*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'lubey_ag'])}}">Lubey AG</a>
                     </li>
                 </ul>
             </div>
             <div class="pl-3">
-                <button class="bg-blue-800 text-white text-xs rounded py-1 px-2 uppercase tracking-wider">
+                <button class="bg-blue-800 text-white text-base rounded ml-3 py-1 px-2 uppercase tracking-wider">
                     DE
                 </button>
             </div>
