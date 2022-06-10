@@ -6,11 +6,11 @@
         <!-- Carousel wrapper -->
         <div class="overflow-hidden relative h-56 sm:h-64 md:h-80 xl:h-128 2xl:h-128">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-1" data-carousel-item >
+            <div class="hidden duration-700 ease-in-out bg-slide-2" data-carousel-item>
                 <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Trade.png')}}" alt="Trade"/>
-					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Connect.png')}}" alt="Connect"/>
+                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+						<h2 class="text-5xl font-semibold text-white">Connect</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
                     	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
                     		Erfahren Sie mehr
@@ -19,10 +19,10 @@
                 </div>
             </div>
             <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-2" data-carousel-item>
+            <div class="hidden duration-700 ease-in-out bg-slide-1" data-carousel-item >
                 <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Connect.png')}}" alt="Connect"/>
-                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Trade.png')}}" alt="Trade"/>
+					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
 						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
                     	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">

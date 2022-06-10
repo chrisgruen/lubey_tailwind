@@ -10,7 +10,7 @@
                 <div class="flex flex-row">
                 	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Trade.png')}}" alt="Trade"/>
 					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+						<h2 class="text-5xl font-semibold text-white">Trade</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
                     	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
                     		Erfahren Sie mehr

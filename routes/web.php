@@ -21,4 +21,5 @@ Route::get('/', function () {
 */
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
+Route::get('/home', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/{pageID}', [HomeController::class, 'getContent'])->name('content.page');

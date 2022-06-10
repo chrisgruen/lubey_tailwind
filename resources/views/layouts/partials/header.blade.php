@@ -7,7 +7,9 @@
     </div>
 </div>
 <nav class="container mx-auto px-6 py-5 pb-8 flex justify-between items-center">
-    <a class="font-bold text-2xl lg:text-4xl" href="#"><img src="{{ url('/img/logo_lubey.png') }}" style="width:140px" alt="logo"></a>
+    <a class="font-bold text-2xl lg:text-4xl" href="{{route('content.page',['pageID'=>'home'])}}">
+    	<img src="{{ url('/img/logo_lubey.png') }}" style="width:140px" alt="logo">
+	</a>
     <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
             <svg
@@ -31,19 +33,19 @@
             <div>
                 <ul class="inline-flex">
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('new_home*') ? 'font-bold' : 'hover:font-bold' }}" href="{{route('content.page',['pageID'=>'new_home'])}}">Digitale Lösungen</a>
+                        <a class="px-4 text-blue-800 text-base {{ Request::is('digit*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'digit'])}}">Digitale Lösungen</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('trade') ? 'font-bold' : 'hover:text-gray-400' }}" href="{{route('content.page',['pageID'=>'trade'])}}">Trade</a>
+                        <a class="px-4 text-blue-800 text-base {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'trade'])}}">Trade</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('connect*') ? 'font-bold' : 'hover:text-gray-400' }}" href="{{route('content.page',['pageID'=>'connect'])}}">Connect</a>
+                        <a class="px-4 text-blue-800 text-base {{ Request::is('connect*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'connect'])}}">Connect</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('consult*') ? 'font-bold' : 'hover:text-gray-400' }}" href="{{route('content.page',['pageID'=>'consult'])}}">Consult</a>
+                        <a class="px-4 text-blue-800 text-base {{ Request::is('consult*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'consult'])}}">Consult</a>
                     </li>
                     <li>
-                        <a class="px-4 text-blue-800 text-base {{ Request::is('lubey_ag*') ? 'font-bold' : 'hover:text-gray-400' }}" href="{{route('content.page',['pageID'=>'lubey_ag'])}}">Lubey AG</a>
+                        <a class="px-4 text-blue-800 text-base {{ Request::is('lubey_ag*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'lubey_ag'])}}">Lubey AG</a>
                     </li>
                 </ul>
             </div>

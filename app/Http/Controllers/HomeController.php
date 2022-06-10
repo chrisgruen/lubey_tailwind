@@ -20,8 +20,7 @@ class HomeController extends Controller {
         return view("bay." . App::getLocale() . ".home");
     }
     
-    public function getContent(Request $request, $contentName) {
-        dd('getContent');
+    public function getContent($contentName) {
         if (view()->exists("content." . App::getLocale() . "." . $contentName)) {
             return view("content." . App::getLocale() . "." . $contentName);
         } else {
