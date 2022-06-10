@@ -4,57 +4,57 @@
     <!--Hero-->
     <section id="start-slider" class="relative" data-carousel="static">
         <!-- Carousel wrapper -->
-        <div class="overflow-hidden relative h-56  sm:h-64 md:h-80 xl:h-128 2xl:h-128">
+        <div class="overflow-hidden relative h-56 sm:h-64 md:h-80 xl:h-128 2xl:h-128">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out bg-slide-1" data-carousel-item >
                 <div class="flex flex-row">
-                    <div class="basis-1/4"></div>
-                    <div class="basis-1/2 start-slider-text">
-                        <h2 class="text-5xl font-semibold">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-                        <p class="text-3xl font-light mt-3">Unabhängig, transparent und sicher.</p>
-                        <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
-                            Erfahren Sie mehr
-                        </button>
-                    </div>
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Trade.png')}}" alt="Trade"/>
+					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+                    		Erfahren Sie mehr
+                    	</button>
+                	</div>
                 </div>
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out bg-slide-2" data-carousel-item>
                 <div class="flex flex-row">
-                    <div class="basis-1/4"></div>
-                    <div class="basis-1/2 start-slider-text">
-                        <h2 class="text-5xl font-semibold">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-                        <p class="text-3xl font-light mt-3">Unabhängig, transparent und sicher.</p>
-                        <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
-                            Erfahren Sie mehr
-                        </button>
-                    </div>
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Connect.png')}}" alt="Trade"/>
+                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+                    		Erfahren Sie mehr
+                    	</button>
+                	</div>
                 </div>
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out bg-slide-3" data-carousel-item>
                 <div class="flex flex-row">
-                    <div class="basis-1/4"></div>
-                    <div class="basis-1/2 start-slider-text">
-                        <h2 class="text-5xl font-semibold">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-                        <p class="text-3xl font-light mt-3">Unabhängig, transparent und sicher.</p>
-                        <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
-                            Erfahren Sie mehr
-                        </button>
-                    </div>
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Individual.png')}}" alt="Trade"/>
+                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+                    		Erfahren Sie mehr
+                    	</button>
+                	</div>
                 </div>
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out bg-slide-4" data-carousel-item>
                 <div class="flex flex-row">
-                    <div class="basis-1/4"></div>
-                    <div class="basis-1/2 start-slider-text">
-                        <h2 class="text-5xl font-semibold">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-                        <p class="text-3xl font-light mt-3">Unabhängig, transparent und sicher.</p>
-                        <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
-                            Erfahren Sie mehr
-                        </button>
-                    </div>
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Consult.png')}}" alt="Trade"/>
+                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
+						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+                    		Erfahren Sie mehr
+                    	</button>
+                	</div>
                 </div>
             </div>
         </div>
@@ -135,10 +135,10 @@
         </div>
     </section>
 
-    <section class="h-[22rem] bg-green-1">
+    <section class="lg:h-[22rem] bg-green-1 pb-20 pl-10">
         <div class="container mx-auto">
             <div class="flex items-center flex-wrap text-white">
-                <div class="w-2/3 mt-12 pr-10">
+                <div class="w-full md:w-2/3 mt-12 pr-10">
                     <h2 class="text-5xl font-semibold">CO2-Bilanz</h2>
                     <p class="text-3xl font-light mt-3">Automatisierung komplexer Berechnungen</p>
                     <p class="mt-3">
@@ -150,7 +150,7 @@
                         verringern und künftig sogar in Geschäftsprozessen einpreisen zu können.
                     </p>
                 </div>
-                <div class="w-1/3 mt-12">
+                <div class="w-full md:w-1/3 mt-12">
                     <img src="{{asset('img/frontend/Recycle.png')}}" alt="Recycle" width="200"/>
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
                         Erfahren Sie mehr
@@ -170,7 +170,7 @@
     </section>
 
     <section class="container mx-auto px-6 mt-20">
-        <div class="flex justify-center space-x-12">
+        <div class="flex flex-wrap justify-center space-x-12">
             <div class="text-center">
                 <img src="{{asset('img/frontend/Altpapier.png')}}" alt="Altpapier" width="110"/>
                 <div class="mt-4 text-blue-800">Altpapier</div>
@@ -210,9 +210,9 @@
         <h2 class="text-center text-3xl text-blue-800">
             Digitale <span class="font-semibold">Werkstoffvermarktung</span> mit Lubey TRADE
         </h2>
-        <div class="flex justify-center mt-20">
-            <div class="w-1/4 bg-dark-gray">
-            	<div class="flex mt-8">
+        <div class="flex flex-wrap items-center mt-20">
+        	<div class="w-full lg:w-1/4">
+        		<div class="flex mt-8">
                 	<div class="flex-none w-14 h-14">
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
@@ -230,12 +230,12 @@
                 		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                 	</div>
                 </div>
-            </div>
-            <div class="w-2/4">
-                <img src="{{asset('img/frontend/Lubey_Trade_Cloud.png')}}" alt="Altoel" width="500"/>
-            </div>
-            <div class="w-1/4">
-                <div class="flex mt-8">
+    		</div>
+    		<div class="w-full lg:w-2/4">
+        		<img src="{{asset('img/frontend/Lubey_Trade_Cloud.png')}}" alt="Cloud" width="500"/>
+    		</div>
+    		<div class="w-full lg:w-1/4">
+        		<div class="flex mt-8">
                 	<div class="flex-none w-14 h-14">
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
@@ -253,7 +253,8 @@
                 		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                 	</div>
                 </div>
-            </div>
+    		</div>
+
         </div>
     </section>
 
@@ -262,8 +263,8 @@
             Wählen Sie hier <span class="font-semibold">Ihre Branche</span> aus und <br />
             erfahren Sie mehr relevante Informationen
         </h2>
-        <div class="flex  space-x-12 mt-20">
-            <div class="w-52 text-left">
+        <div class="flex flex-wrap justify-center space-x-12 mt-20">
+            <div class="w-52 mt-10 lg:mt-0 text-left">
                 <img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
@@ -273,7 +274,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-52 text-left">
+            <div class="w-52 mt-10 lg:mt-0 text-left">
                 <img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
@@ -283,7 +284,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-52 text-left">
+            <div class="w-52 mt-10 lg:mt-0 text-left">
                 <img src="{{asset('img/frontend/branche3.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
@@ -293,7 +294,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-52 text-left">
+            <div class="w-52 mt-10 lg:mt-0 text-left">
                 <img src="{{asset('img/frontend/branche4.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
@@ -303,7 +304,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-52 text-left">
+            <div class="w-52 mt-10 lg:mt-0  text-left">
                 <img src="{{asset('img/frontend/branche5.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
@@ -341,9 +342,9 @@
         </div>
     </section>
     
-    <section class="container mx-auto px-6 mt-14 mb-14 px-24">
-        <div class="grid grid-cols-4 gap-0 h-[26rem] text-white">
-          <div class="relative bg-[#62B96D] p-5 z-0">
+    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-0 h-full lg:h-[26rem] text-white">
+          <div class="relative bg-[#62B96D] h-full h-80 p-5 z-0">
           	<h3>Lubey</h3>
           	<h2 class="text-3xl font-semibold">INDIVIDUAL</h2>
           	<p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
@@ -354,7 +355,7 @@
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#185FA4] p-5">
+          <div class="relative bg-[#185FA4] h-full h-80 p-5">
           	<h3>Lubey</h3>
           	<h2 class="text-3xl font-semibold">TRADE</h2>
           	<p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
@@ -365,7 +366,7 @@
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#583863] p-5">
+          <div class="relative bg-[#583863] h-full h-80 p-5">
           	<h3>Lubey</h3>
           	<h2 class="text-3xl font-semibold">CONNECT</h2>
           	<p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
@@ -376,7 +377,7 @@
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#EFC517] p-5">
+          <div class="relative bg-[#EFC517] h-full h-80 p-5">
           	<h3>Lubey</h3>
           	<h3 class="text-3xl font-semibold">CONSULTING</h3>
           	<p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>

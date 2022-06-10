@@ -6,3 +6,12 @@
       }
 }
 
+.before-line::before,
+.before-line::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #fff;
+    width: 26rem;
+    margin: 0 2rem;
+    transform: translateY(-0.5rem);
+}
