@@ -1,8 +1,8 @@
-<footer class="bg-[#07468F] text-white">
+<footer class="bg-gradient-to-b from-[#2872B5] to-blue-800 text-white">
 
 	<div class="container mx-auto px-6 pt-10 pb-6 px-5">
-		<h3 class="text-3xl text-center before-line">Newsletter</h3>
-		<div class="flex flex-wrap items-center items-baseline mt-20">
+		<h3 class="text-3xl text-center before-line">NEWSLETTER</h3>
+		<div class="flex flex-wrap items-center items-baseline mt-12">
 			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">	
 				Ihr E-Mail Adresse<br />
 				<input type="text" value="tbone" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md "/>

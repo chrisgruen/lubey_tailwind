@@ -210,7 +210,7 @@
         <h2 class="text-center text-3xl text-blue-800">
             Digitale <span class="font-semibold">Werkstoffvermarktung</span> mit Lubey TRADE
         </h2>
-        <div class="flex flex-wrap items-center mt-20">
+        <div class="flex flex-wrap items-center mt-5">
         	<div class="w-full lg:w-1/4">
         		<div class="flex mt-8">
                 	<div class="flex-none w-14 h-14">
@@ -344,47 +344,47 @@
     
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-0 h-full lg:h-[26rem] text-white">
-          <div class="relative bg-[#62B96D] h-80 lg:h-full p-5 z-0">
+          <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full p-5 z-0">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">INDIVIDUAL</h2>
           	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full z-0" src="{{asset('img/frontend/group1.png')}}" alt="group1"/>
           	</div>
-          	<button class="absolute bottom-5 z-10 bg-transparent hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+          	<button class="absolute bottom-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#185FA4] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#4EAAE3] to-[#07468F] h-80 lg:h-full p-5">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">TRADE</h2>
           	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group2.png')}}" alt="group2"/>
           	</div>
-          	<button class="absolute bottom-5 z-10 bg-transparent hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+          	<button class="absolute bottom-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#583863] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full p-5">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">CONNECT</h2>
           	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group3.png')}}" alt="group3"/>
           	</div>
-          	<button class="absolute bottom-5 z-10 bg-transparent hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+          	<button class="absolute bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                 Erfahren Sie mehr
             </button>
       	  </div>
-          <div class="relative bg-[#EFC517] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full p-5">
           	<h3>Lubey</h3>
           	<h3 class="relative text-3xl font-semibold z-10">CONSULTING</h3>
           	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group4.png')}}" alt="group4"/>
           	</div>
-          	<button class="absolute bottom-5 z-10 bg-transparent hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+          	<button class="absolute bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                 Erfahren Sie mehr
             </button>
       	  </div>
