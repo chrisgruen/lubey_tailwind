@@ -317,11 +317,11 @@
         </div>
     </section>
 
-    <section class="h-[30rem] bg-blue-800 mt-20">
-        <div class="container mx-auto">
-            <div class="flex items-center flex-wrap text-white">
-                <div class="w-2/3 mt-12 pl-5">
-                    <h2 class="text-5xl font-semibold">Forschung & Entwicklung</h2>
+	<section class="h-[30rem] bg-[#1C77B7] mt-32 z-0">
+		<div class="container h-full mx-auto z-10">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full text-white">
+				<div class="relative h-full px-10 py-20">
+					<h2 class="text-5xl font-semibold">Forschung & Entwicklung</h2>
                     <p class="text-3xl font-light mt-3">Subline hier einfügen</p>
                     <p class="mt-3">
                         Mit Lubey CO2-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
@@ -334,13 +334,15 @@
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
                         Erfahren Sie mehr
                     </button>
-                </div>
-                <div class="w-1/3 mt-12">
-                    {{-- <img src="{{asset('img/frontend/Recycle.png')}}" alt="Recycle" width="200"/> --}}
-                </div>
-            </div>
+				</div>
+				<div class="relative h-full">
+					<div class="absolute bottom-0 right-1 w-3/4 z-20" >
+              			<img class="w-full z-0" src="{{asset('img/frontend/Forschung2.png')}}" alt="group1"/>
+              		</div>
+				</div>
+			</div>
         </div>
-    </section>
+	</section>
     
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-0 h-full lg:h-[26rem] text-white">
