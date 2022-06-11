@@ -28,12 +28,8 @@ module.exports = {
             'sans': ['Overpass', ...defaultTheme.fontFamily.sans],
         },
         backgroundImage: {
-            'slide-1': "url('http://localhost/laravel/lubey-frontend/public/img/normal/Hero_Slider_Trade.png')",
-            'slide-2': "url('http://localhost/laravel/lubey-frontend/public/img/normal/Hero_Slider_Connect.png')",
-            'slide-3': "url('http://localhost/laravel/lubey-frontend/public/img/normal/Hero_Slider_Individual.png')",
-            'slide-4': "url('http://localhost/laravel/lubey-frontend/public/img/normal/Hero_Slider_Consult.png')",
-            'green-1': "url('http://localhost/laravel/lubey-frontend/public/img/frontend/greenbackground.png')",
-            'blue-1': "url('http://localhost/laravel/lubey-frontend/public/img/frontend/bluebackground.png')",
+            'green-1': "url('/public/img/frontend/greenbackground.png')",
+            'blue-1': "url('/public/img/frontend/bluebackground.png')",
         }
     },
   },
