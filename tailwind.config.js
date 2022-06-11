@@ -28,8 +28,8 @@ module.exports = {
             'sans': ['Overpass', ...defaultTheme.fontFamily.sans],
         },
         backgroundImage: {
-            'green-1': "url('/public/img/frontend/greenbackground.png')",
-            'blue-1': "url('/public/img/frontend/bluebackground.png')",
+            'green-1': "url('/img/frontend/greenbackground.png')",
+            'blue-1': "url('/img/frontend/bluebackground.png')",
         }
     },
   },
