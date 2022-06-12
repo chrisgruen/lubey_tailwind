@@ -268,7 +268,7 @@
                 <img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
-                    <p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
@@ -278,7 +278,7 @@
                 <img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
-                    <p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
@@ -288,7 +288,7 @@
                 <img src="{{asset('img/frontend/branche3.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
-                    <p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
@@ -298,7 +298,7 @@
                 <img src="{{asset('img/frontend/branche4.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
-                    <p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
@@ -308,7 +308,7 @@
                 <img src="{{asset('img/frontend/branche5.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
-                    <p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                     <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
