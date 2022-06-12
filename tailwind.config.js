@@ -28,9 +28,12 @@ module.exports = {
             'sans': ['Overpass', ...defaultTheme.fontFamily.sans],
         },
         backgroundImage: {
-            'green-1': "url('/img/frontend/greenbackground.png')",
-            'blue-1': "url('/img/frontend/bluebackground.png')",
-        }
+            'green-1': "url('http://localhost/laravel/lubey-frontend/public/img/frontend/greenbackground.png')",
+            'blue-1': "url('http://localhost/laravel/lubey-frontend/public/img/frontend/bluebackground.png')",
+        },
+        colors: {
+      	  'blue-800': '#094992',
+      },
     },
   },
     plugins: [

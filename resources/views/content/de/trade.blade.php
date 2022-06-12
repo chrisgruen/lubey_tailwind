@@ -8,8 +8,8 @@
     	</div>
     </section>
     
-    <section class="container relative mx-auto px-6 margin-to-top z-10">
-        <div class="flex items-center flex-wrap mb-20">
+    <section class="container relative mx-auto px-6 margin-to-top z-10 mb-0"">
+        <div class="flex items-center flex-wrap mb-0">
             <div class="w-full md:w-1/2 px-10">
 				<h3 class="text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Mit Lubey TRADE</span> - macht den <br />
@@ -31,4 +31,67 @@
             </div>
         </div>
     </section>
+    
+    <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-0">
+		<div class="container mx-auto px-6 pt-10 pb-6 px-5">
+            <h2 class="text-center text-3xl text-white">
+            	Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
+            </h2>
+            <div class="flex flex-wrap justify-center space-x-12 my-16">
+            	<div class="w-52 mt-10 lg:mt-0 text-left">
+            		<img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
+            		<div class="mt-7">
+            			<h3 class="text-lg font-semibold">Städte & Kommunen</h3>
+            			<p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            				mehr erfahren
+            			</a>
+            		</div>
+            	</div>
+            	<div class="w-52 mt-10 lg:mt-0 text-left">
+            		<img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
+            		<div class="mt-7">
+            			<h3 class="text-lg font-semibold">Handel</h3>
+            			<p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            				mehr erfahren
+            			</a>
+            		</div>
+            	</div>
+            	<div class="w-52 mt-10 lg:mt-0 text-left">
+            		<img src="{{asset('img/frontend/branche3.png')}}" alt="Handel" width="200"/>
+            		<div class="mt-7">
+            			<h3 class="text-lg font-semibold">Industrie</h3>
+            			<p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            				mehr erfahren
+            			</a>
+            		</div>
+            	</div>
+            	<div class="w-52 mt-10 lg:mt-0 text-left">
+            		<img src="{{asset('img/frontend/branche4.png')}}" alt="Handel" width="200"/>
+            		<div class="mt-7">
+            			<h3 class="text-lg font-semibold">Entsorger</h3>
+            			<p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            				mehr erfahren
+            			</a>
+            		</div>
+            	</div>
+            	<div class="w-52 mt-10 lg:mt-0 text-left">
+            		<img src="{{asset('img/frontend/branche5.png')}}" alt="Handel" width="200"/>
+            		<div class="mt-7">
+            			<h3 class="text-lg font-semibold">Energieerzeuger</h3>
+            			<p class="mb-7">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            				mehr erfahren
+            			</a>
+            		</div>
+            	</div>
+            </div>
+		</div>
+	</section>
+	
+	
+	<br /><br /><br />
 @endsection

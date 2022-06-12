@@ -1,9 +1,5 @@
-.start-slider-text {
-  color: #fff;
-  margin-top: 130px;
-      h2 {
-        line-height: 3.4rem;
-      }
+.margin-to-top {
+  margin-top: -12rem;
 }
 
 .before-line::before,
