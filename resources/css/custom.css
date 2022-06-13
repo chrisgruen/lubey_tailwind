@@ -11,3 +11,22 @@
     margin: 0 2rem;
     transform: translateY(-0.5rem);
 }
+
+.before-line2::before,
+.before-line2::after {
+    display: inline-block;
+    content: "";
+    border-top: .15rem solid #ccc;
+    width: 16rem;
+    margin: 0 1.5rem;
+    transform: translateY(-0.75rem);
+}
+
+.img-hor {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

@@ -119,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="flex items-center mt-5">
+            <div class="flex items-center mt-0 border-b">
                 <div class="flex-none w-20 mr-12">
                     <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
                 </div>
@@ -127,35 +127,161 @@
                     <table class="w-full text-base text-left text-white">
                         <thead class="text-lg font-light bg-transparent">
                             <tr>
-                                <th scope="col" class="px-6 py-3 text-2xl">
+                                <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
                                     Los 1
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" class="px-6 pt-1 pb-5">
                                     Textilien
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" class="px-6 pt-1 pb-5">
                                     40.000 Tonnen
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" class="px-6 pt-1 pb-5">
                                     29.04.2022 | 12:00 Uhr
                                 </th>
-                                <th scope="col" class="px-6 py-3">
-                                    <span class="sr-only">Edit</span>
-                                </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
                                     <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
                                         Details anzeigen
                                     </button>
                                 </th>
                             </tr>
                         </thead>
-
+                        <tbody>
+                            <tr class="bg-transparent border-t">
+                                <td class="px-6 py-4 align-top">
+                                    AVV 200110
+                                </td>
+                                <td class="px-6 py-4 align-top w-60">
+                                    Alttextilien, namentlich Bekleidung und Schuhe
+                                </td>
+                                <td class="px-6 py-4 align-top">
+                                    200.000 Tonnen
+                                </td>
+                                <td class="px-6 py-4 align-top">
+                                   DE 29664, Walsrode
+                                </td>
+                            </tr>
+                            <tr class="bg-transparent">
+                                <td class="px-6 py-4 align-top">
+                                    AVV 200110
+                                </td>
+                                <td class="px-6 py-4 align-top">
+                                    Alttextilien, namentlich Bekleidung und Schuhe
+                                </td>
+                                <td class="px-6 py-4 align-top">
+                                    200.000 Tonnen
+                                </td>
+                                <td class="px-6 py-4 align-top">
+                                    DE 29640, Schneverdingen
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="flex items-center mt-0 mb-7 border-b">
+                <div class="flex-none w-20 mr-12">
+                    <img src="{{asset('img/frontend/Altholz.png')}}"  alt="Check"/>
+                </div>
+                <div class="flex-initial w-full relative overflow-x-auto ">
+                    <table class="w-full text-base text-left text-white">
+                        <thead class="text-lg font-light bg-transparent">
+                        <tr>
+                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
+                                Los 2
+                            </th>
+                            <th scope="col" class="px-6 pt-1 pb-5">
+                                Textilien
+                            </th>
+                            <th scope="col" class="px-6 pt-1 pb-5">
+                                40.000 Tonnen
+                            </th>
+                            <th scope="col" class="px-6 pt-1 pb-5">
+                                29.04.2022 | 12:00 Uhr
+                            </th>
+                            <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
+                                <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
+                                    Details anzeigen
+                                </button>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="bg-transparent border-t">
+                            <td class="px-6 py-4 align-top">
+                                AVV 200110
+                            </td>
+                            <td class="px-6 py-4 w-60 align-top">
+                                Alttextilien, namentlich Bekleidung und Schuhe
+                            </td>
+                            <td class="px-6 py-4 align-top">
+                                200.000 Tonnen
+                            </td>
+                            <td class="px-6 py-4 align-top">
+                                DE 29664, Walsrode
+                            </td>
+                        </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="container mx-auto mt-10 px-6 pt-10 pb-6 px-5">
+        <h3 class="text-5xl text-center text-blue-800 before-line2">
+            Alle Vorteile im Überblick
+        </h3>
+    </section>
 
+    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
+            <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
+                <button class="relative bottom-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 left-16 w-96 z-0" >
+                    <img class="img-hor w-[21rem]" src="{{asset('img/frontend/group1_col3.png')}}" alt="group1"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
+                <button class="relative bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-5 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 left-16 w-96 z-0">
+                    <img class="img-hor w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
+                <button class="relative bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 left-16 w-96 z-0">
+                    <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white mt-20">
+        <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
+            <h2 class="text-5xl font-semibold">
+               Werden Sie JETZT <img class="inline w-64" src="{{asset('img/frontend/muellionaer.png')}}" alt="muellionaer"/>
+            </h2>
+            <p class="text-3xl mx-auto text-center w-2/3 mt-7">
+                Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
+                und erhalten Sie ein kleines Müllionär-Präsent
+            </p>
+            <button class="bg-transparent hover:text-white py-3 px-8 mt-5 border rounded text-xl">
+                Registrieren
+            </button>
+        </div>
+    </section>
 	<br /><br /><br />
 @endsection
