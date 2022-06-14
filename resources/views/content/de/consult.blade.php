@@ -36,7 +36,7 @@
         <div class="container mx-auto px-6 pt-0 pb-0 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 <div class="pt-0 px-20">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/consult2.png')}}" alt="Lubey Anzug" />
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Consult2.png')}}" alt="Lubey Anzug" />
                 </div>
                 <div class="py-20">
                     <h2 class="text-3xl">
