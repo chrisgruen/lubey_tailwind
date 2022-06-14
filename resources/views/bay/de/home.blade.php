@@ -121,7 +121,7 @@
                         Zentrale Verwaltung Ihrer lokalen Standorte und Optimierung deren technischer (u./o. administrativer) Prozesse.
                     </p>
                 </div>
-                
+
                 <div class="flex mt-8">
             		<div class="flex-none w-14 h-14"></div>
                     <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
@@ -254,7 +254,6 @@
                 	</div>
                 </div>
     		</div>
-
         </div>
     </section>
 
@@ -343,7 +342,7 @@
 			</div>
         </div>
 	</section>
-    
+
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-0 h-full lg:h-[26rem] text-white">
           <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full p-5 z-0">
@@ -392,12 +391,12 @@
       	  </div>
         </div>
     </section>
-    
+
     <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white">
 		<div class="container mx-auto px-6 pt-10 pb-6 px-5">
     		<h3 class="text-3xl text-center before-line">NEWSLETTER</h3>
     		<div class="flex flex-wrap mx-auto items-baseline mt-12 w-full lg:w-10/12">
-    			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">	
+    			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">
     				Ihr E-Mail Adresse<br />
     				<input type="text" value="tbone" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md "/>
                 	<div class="flex mt-4">
@@ -418,7 +417,7 @@
                     </div>
                     <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">abbonieren</button>
     			</div>
-    			<div class="w-full md:w-3/5 px-10">	
+    			<div class="w-full md:w-3/5 px-10">
     				<div>Lubey Newsletter mit auf meine Bedürfnisse zugeschnittenen <br />Informationen rund um die Themen</div>
     				<div class="flex flex-wrap space-x-4 mt-5">
     					<div class="flex-none w-24">
@@ -431,7 +430,7 @@
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Connect
                               </label>
-                            </div>	
+                            </div>
                             <div class="form-check mr-10">
                               <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
@@ -445,14 +444,14 @@
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Digitale Lösungen
                               </label>
-                            </div>	
+                            </div>
                             <div class="form-check mr-10">
                               <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Consulting
                               </label>
                             </div>
-    					</div>								
+    					</div>
     				</div>
     				<div class="flex flex-wrap space-x-4 mt-5">
     					<div class="flex-none w-24">
@@ -465,7 +464,7 @@
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Städte & Kommunen
                               </label>
-                            </div>	
+                            </div>
                             <div class="form-check mr-10">
                               <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
@@ -479,14 +478,14 @@
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Industrie
                               </label>
-                            </div>	
+                            </div>
                             <div class="form-check mr-10">
                               <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label inline-block text-white" for="flexCheckDefault">
                                 Entsorger
                               </label>
                             </div>
-                        </div>			
+                        </div>
     				</div>
     			</div>
     		</div>

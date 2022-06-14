@@ -35,4 +35,82 @@
             </div>
         </div>
     </section>
+
+    <section class="bg-gradient-to-b from-[#94CE6D] to-[#53B36E] text-white margin-to-top2 mt-0">
+        <div class="container mx-auto px-6 pt-0 pb-0 px-5">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 text-white">
+                <div class="pt-0 px-20">
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/anzug_background.png')}}" alt="Lubey Anzug" />
+                </div>
+                <div class="py-20">
+                    <h2 class="text-3xl">
+                        Maßgeschneiderte Lösungen - <br />
+                        So individuell wie Ihr Unternehmen
+                    </h2>
+                    <div class="flex items-center flex-wrap mt-10">
+                        <div class="flex">
+                            <div class="flex-none w-14 h-14">
+                                <img src="{{asset('img/frontend/check_white.png')}}" width="36" alt="Check"/>
+                            </div>
+                            <div class="mb-8">
+                                <h4 class="text-xl font-semibold mb-4">Überschrift</h4>
+                                <p>
+                                    Digitalisierung Ihrer Prozesse und Vernetzung Ihrer Anwendungen.
+                                    Verwalten Sie Ihre Standorte, Projekte, Lieferanten und Kunden.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-none w-14 h-14">
+                                <img src="{{asset('img/frontend/check_white.png')}}" width="36" alt="Check"/>
+                            </div>
+                            <div class="mb-8">
+                                <h4 class="text-xl font-semibold mb-4">Überschrift</h4>
+                                <p>
+                                    Digitalisierung Ihrer Prozesse und Vernetzung Ihrer Anwendungen.
+                                    Verwalten Sie Ihre Standorte, Projekte, Lieferanten und Kunden.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COL 3 -->
+    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
+            <div class="relative bg-gradient-to-b from-[#4EAAE3] to-[#07468F] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">Trade</h2>
+                <button class="relative bottom-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 right-0 z-0" >
+                    <img class="w-[17.5rem]" src="{{asset('img/frontend/group2_col3.png')}}" alt="group1"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
+                <button class="relative bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-5 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 right-0 z-0">
+                    <img class="w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
+                <button class="relative bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                    Erfahren Sie mehr
+                </button>
+                <div class="absolute bottom-0 right-0 z-0">
+                    <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

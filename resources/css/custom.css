@@ -2,6 +2,10 @@
   margin-top: -12rem;
 }
 
+.margin-to-top2 {
+    margin-top: -5rem;
+}
+
 .before-line::before,
 .before-line::after {
     display: inline-block;
@@ -22,11 +26,3 @@
     transform: translateY(-0.75rem);
 }
 
-.img-hor {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
-}

@@ -234,6 +234,7 @@
         </h3>
     </section>
 
+    <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
@@ -242,8 +243,8 @@
                 <button class="relative bottom-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </button>
-                <div class="absolute bottom-0 left-16 w-96 z-0" >
-                    <img class="img-hor w-[21rem]" src="{{asset('img/frontend/group1_col3.png')}}" alt="group1"/>
+                <div class="absolute bottom-0 right-0 z-0" >
+                    <img class="w-[21rem]" src="{{asset('img/frontend/group1_col3.png')}}" alt="group1"/>
                 </div>
             </div>
             <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
@@ -252,8 +253,8 @@
                 <button class="relative bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-5 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </button>
-                <div class="absolute bottom-0 left-16 w-96 z-0">
-                    <img class="img-hor w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
+                <div class="absolute bottom-0 right-0 z-0">
+                    <img class="w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
                 </div>
             </div>
             <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
@@ -262,7 +263,7 @@
                 <button class="relative bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </button>
-                <div class="absolute bottom-0 left-16 w-96 z-0">
+                <div class="absolute bottom-0 right-0 z-0">
                     <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
                 </div>
             </div>
