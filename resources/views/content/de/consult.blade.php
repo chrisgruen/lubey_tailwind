@@ -32,6 +32,54 @@
         </div>
     </section>
 
+    <section class="bg-gradient-to-b from-[#EFC313] to-[#FCDA50] margin-to-top2 mt-0">
+        <div class="container mx-auto px-6 pt-0 pb-0 px-5">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                <div class="pt-0 px-20">
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/consult2.png')}}" alt="Lubey Anzug" />
+                </div>
+                <div class="py-20">
+                    <h2 class="text-3xl">
+                        Maßgeschneiderte Lösungen - <br />
+                        So individuell wie Ihr Unternehmen
+                    </h2>
+                    <div class="flex items-center flex-wrap mt-10">
+                        <div class="flex">
+                            <div class="flex-none w-14 h-14">
+                                <img src="{{asset('img/frontend/check_white.png')}}" width="36" alt="Check"/>
+                            </div>
+                            <div class="mb-8">
+                                <h4 class="text-xl font-semibold mb-4">Überschrift</h4>
+                                <p>
+                                    Digitalisierung Ihrer Prozesse und Vernetzung Ihrer Anwendungen.
+                                    Verwalten Sie Ihre Standorte, Projekte, Lieferanten und Kunden.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-none w-14 h-14">
+                                <img src="{{asset('img/frontend/check_white.png')}}" width="36" alt="Check"/>
+                            </div>
+                            <div class="mb-8">
+                                <h4 class="text-xl font-semibold mb-4">Überschrift</h4>
+                                <p>
+                                    Digitalisierung Ihrer Prozesse und Vernetzung Ihrer Anwendungen.
+                                    Verwalten Sie Ihre Standorte, Projekte, Lieferanten und Kunden.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex mt-8">
+                            <div class="flex-none w-14 h-14"></div>
+                            <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-transparent border border-blue-800 text-blue-800  rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                                Erfahren Sie mehr
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="container  mx-auto mt-10 px-6 pt-10 px-5">
         <h3 class="text-5xl text-center text-blue-800 before-line2">
             Alle Vorteile im Überblick
