@@ -273,7 +273,7 @@
     <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white mt-20">
         <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
             <h2 class="text-5xl font-semibold">
-               Werden Sie JETZT <img class="inline w-64" src="{{asset('img/frontend/muellionaer.png')}}" alt="muellionaer"/>
+               Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
             </h2>
             <p class="text-3xl mx-auto text-center w-2/3 mt-7">
                 Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>

@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <section class="lg:h-[22rem] bg-green-1 pb-20 pl-10">
+    <section class="lg:h-[22rem] bg-gradient-to-r from-[#58B56E] to-[#95CF6D] pb-20 pl-10">
         <div class="container mx-auto">
             <div class="flex items-center flex-wrap text-white">
                 <div class="w-full md:w-2/3 mt-12 pr-10">
