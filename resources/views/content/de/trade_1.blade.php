@@ -59,7 +59,8 @@
             <div class="relative pt-0 mx-auto w-full">
                 <div class="absolute z-20 w-[36rem] top-0 left-10">
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_commune.png')}}" alt="Lubey Trade"/>
-                    <div class="w-full border border-blue-800 rounded-md px-10 py-16 text-blue-800 text-lg">
+                    <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-blue-800 text-lg">
+                        <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                         At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     </div>
