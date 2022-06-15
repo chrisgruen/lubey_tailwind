@@ -6,57 +6,54 @@
         <!-- Carousel wrapper -->
         <div class="overflow-hidden relative h-56 sm:h-64 md:h-80 xl:h-128 2xl:h-128">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-1" data-carousel-item >
-                <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Trade.png')}}" alt="Trade"/>
-					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-                    		Erfahren Sie mehr
-                    	</button>
-                	</div>
-                </div>
-            </div>
+            <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-1" data-carousel-item >
+        		<div class="flex flex-row">
+        			<div class="container mx-auto px-6 mt-7 md:mt-20">
+        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+        					Erfahren Sie mehr
+        				</button>
+        			</div>
+        		</div>
+        	</div>
+        	
             <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-2" data-carousel-item>
-                <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Connect.png')}}" alt="Connect"/>
-                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-                    		Erfahren Sie mehr
-                    	</button>
-                	</div>
-                </div>
-            </div>
+            <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-2" data-carousel-item >
+        		<div class="flex flex-row">
+        			<div class="container mx-auto px-6 mt-7 md:mt-20">
+        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+        					Erfahren Sie mehr
+        				</button>
+        			</div>
+        		</div>
+        	</div>
             <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-3" data-carousel-item>
-                <div class="flex flex-row">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Individual.png')}}" alt="Individual"/>
-                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-                    		Erfahren Sie mehr
-                    	</button>
-                	</div>
-                </div>
-            </div>
+            <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-3" data-carousel-item >
+        		<div class="flex flex-row">
+        			<div class="container mx-auto px-6 mt-7 md:mt-20">
+        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+        					Erfahren Sie mehr
+        				</button>
+        			</div>
+        		</div>
+        	</div>
             <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out bg-slide-4" data-carousel-item>
-                <div class="flex flex-row">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Consult.png')}}" alt="Consult"/>
-                	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
-						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-                    	<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-                    		Erfahren Sie mehr
-                    	</button>
-                	</div>
-                </div>
-            </div>
+            <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-4" data-carousel-item >
+        		<div class="flex flex-row">
+        			<div class="container mx-auto px-6 mt-7 md:mt-20">
+        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
+        					Erfahren Sie mehr
+        				</button>
+        			</div>
+        		</div>
+        	</div>
         </div>
         <!-- Slider indicators -->
         <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
