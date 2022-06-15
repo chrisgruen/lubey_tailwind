@@ -2,7 +2,7 @@
 @section('description')Bei Lubey Trade trifft sich die gesamte Branche. Hier können Sie kostenlose E-Vergaben und Auktionen erstellen, um den Bestpreis für Ihre Stoffe zu erzielen.@endsection
 @section('content')
     <section class="relative h-72 bg-[#E5C02B] z-0">
-        <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/header_consult.png')}}" alt="Consult"/>
+        <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/header_consult.png')}}" alt="Consult"/>
         <div class="absolute top-20 left-20 lg:left-80 px-6 py-3">
         	<p class="text-5xl font-semibold text-white">Lubey</p>
 			<h2 class="text-7xl font-semibold text-white">CONSULTING</h2>
@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="w-full md:w-1/2 mt-10">
-                <img class="w-96" src="{{asset('img/frontend/Lubey_Softwarebox_Anzug.png')}}" alt="Lubey Trade"/>
+                <img class="w-96" src="{{asset('img/frontend/lubey_box.png')}}" alt="Lubey Trade"/>
             </div>
         </div>
     </section>

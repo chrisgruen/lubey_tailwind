@@ -8,7 +8,7 @@
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out bg-slide-1" data-carousel-item >
                 <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Trade.png')}}" alt="Trade"/>
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Trade.png')}}" alt="Trade"/>
 					<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
 						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
@@ -21,7 +21,7 @@
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out bg-slide-2" data-carousel-item>
                 <div class="flex flex-row">
-                	<img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Connect.png')}}" alt="Connect"/>
+                	<img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Connect.png')}}" alt="Connect"/>
                 	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
 						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
@@ -34,7 +34,7 @@
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out bg-slide-3" data-carousel-item>
                 <div class="flex flex-row">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Individual.png')}}" alt="Individual"/>
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Individual.png')}}" alt="Individual"/>
                 	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
 						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
@@ -47,7 +47,7 @@
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out bg-slide-4" data-carousel-item>
                 <div class="flex flex-row">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/normal/Hero_Slider_Consult.png')}}" alt="Consult"/>
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/Hero_Slider_Consult.png')}}" alt="Consult"/>
                 	<div class="absolute top-20 left-20 lg:left-72 px-6 py-4">
 						<h2 class="text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
 						<p class="text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
@@ -268,7 +268,7 @@
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
                     <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_1'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
@@ -278,7 +278,7 @@
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
                     <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_2'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
@@ -288,7 +288,7 @@
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
                     <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_3'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
@@ -298,7 +298,7 @@
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
                     <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_4'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
@@ -308,7 +308,7 @@
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
                     <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    <a href="#" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_5'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>

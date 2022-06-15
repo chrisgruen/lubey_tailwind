@@ -2,7 +2,7 @@
 @section('description')Bei Lubey Trade trifft sich die gesamte Branche. Hier können Sie kostenlose E-Vergaben und Auktionen erstellen, um den Bestpreis für Ihre Stoffe zu erzielen.@endsection
 @section('content')
     <section class="relative h-72 bg-header-trade z-0">
-        <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/header_trade.png')}}" alt="Trade"/>
+        <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/headers/header_trade.png')}}" alt="Trade"/>
         <div class="absolute top-20 left-20 lg:left-80 px-6 py-3">
         	<p class="text-5xl font-semibold text-white">Lubey</p>
 			<h2 class="text-7xl font-semibold text-white">TRADE</h2>
@@ -44,7 +44,7 @@
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Städte & Kommunen</h3>
             			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            			<a href="{{route('content.page',['pageID'=>'trade_1'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
@@ -54,7 +54,7 @@
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Handel</h3>
             			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            			<a href="{{route('content.page',['pageID'=>'trade_2'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
@@ -64,7 +64,7 @@
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Industrie</h3>
             			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            			<a href="{{route('content.page',['pageID'=>'trade_3'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
@@ -74,7 +74,7 @@
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Entsorger</h3>
             			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            			<a href="{{route('content.page',['pageID'=>'trade_4'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
@@ -84,7 +84,7 @@
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Energieerzeuger</h3>
             			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-            			<a href="#" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+            			<a href="{{route('content.page',['pageID'=>'trade_5'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
