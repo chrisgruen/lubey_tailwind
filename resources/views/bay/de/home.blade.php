@@ -152,7 +152,7 @@
                 </div>
                 <div class="w-full md:w-1/3 mt-12">
                     <img src="{{asset('img/frontend/Recycle.png')}}" alt="Recycle" width="200"/>
-                    <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
+                    <button class="bg-transparent hover:text-white py-2 px-4 mt-5 text-lg border rounded">
                         Erfahren Sie mehr
                     </button>
                 </div>
