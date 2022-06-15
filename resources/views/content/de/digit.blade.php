@@ -233,9 +233,9 @@
             <div class="relative bg-gradient-to-b from-[#4EAAE3] to-[#07468F] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">Trade</h2>
-                <button class="relative bottom-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'trade'])}}" class="relative inline-block bottom-5 z-10 bg-blue-800/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
-                </button>
+                </a>
                 <div class="absolute bottom-0 right-0 z-0" >
                     <img class="w-[17.5rem]" src="{{asset('img/frontend/group2_col3.png')}}" alt="group1"/>
                 </div>
@@ -243,9 +243,9 @@
             <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
-                <button class="relative bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-5 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="relative inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
-                </button>
+                </a>
                 <div class="absolute bottom-0 right-0 z-0">
                     <img class="w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
                 </div>
@@ -253,9 +253,9 @@
             <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
-                <button class="relative bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="relative inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
-                </button>
+                </a>
                 <div class="absolute bottom-0 right-0 z-0">
                     <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
                 </div>
