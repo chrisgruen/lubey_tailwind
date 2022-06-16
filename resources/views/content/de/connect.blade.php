@@ -170,7 +170,7 @@
                     <span class="font-semibold">Maßgeschneiderte Lösungen - </span> <br />
                     So individuell wie Ihr Unternehmen
                 </h2>
-                <div class="flex items-center flex-wrap mb-20 mt-20">
+                <div class="flex items-center flex-wrap my-20">
                     <div class="w-full">
                         <div class="flex">
                             <div class="flex-none w-14 h-14">
@@ -208,7 +208,7 @@
     </div>
 
     <!-- COL 3 -->
-    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+    <section class="container mx-auto px-6 mt-0 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
