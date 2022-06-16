@@ -253,10 +253,10 @@
                 	Für Entsorgungsunternehmen
             	</h2>
                 <p class="mt-10">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Lubey Connect bietet bietet Entsorgungsunternehmen einzigartige Chancen effizienter und vernetzter im Einsatzgebiet zu agieren.
                 </p>
                 <div class="mt-10">
-                    <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'trade_4'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-5 texg-lg hover:text-white hover:bg-blue-800">
                         Erfahren Sie mehr
                     </a>
                 </div>
