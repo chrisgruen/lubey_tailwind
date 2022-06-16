@@ -4,16 +4,17 @@
     <!--Hero-->
     <section id="start-slider" class="relative" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="overflow-hidden relative h-56 sm:h-64 md:h-80 xl:h-128 2xl:h-128">
+        <div class="overflow-hidden relative h-80 sm:h-80 md:h-80 xl:h-128 2xl:h-128">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-1" data-carousel-item >
         		<div class="flex flex-row">
-        			<div class="container mx-auto px-6 mt-7 md:mt-20">
-        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-        					Erfahren Sie mehr
-        				</button>
+        			<div class="container mx-auto px-6 mt-7 xl:mt-20">
+        				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">intelligent, vernetzt, digital.</p>
+        				<a href="{{route('content.page',['pageID'=>'trade'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+            				Erfahren Sie mehr
+            			</a>
         			</div>
         		</div>
         	</div>
@@ -22,11 +23,11 @@
             <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-2" data-carousel-item >
         		<div class="flex flex-row">
         			<div class="container mx-auto px-6 mt-7 md:mt-20">
-        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-        					Erfahren Sie mehr
-        				</button>
+        				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Lubey Connect</h2>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Intelligentes und vernetztes Abfallmanagement</p>
+        				<a href="{{route('content.page',['pageID'=>'connect'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+            				Erfahren Sie mehr
+            			</a>
         			</div>
         		</div>
         	</div>
@@ -34,11 +35,11 @@
             <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-3" data-carousel-item >
         		<div class="flex flex-row">
         			<div class="container mx-auto px-6 mt-7 md:mt-20">
-        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-        					Erfahren Sie mehr
-        				</button>
+        				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Digitale Lösungen</h2>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Individuell entwickelte Software rund um die Entsorgung</p>
+        				<a href="{{route('content.page',['pageID'=>'consult'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+            				Erfahren Sie mehr
+            			</a>
         			</div>
         		</div>
         	</div>
@@ -46,21 +47,22 @@
             <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-4" data-carousel-item >
         		<div class="flex flex-row">
         			<div class="container mx-auto px-6 mt-7 md:mt-20">
-        				<h2 class="text-3xl md:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-        				<p class="text-xl md:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
-        				<button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">
-        					Erfahren Sie mehr
-        				</button>
+        				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Lubey Consult</h2>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Beratungsleistungen zur Abfallentsorgung</p>
+        				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Vermarktung und Software</p>
+        				<a href="{{route('content.page',['pageID'=>'digit'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+            				Erfahren Sie mehr
+            			</a>
         			</div>
         		</div>
         	</div>
         </div>
         <!-- Slider indicators -->
         <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="hidden md:inline-block w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="hidden md:inline-block w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="hidden md:inline-block w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="hidden md:inline-block w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
         </div>
         <!-- Slider controls -->
         {{--  <div class="container mx-auto flex relative">
@@ -86,7 +88,7 @@
     <!-- Features -->
     <section class="container mx-auto px-6 mt-20">
         <div class="flex justify-center flex-wrap mb-5">
-            <h2 class="text-3xl text-center text-gray-600 mb-8">
+            <h2 class="text-3xl text-center text-blue-800 font-light mb-8">
                 Lubey entwickelt <span class="font-semibold">maßgeschneiderte</span><br />
                 <span class="font-semibold">Softwarelösungen</span> rund um das Thema Entsorgung
             </h2>
@@ -121,7 +123,7 @@
 
                 <div class="flex mt-8">
             		<div class="flex-none w-14 h-14"></div>
-                    <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-lg text-blue-800  rounded mb-3 py-2 px-5 hover:text-white hover:bg-blue-800">
                         Erfahren Sie mehr
                     </a>
                 </div>
@@ -158,10 +160,10 @@
     </section>
 
     <section class="container mx-auto px-6 mt-12">
-        <h1 class="text-8xl text-center text-blue-800 font-bold mb-8">
+        <h1 class="text-3xl md:text-8xl text-center text-blue-800 font-bold mb-8">
            Lubey Trade
         </h1>
-        <h2 class="text-center text-3xl text-blue-800">
+        <h2 class="text-center text-xl md:text-3xl text-blue-800 font-semibold">
             Der Handelplatz für alle Abfälle und Sekundärrohstoffe
         </h2>
     </section>
@@ -204,7 +206,7 @@
     </section>
 
     <section class="container mx-auto px-6 mt-14">
-        <h2 class="text-center text-3xl text-blue-800">
+        <h2 class="text-center text-3xl text-blue-800 font-light">
             Digitale <span class="font-semibold">Werkstoffvermarktung</span> mit Lubey TRADE
         </h2>
         <div class="flex flex-wrap items-center mt-5">
@@ -214,8 +216,8 @@
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
                 	<div class="flex-initial">
-                		<h2 class="text-blue-800 text-xl font-semibold">Vorteil 01</h2>
-                		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                		<h2 class="text-blue-800 text-xl font-semibold">Strukturierte Vergabe mit wenigen Klicks</h2>
+                		<p>Automatisierte Stoffbeschreibungen, alle Angebotsbedingungen und Fristen mit nur wenigen Mausklicks erstellt.</p>
                 	</div>
                 </div>
                 <div class="flex mt-8">
@@ -223,8 +225,8 @@
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
                 	<div class="flex-initial">
-                		<h2 class="text-blue-800 text-xl font-semibold">Vorteil 02</h2>
-                		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                		<h2 class="text-blue-800 text-xl font-semibold">Beste Preise dank der E-Auktion</h2>
+                		<p>Dynamisches Beschaffungssystem mit verdeckter E-Auktion sorgt für mehr Wettbewerb und faire Preise.</p>
                 	</div>
                 </div>
     		</div>
@@ -237,8 +239,8 @@
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
                 	<div class="flex-initial">
-                		<h2 class="text-blue-800 text-xl font-semibold">Vorteil 03</h2>
-                		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                		<h2 class="text-blue-800 text-xl font-semibold">Handelsplatz für alle Abfälle und Wertstoffe</h2>
+                		<p>Gute und strukturierte Kalkulations-Grundlage. Der Bieter kann unbegrenzt viele Gebote abgeben (bis zum Zuschlag)</p>
                 	</div>
                 </div>
                 <div class="flex mt-8">
@@ -246,8 +248,8 @@
                 		<img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                 	</div>
                 	<div class="flex-initial">
-                		<h2 class="text-blue-800 text-xl font-semibold">Vorteil 03</h2>
-                		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                		<h2 class="text-blue-800 text-xl font-semibold">Ideales Tool für den Entsorger</h2>
+                		<p>schneller Zugriff auf alle Stoffe, automatische Benachrichtigungen und Umkreissuche, Rechtsverbindliche Verträge.</p>
                 	</div>
                 </div>
     		</div>
@@ -255,56 +257,56 @@
     </section>
 
     <section class="container mx-auto px-6 mt-14">
-        <h2 class="text-center text-3xl text-blue-800">
+        <h2 class="text-center text-3xl text-blue-800 font-light">
             Wählen Sie hier <span class="font-semibold">Ihre Branche</span> aus und <br />
             erfahren Sie mehr relevante Informationen
         </h2>
-        <div class="flex flex-wrap justify-center space-x-12 mt-20">
-            <div class="w-52 mt-10 lg:mt-0 text-left">
-                <img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
+        <div class="flex flex-wrap mt-20">
+            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+				<img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
-                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
                     <a href="{{route('content.page',['pageID'=>'trade_1'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
             </div>
-            <div class="w-52 mt-10 lg:mt-0 text-left">
-                <img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
+            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+				<img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
-                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
                     <a href="{{route('content.page',['pageID'=>'trade_2'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
             </div>
-            <div class="w-52 mt-10 lg:mt-0 text-left">
-                <img src="{{asset('img/frontend/branche3.png')}}" alt="Handel" width="200"/>
+            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+				<img src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
-                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
                     <a href="{{route('content.page',['pageID'=>'trade_3'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
             </div>
-            <div class="w-52 mt-10 lg:mt-0 text-left">
-                <img src="{{asset('img/frontend/branche4.png')}}" alt="Handel" width="200"/>
+            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+				<img src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
-                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
                     <a href="{{route('content.page',['pageID'=>'trade_4'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
                 </div>
             </div>
-            <div class="w-52 mt-10 lg:mt-0  text-left">
-                <img src="{{asset('img/frontend/branche5.png')}}" alt="Handel" width="200"/>
+            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <img src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" width="200"/>
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
-                    <p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
                     <a href="{{route('content.page',['pageID'=>'trade_5'])}}" class="bg-white border border-blue-800 text-blue-800  rounded  py-2 px-4 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                         mehr erfahren
                     </a>
@@ -313,25 +315,17 @@
         </div>
     </section>
 
-	<section class="h-[30rem] bg-[#1C77B7] mt-32 z-0">
+	<section class="h:full xl:h-[30rem] bg-[#1C77B7] mt-32 z-0">
 		<div class="container h-full mx-auto z-10">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full text-white">
 				<div class="relative h-full px-10 py-20">
-					<h2 class="text-5xl font-semibold">Forschung & Entwicklung</h2>
-                    <p class="text-3xl font-light mt-3">Subline hier einfügen</p>
-                    <p class="mt-3">
-                        Mit Lubey CO2-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
-                        für Ihr Unternehmen entwickeln und ausbauen.
-                    </p>
-                    <p class="mt-4">
-                        Wir helfen Ihnen digitale Lösungen, um eigene CO2 Emissionen messen,
-                        verringern und künftig sogar in Geschäftsprozessen einpreisen zu können.
-                    </p>
+					<h2 class="text-3xl md:text-5xl font-semibold">Forschung & Entwicklung</h2>
+                    <p class="text-3xl font-light mt-3">Zum Beispiel das Kunststoff Analyse Projekt gemeinsam mit Fraunhofer Institut</p>
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
                         Erfahren Sie mehr
                     </button>
 				</div>
-				<div class="relative h-full">
+				<div class="hidden xl:block relative h-full">
 					<div class="absolute bottom-0 right-1 w-3/4 z-20" >
               			<img class="w-full z-0" src="{{asset('img/frontend/Forschung2.png')}}" alt="group1"/>
               		</div>
@@ -341,48 +335,48 @@
 	</section>
 
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-0 h-full lg:h-[26rem] text-white">
-          <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full p-5 z-0">
+        <div class="grid grid-cols-1 xl:grid-cols-4 gap-0 h-full xl:h-[26rem] text-white">
+          <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 xl:h-full p-5 z-0">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">INDIVIDUAL</h2>
-          	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+          	<p class="relative mt-3 z-10">maßgeschneiderte Software Lösungen</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full z-0" src="{{asset('img/frontend/group1.png')}}" alt="group1"/>
           	</div>
-              <a href="{{route('content.page',['pageID'=>'digit'])}}" class="absolute inline-block bottom-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+              <a href="{{route('content.page',['pageID'=>'digit'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                   Erfahren Sie mehr
               </a>
       	  </div>
-          <div class="relative bg-gradient-to-b from-[#4EAAE3] to-[#07468F] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#4EAAE3] to-[#07468F] h-80 xl:h-full p-5">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">TRADE</h2>
-          	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+          	<p class="relative mt-3 z-10">der Handelsplatz für digitale Wertstoff Vermarktung</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group2.png')}}" alt="group2"/>
           	</div>
-              <a href="{{route('content.page',['pageID'=>'trade'])}}" class="absolute inline-block bottom-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+              <a href="{{route('content.page',['pageID'=>'trade'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                   Erfahren Sie mehr
               </a>
       	  </div>
-          <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 xl:h-full p-5">
           	<h3>Lubey</h3>
           	<h2 class="relative text-3xl font-semibold z-10">CONNECT</h2>
-          	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+          	<p class="relative mt-3 z-10">intelligentes und vernetztes Abfall-Management</p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group3.png')}}" alt="group3"/>
           	</div>
-              <a href="{{route('content.page',['pageID'=>'connect'])}}" class="absolute inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+              <a href="{{route('content.page',['pageID'=>'connect'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-purple-500/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                   Erfahren Sie mehr
               </a>
       	  </div>
-          <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full p-5">
+          <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 xl:h-full p-5">
           	<h3>Lubey</h3>
           	<h3 class="relative text-3xl font-semibold z-10">CONSULTING</h3>
-          	<p class="relative mt-3 z-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+          	<p class="relative mt-3 z-10">Beratungsleistungen zur Entsorgung und Vermarktung von Abfällen </p>
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full" src="{{asset('img/frontend/group4.png')}}" alt="group4"/>
           	</div>
-              <a href="{{route('content.page',['pageID'=>'consult'])}}" class="absolute inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+              <a href="{{route('content.page',['pageID'=>'consult'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                   Erfahren Sie mehr
               </a>
       	  </div>

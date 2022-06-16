@@ -17,7 +17,7 @@
                 <h5 class=" mb-6 text-lg font-semibold">Produkte</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
-                        <a href="/" class="hover:underline ">Digitale Lösungen</a>
+                        <a href="{{route('content.page',['pageID'=>'digit'])}}" class="hover:underline ">Digitale Lösungen</a>
                     </li>
                     <li class="">
                         <a href="{{route('content.page',['pageID'=>'trade'])}}" class="hover:underline ">Lubey Trade</a>
