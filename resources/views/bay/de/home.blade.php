@@ -134,12 +134,12 @@
         </div>
     </section>
 
-    <section class="lg:h-[22rem] bg-gradient-to-r from-[#58B56E] to-[#95CF6D] pb-20 pl-10">
+    <section class="lg:h-[22rem] bg-gradient-to-r from-[#58B56E] to-[#95CF6D] pb-20 pl-5 lg:pl-10">
         <div class="container mx-auto">
             <div class="flex items-center flex-wrap text-white">
-                <div class="w-full md:w-2/3 mt-12 pr-10">
-                    <h2 class="text-5xl font-semibold">CO2-Bilanz</h2>
-                    <p class="text-3xl font-light mt-3">Automatisierung komplexer Berechnungen</p>
+                <div class="w-full md:w-2/3 mt-12 pr-5 lg:pr-10">
+                    <h2 class="text-3xl lg:text-5xl font-semibold">CO2-Bilanz</h2>
+                    <p class="text-xl lg:text-3xl font-light mt-3">Automatisierung komplexer Berechnungen</p>
                     <p class="mt-3">
                         Mit Lubey CO2-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
                         für Ihr Unternehmen entwickeln und ausbauen.
@@ -168,37 +168,37 @@
         </h2>
     </section>
 
-    <section class="container mx-auto px-6 mt-20">
-        <div class="flex flex-wrap justify-center space-x-12">
-            <div class="text-center">
+    <section class="container mx-auto mt-20">
+        <div class="flex flex-wrap justify-center space-x-5 lg:space-x-12">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Altpapier.png')}}" alt="Altpapier" width="110"/>
                 <div class="mt-4 text-blue-800">Altpapier</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Altmetall.png')}}" alt="Altmetall" width="110"/>
                 <div class="mt-4 text-blue-800">Altmetall</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Altholz.png')}}" alt="Altholz" width="110"/>
                 <div class="mt-4 text-blue-800">Altholz</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Schrotte.png')}}" alt="Schrotte" width="110"/>
                 <div class="mt-4 text-blue-800">Schrotte</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Kunststoffe.png')}}" alt="Kunststoffe" width="110"/>
                 <div class="mt-4 text-blue-800">Kunststoffe</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Altoel.png')}}" alt="Altoel" width="110"/>
                 <div class="mt-4 text-blue-800">Altöl</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Alttextilien.png')}}" alt="Alttextilien" width="110"/>
                 <div class="mt-4 text-blue-800">Alttextilien</div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5 lg:mt-0">
                 <img src="{{asset('img/frontend/Container.png')}}" alt="Container" width="110"/>
                 <div class="mt-4 text-blue-800">Diverse</div>
             </div>
@@ -318,7 +318,7 @@
 	<section class="h:full xl:h-[30rem] bg-[#1C77B7] mt-32 z-0">
 		<div class="container h-full mx-auto z-10">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full text-white">
-				<div class="relative h-full px-10 py-20">
+				<div class="relative h-full px-5 lg:px-10 py-20">
 					<h2 class="text-3xl md:text-5xl font-semibold">Forschung & Entwicklung</h2>
                     <p class="text-3xl font-light mt-3">Zum Beispiel das Kunststoff Analyse Projekt gemeinsam mit Fraunhofer Institut</p>
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
@@ -391,7 +391,7 @@
                 <div class="flex-grow h-px bg-white"></div>
             </div>
     		<div class="flex flex-wrap mx-auto items-baseline mt-12 w-full lg:w-10/12">
-    			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">
+    			<div class="w-full xl:w-2/5 px-0 lg:px-10 mb-10 lg:mb-0">
     				Ihr E-Mail Adresse<br />
     				<input type="text" value="" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700" placeholder="E-Mail-Adresse eintragen... "/>
                 	<div class="flex mt-4">
@@ -412,7 +412,7 @@
                     </div>
                     <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border rounded">abbonieren</button>
     			</div>
-    			<div class="w-full md:w-3/5 px-10">
+    			<div class="w-full xl:w-3/5 px-0 lg:px-10">
     				<div>Lubey Newsletter mit auf meine Bedürfnisse zugeschnittenen <br />Informationen rund um die Themen</div>
     				   				
     				<div class="overflow-x-scroll">

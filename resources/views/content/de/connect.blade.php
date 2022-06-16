@@ -10,8 +10,8 @@
 
     <section class="container relative mx-auto px-6 mt-10 xl:-mt-60 z-10">
         <div class="flex items-center flex-wrap mb-20 xl:pt-36">
-            <div class="w-full md:w-1/2 px-5 xl:px-14 mb-16  xl:mb-0" >
-				<h3 class="text-4xl text-blue-800 font-light leading-10">
+            <div class="w-full md:w-1/2 px-0 xl:px-14 mb-16  xl:mb-0" >
+				<h3 class="text-3xl lg:text-5xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Neues Zeitalter</span> - <br />
 					Digitalisierung der Entsorgung und Abrechnung
 				</h3>
@@ -165,7 +165,7 @@
             <div class="px-10">
                 <img src="{{asset('img/frontend/Lubey_Softwarebox_Anzug.png')}}" alt="Monitoring"/>
             </div>
-            <div class="px-10">
+            <div class="px-5 xl:px-10">
                 <h2 class="text-3xl text-blue-800 mt-16 lg:mt-0">
                     <span class="font-semibold">Maßgeschneiderte Lösungen - </span> <br />
                     So individuell wie Ihr Unternehmen
