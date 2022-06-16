@@ -393,7 +393,7 @@
     		<div class="flex flex-wrap mx-auto items-baseline mt-12 w-full lg:w-10/12">
     			<div class="w-full md:w-2/5 px-10 mb-10 lg:mb-0">
     				Ihr E-Mail Adresse<br />
-    				<input type="text" value="tbone" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700" placeholder="E-Mail-Adresse eintragen... "/>
+    				<input type="text" value="" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700" placeholder="E-Mail-Adresse eintragen... "/>
                 	<div class="flex mt-4">
             			<div class="flex-none">
                       		<input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
