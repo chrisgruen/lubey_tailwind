@@ -177,9 +177,10 @@
                                 <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                             </div>
                             <div class="text-gray-600 mb-8 pr-20">
-                                <h4 class="text-blue-800 text-lg font-semibold">Überschrift 1</h4>
+                                <h4 class="text-blue-800 text-lg font-semibold">Facility-Management System 1</h4>
                                 <p class="text-gray-600">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                    Sie wollen das Abfallmanagement Ihrer Standorte, Einzelhandelsfilialen oder Werke optimal zentral verwalten? 
+                                    Dann können wir die für Sie passende Lösung auf der Basis von Lubey Connect entwickeln.
                                 </p>
                             </div>
                         </div>
@@ -188,15 +189,15 @@
                                 <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                             </div>
                             <div class="text-gray-600 mb-8 pr-20">
-                                <h4 class="text-blue-800 text-lg font-semibold">Überschrift 2</h4>
+                                <h4 class="text-blue-800 text-lg font-semibold">Facility-Management System 2</h4>
                                 <p class="text-gray-600">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                    Sie möchten sich enger mit Ihren Partnern vernetzen und, zum Beispiel durch in Rahmenvereinbarungen festgelegten Konditionen Dienstleistungen lokal durch Ihre Mitarbeiter beauftragen, so entwickeln wir Ihnen die passende Lösung dazu.
                                 </p>
                             </div>
                         </div>
                         <div class="flex mt-8">
                             <div class="flex-none w-14 h-14"></div>
-                            <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+                            <a href="{{route('content.page',['pageID'=>'digit'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                                 Erfahren Sie mehr
                             </a>
                         </div>
