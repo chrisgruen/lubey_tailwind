@@ -128,7 +128,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-full md:w-1/2">
+            <div class="w-full md:w-1/2 mt-10 lg:mt-0">
                 <img src="{{asset('img/frontend/Lubey_Softwarebox_Anzug.png')}}" alt="Monitoring"/>
             </div>
         </div>
