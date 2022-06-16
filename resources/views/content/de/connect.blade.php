@@ -244,7 +244,7 @@
     </section>
 
     <div class="container mx-auto mt-16">
-        <div class="grid grid-cols-1 lg:grid-cols-6 gap-3 px-24 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-6 gap-3 px-5 lg-px-24 py-20">
             <div class="col-span-4 pr-10">
                 <img src="{{asset('img/frontend/Entsorgungsunternehmen.png')}}" alt="Entsorgungsunternehmen"/>
             </div>
