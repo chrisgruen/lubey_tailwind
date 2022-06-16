@@ -123,7 +123,7 @@
 
                 <div class="flex mt-8">
             		<div class="flex-none w-14 h-14"></div>
-                    <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-lg text-blue-800  rounded mb-3 py-2 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'digit'])}}" class="bg-white border border-blue-800 text-lg text-blue-800  rounded mb-3 py-2 px-5 hover:text-white hover:bg-blue-800">
                         Erfahren Sie mehr
                     </a>
                 </div>
