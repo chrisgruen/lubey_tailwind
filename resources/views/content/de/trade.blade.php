@@ -105,6 +105,7 @@
             </div>
     </section>
 
+	<!-- table Vergaben -->
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-20">
         <div class="container mx-auto px-6 pt-10 pb-6 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full mt-4 text-white border-b pb-10">
@@ -330,5 +331,10 @@
             </button>
         </div>
     </section>
-	<br /><br /><br />
+    
+	<section class="container mx-auto px-6 my-20">
+    	<h2 class="text-3xl text-blue-800 text-center">
+    		Aktuelle Marktpreise
+		</h2>
+    </section>
 @endsection
