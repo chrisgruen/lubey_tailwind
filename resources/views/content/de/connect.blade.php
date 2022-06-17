@@ -10,8 +10,8 @@
 
     <section class="container relative mx-auto px-6 mt-10 xl:-mt-60 z-10">
         <div class="flex items-center flex-wrap mb-20 xl:pt-36">
-            <div class="w-full md:w-1/2 px-0 xl:px-14 mb-16  xl:mb-0" >
-				<h3 class="text-3xl lg:text-5xl text-blue-800 font-light leading-10">
+            <div class="w-full md:w-1/2 px-0 xl:px-14 mb-16 xl:mb-0" >
+				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Neues Zeitalter</span> - <br />
 					Digitalisierung der Entsorgung und Abrechnung
 				</h3>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="flex mt-8">
                             <div class="flex-none w-14 h-14"></div>
-                            <a href="{{route('content.page',['pageID'=>'digit'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
+                            <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-blue-800  rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                                 Erfahren Sie mehr
                             </a>
                         </div>
@@ -213,7 +213,7 @@
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
-                <a href="{{route('content.page',['pageID'=>'digit'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
                 </a>
                 <div class="absolute bottom-0 right-0 z-0" >
