@@ -86,7 +86,7 @@
     </section>
 
     <!-- Features -->
-    <section class="container mx-auto px-6 mt-20">
+    <section class="container mx-auto px-5 mt-20">
         <div class="flex justify-center flex-wrap mb-5">
             <h2 class="text-3xl text-center text-blue-800 font-light mb-8">
                 Lubey entwickelt <span class="font-semibold">maßgeschneiderte</span><br />
