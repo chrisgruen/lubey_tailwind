@@ -44,7 +44,7 @@
                     <div>
                         <h3 class="text-lg text-blue-800 font-semibold">100% faire Vermarktung</h3>
                         <p class="mb-8">
-                           	Lubey ist vollkommen unabhängig und frei von Einflüssen Dritter, 
+                           	Lubey ist vollkommen unabhängig und frei von Einflüssen Dritter.
                         </p>
                     </div>
                 </div>
