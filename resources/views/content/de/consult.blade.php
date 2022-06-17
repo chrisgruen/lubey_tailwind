@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="w-full md:w-1/2">
-                <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/consult3.png')}}" alt="Lubey Trade"/>
+                <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Consult3.png')}}" alt="Lubey Trade"/>
             </div>
         </div>
     </section>

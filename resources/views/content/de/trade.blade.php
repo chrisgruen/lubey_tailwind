@@ -229,7 +229,7 @@
         </div>
     </section>
 
-    <section class="container  mx-auto mt-10 px-6 pt-10 px-5">
+    <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
     	<div class="flex items-center py-4">
     		<div class="flex-grow h-px bg-gray-400"></div> 
     		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
