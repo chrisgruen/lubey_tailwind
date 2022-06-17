@@ -356,6 +356,38 @@
         </div>
 	</section>
 	
+	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-5">
+        <h2 class="text-3xl text-center text-blue-800 font-semibold">
+           So funktioniert's
+        </h2>
+        <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
+            Erfahren Sie anhand eines kurzen Videos wie einfach es ist, sich an mit Lubey Trade erstellten Vergaben zu beteiligen. 
+        </p>
+        <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
+        	<iframe
+        		src="https://www.youtube.com/embed/UBOj6rqRUME"
+        		frameborder="0"
+        		allowfullscreen
+        		class="absolute top-0 left-0 w-full h-full"
+        	></iframe>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white mt-20">
+        <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
+            <h2 class="text-3xl lg:text-5xl font-semibold">
+               Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
+            </h2>
+            <p class="text-xl lg:text-3xl mx-auto text-center w-2/3 mt-7">
+                Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
+                und erhalten Sie ein kleines Müllionär-Präsent
+            </p>
+            <button class="bg-transparent hover:text-white py-3 px-8 mt-5 border rounded text-xl">
+                Registrieren
+            </button>
+        </div>
+    </section>
+	
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
