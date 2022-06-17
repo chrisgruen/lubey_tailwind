@@ -8,12 +8,12 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto px-6 mt-10 xl:-mt-48 z-10 mb-0">
+    <section class="container relative mx-auto px-6 mt-10 xl:-mt-40 z-10 mb-0">
         <div class="flex items-center flex-wrap mb-0">
-            <div class="w-full md:w-1/2 px-14">
-				<h3 class="text-4xl text-blue-800 font-light leading-10">
-					<span class="font-semibold">Mit Lubey TRADE</span> - macht den <br />
-					Handel mit Abfällen einfacher,<br />
+            <div class="w-full md:w-1/2 px-0 lg:px-14">
+				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
+					<span class="font-semibold">Mit Lubey TRADE</span> - macht den
+					Handel mit Abfällen einfacher,
 					effizienter und sicherer
 				</h3>
 				<p class="mt-5">
@@ -21,8 +21,8 @@
 					findet jedes abfallerzeugende Unternehmen den richtigen Entsorger. Folgende Highlights erwarten den Nutzer bei Lubey Trade:
 				</p>
 				<div class="mt-10">
-    				<a href="#" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
-                        Jetzt Anmelden und erleben wie einfach es geht!
+    				<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
+                        <span class="font-semibold mr-1">Jetzt</span>Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
             </div>
@@ -33,150 +33,151 @@
     </section>
 
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-0">
-		<div class="container mx-auto px-6 pt-10 pb-6 px-5">
+		<div class="container mx-auto px-6 py-16 px-5">
             <h2 class="text-center text-3xl text-white">
             	Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
             </h2>
-            <div class="flex flex-wrap justify-center space-x-12 my-16">
-            	<div class="w-52 mt-10 lg:mt-0 text-left">
-            		<img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
+            <div class="flex flex-wrap mt-16">
+            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Städte & Kommunen</h3>
-            			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
             			<a href="{{route('content.page',['pageID'=>'trade_1'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
             	</div>
-            	<div class="w-52 mt-10 lg:mt-0 text-left">
-            		<img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
+            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Handel</h3>
-            			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
             			<a href="{{route('content.page',['pageID'=>'trade_2'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
             	</div>
-            	<div class="w-52 mt-10 lg:mt-0 text-left">
-            		<img src="{{asset('img/frontend/branche3.png')}}" alt="Handel" width="200"/>
+            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Industrie</h3>
-            			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
             			<a href="{{route('content.page',['pageID'=>'trade_3'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
             	</div>
-            	<div class="w-52 mt-10 lg:mt-0 text-left">
-            		<img src="{{asset('img/frontend/branche4.png')}}" alt="Handel" width="200"/>
+            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Entsorger</h3>
-            			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
             			<a href="{{route('content.page',['pageID'=>'trade_4'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
             	</div>
-            	<div class="w-52 mt-10 lg:mt-0 text-left">
-            		<img src="{{asset('img/frontend/branche5.png')}}" alt="Handel" width="200"/>
+            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
             		<div class="mt-7">
             			<h3 class="text-lg font-semibold">Energieerzeuger</h3>
-            			<p class="mb-7 mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            			<p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
             			<a href="{{route('content.page',['pageID'=>'trade_5'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
             				mehr erfahren
             			</a>
             		</div>
             	</div>
-            </div>
-		</div>
+            </div>            
+		</div>   
 	</section>
 
     <section class="container mx-auto px-6 mt-20">
-            <h2 class="text-3xl text-center text-blue-800 font-semibold">
-               So funktioniert's
-            </h2>
-            <p class="text-center mx-auto mt-7 w-1/2">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </p>
-            <div class="w-full md:w-2/3 mx-auto mt-12">
-                <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
-            </div>
+        <h2 class="text-3xl text-center text-blue-800 font-semibold">
+           So funktioniert's
+        </h2>
+        <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
+            Die Schritte einer E-Vergabe mit dem dynamischen Beschaffungs-System der verdeckten E-Auktion sind hier zusammengefasst.
+        </p>
+        <div class="w-full md:w-2/3 mx-auto mt-12">
+            <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
+        </div>
     </section>
 
 	<!-- table Vergaben -->
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-20">
         <div class="container mx-auto px-6 pt-10 pb-6 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full mt-4 text-white border-b pb-10">
-                <div class="px-10">
+                <div class="px-0 lg:px-10">
                     <h2 class="text-3xl font-semibold">Ausgewählte Vergaben</h2>
                 </div>
-                <div class="h-full">
-                    <a href="#" class="bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
-                        Jetzt Anmelden und mehr Vergaben ansehen!
+                <div class="mt-10 lg:mt-0">
+                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                        <span class="font-semibold mr-1">Jetzt</span> Anmelden und mehr Vergaben ansehen!
                     </a>
                 </div>
             </div>
 
-            <div class="flex items-center mt-0 border-b">
-                <div class="flex-none w-20 mr-12">
-                    <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
-                </div>
-                <div class="flex-initial w-full relative overflow-x-auto ">
-                    <table class="w-full text-base text-left text-white">
-                        <thead class="text-lg font-light bg-transparent">
-                            <tr>
-                                <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
-                                    Los 1
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    Textilien
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    40.000 Tonnen
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    29.04.2022 | 12:00 Uhr
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
-                                    <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
-                                        Details anzeigen
-                                    </button>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="bg-transparent border-t">
-                                <td class="px-6 py-4 align-top">
-                                    AVV 200110
-                                </td>
-                                <td class="px-6 py-4 align-top w-60">
-                                    Alttextilien, namentlich Bekleidung und Schuhe
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    200.000 Tonnen
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                   DE 29664, Walsrode
-                                </td>
-                            </tr>
-                            <tr class="bg-transparent">
-                                <td class="px-6 py-4 align-top">
-                                    AVV 200110
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    Alttextilien, namentlich Bekleidung und Schuhe
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    200.000 Tonnen
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    DE 29640, Schneverdingen
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+			<div class="overflow-x-scroll">
+                <div class="flex items-center mt-0 border-b">
+                    <div class="flex-none w-20 mr-12">
+                        <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
+                    </div>
+                    <div class="flex-initial w-full relative overflow-x-auto ">
+                        <table class="w-full text-base text-left text-white">
+                            <thead class="text-lg font-light bg-transparent">
+                                <tr>
+                                    <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
+                                        Los 1
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        Textilien
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        40.000 Tonnen
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        29.04.2022 | 12:00 Uhr
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
+                                        <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
+                                            Details anzeigen
+                                        </button>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-transparent border-t">
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        AVV 200110
+                                    </td>
+                                    <td class="px-6 py-4 align-top w-60 whitespace-nowrap">
+                                        Alttextilien, namentlich Bekleidung und Schuhe
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        200.000 Tonnen
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                       DE 29664, Walsrode
+                                    </td>
+                                </tr>
+                                <tr class="bg-transparent">
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        AVV 200110
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        Alttextilien, namentlich Bekleidung und Schuhe
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        200.000 Tonnen
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        DE 29640, Schneverdingen
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <div class="flex items-center mt-0 mb-7 border-b">
@@ -187,19 +188,19 @@
                     <table class="w-full text-base text-left text-white">
                         <thead class="text-lg font-light bg-transparent">
                         <tr>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
+                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
                                 Los 2
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 Textilien
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 40.000 Tonnen
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 29.04.2022 | 12:00 Uhr
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
+                            <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
                                 <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
                                     Details anzeigen
                                 </button>
@@ -208,16 +209,16 @@
                         </thead>
                         <tbody>
                         <tr class="bg-transparent border-t">
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 AVV 200110
                             </td>
-                            <td class="px-6 py-4 w-60 align-top">
+                            <td class="px-6 py-4 w-60 align-top whitespace-nowrap">
                                 Alttextilien, namentlich Bekleidung und Schuhe
                             </td>
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 200.000 Tonnen
                             </td>
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 DE 29664, Walsrode
                             </td>
                         </tr>
@@ -229,52 +230,139 @@
     </section>
 
     <section class="container  mx-auto mt-10 px-6 pt-10 px-5">
-        <h3 class="text-5xl text-center text-blue-800 before-line2">
-            Alle Vorteile im Überblick
-        </h3>
+    	<div class="flex items-center py-4">
+    		<div class="flex-grow h-px bg-gray-400"></div> 
+    		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
+            <div class="flex-grow h-px bg-gray-400"></div>
+        </div>
     </section>
 
-    <section class="container mx-auto px-6 pt-10 pb-6 px-24">
+    <section class="container mx-auto px-6 pt-10 pb-6 px-5 lg:px-24">
         <div id="accordion-collapse" data-accordion="open">
             <h2 id="accordion-collapse-heading-1">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 rounded-t-xl border border-b-0 border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-                    <span>Accordion Flowbite 1</span>
+                    <span>
+                    	Für jedes Unternehmen die richtige Vermarktungsform
+                	</span>
                     <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
             </h2>
             <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
-                        Accordion Flowbite 1 <br />
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        Lubey Trade kann Branchenübergreifend eingesetzt werden und bietet branchenunabhängig allen Teilnehmern effizientere Abfall-Vermarktungen und meist wirtschaftlich bessere Ergebnisse. Egal, ob Einzelhandel, Industrie-Erzeuger, Pharmakonzern oder Sammler und Sortierer, alle können, je nach Stoffstrom und Mengen, große Vorteile erzielen.  
                     </p>
                 </div>
             </div>
             <h2 id="accordion-collapse-heading-2">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-                    <span>Accordion Flowbite 2</span>
+                    <span>Komplexe Vermarktungen per E-Vergabe ganz leicht bewältigen</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
             </h2>
             <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                        Accordion Flowbite 2 <br />
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        Selbst inhaltlich komplexeste Ausschreibungen können durch Intuitive und komfortable Bedienung mittels automatisierten Vorauswahlen in kürzester Zeit mit wenigen Mausklicks unkompliziert erstellt werden und die Abfallrechtlichen Bestimmungen und Gesetze sind dabei automatisch schon berücksichtigt und auf dem neuesten Stand. Die mit Lubey Trade erstellten und veröffentlichten Vergaben werden alle in einer einheitlichen und gut strukturierten Form abgebildet. Bieter schätzen die mit der Lubey Trade Lösung erstellte einheitliche Struktur, müssen diese doch nicht, wie sonst üblich, sich durch die unterschiedlichsten Vergabe-Stile arbeiten.
                     </p>
                 </div>
             </div>
             <h2 id="accordion-collapse-heading-3">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-                    <span>Accordion Flowbite 3</span>
+                    <span>
+                    	Mit der verdeckten E-Auktion zu besseren Preisen
+                	</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
             </h2>
             <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                        Accordion Flowbite 3 <br />
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        Die Vermarktung endet in einer verdeckten E-Auktion. Diese dynamische Beschaffungsmethode ist dem Erstgebot angeschlossen und wird nach mehrtägigem Auktionsprozess durch  durch die Zuschlagprüfung des Erzeugers abgeschlossen. In der verdeckten E-Auktion können die Bieter nur Ihre Rangabfolge einsehen und ihr Erstgebot beliebig verbessern. Hier entsteht, je nach Anzahl teilnehmender Bieter und Anzahl der Gebote, eine hohe Dynamik durch anonymen Wettbewerb, was wiederum zu meist wirtschaftlich besseren Preisen führt. Jeder zugelassene Bieter hat die Möglichkeit sich im anonymen Wettbewerb  sich mit seinem Gebot auf die höchste Rangfolge der Auktion zu katapultieren und diese ggbf. zu halten.
+                    </p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-4">
+                <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+                    <span>
+                    	Per Knopfdruck standardisierte Verträge
+                	</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+                <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                    <p class="mb-2">
+                       	Alle Vertragsbestandteile und Leistungsbeschreibungen werden automatisch erstellt und sind zum Abschluss der Vergabe-Erstellung  einsehbar. Diese können vor Veröffentlichung geprüft, übernommen, gänzlich oder in Teilen weggelassen oder ergänzt werden. Die Struktur dieser Verträge wurde mit führenden, praktizierenden Fachanwälten im Vergaberecht erarbeitet. Die Inhalte sind treffend und klar formuliert. Der Erzeuger spart sich ggbf. bisherige externe Dienstleistungen und viel Zeit. 
+                    </p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-5">
+                <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+                    <span>
+                    	Alle Details zusammengefasst in revisionssicheren Reports
+                	</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+                <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                    <p class="mb-2">
+                       	Lubey Trade dokumentiert dem Erzeuger automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe. Prüfergebnisse, Nachweise, Erstgebote, E-Auktions Gebote un  Preisschritte werden übersichtlich und revisionssicher festgehalten.
+                    </p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-6">
+                <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+                    <span>
+                    	Die Stoffe finden, die man sucht
+                	</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
+                <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                    <p class="mb-2">
+                        Der Bieter kann mit Lubey Trade mit wenigen Mausklicks an unterschiedlichen E-Vergaben teilnehmen, Gebote abgeben und (mit der E-Auktion) nachbessern. Er kann zudem in Rekordzeit alle wesentlichen Bestandteile erfassen und hat dadurch eine ideale Voraussetzung für seine Kalkulation. Von der privat-rechtlichen Vergaben aus Industrie und Handel bis zur großen EU-Vergabe der öffentlichen Hand.
+                    </p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-7">
+                <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-7" aria-expanded="false" aria-controls="accordion-collapse-body-7">
+                    <span>
+                    	Weitere Highlights
+                	</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-7" class="hidden" aria-labelledby="accordion-collapse-heading-7">
+                <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+               		<p class="mb-2">
+                        <ul class="list-decimal pl-5">
+                            <li>
+                            	<span class="font-semibold">Vergaberechtskonforme E-Vergabe</span><br />
+                            	Trade ist so konzipiert, dass die Vergabegesetze, die bei öffentlich-rechtlichen Ausschreibungen von Abfällen und Wertstoffen zu beachten sind, erfüllt werden. Auch hochkomplexen EU-Vergaben können über Trade durchgeführt werden.
+                            </li>
+                            <li>
+                            	<span class="font-semibold">Stoffpreise per Festpreis oder Indexkopplung</span><br />
+                            	Der Erzeuger kann bei Ausschreibungserstellung auswählen, ob der Stoff als Festpreis oder als indexbasierter Preis angeboten und abgerechnet wird. Diese Möglichkeit bietet allen Beteiligten das größtmögliche Maß an Sicherheit.
+                            </li>
+                            <li>
+                            	<span class="font-semibold">Auto-Fehler-Indikationen</span><br />
+                            	Das System macht den Anwender aufmerksam auf Fehler bei der Eingabe. Daher kommt es nur sehr selten zu Anwendungsfehlern. Dieser Sicherheitsaspekt hat zum Beispiel bei betriebsinternen Verfahrens-Fristen eine sehr hohe Relevanz.
+                            </li>
+                            <li>
+                            	<span class="font-semibold">CO² Footprints mit einbeziehen</span><br />
+                            	CO² Footprints können wahlweise zum Bestandteil der Vermarktung gemacht und auch eingepreist werden. Dies beinhaltet die Bemessung von CO² Emissionen des Transportes, als auch (optional) die Verrechnung von CO² Emissionen (Gutschriften) in der thermischen Verwertung.
+                            </li>
+                            <li>
+                            	<span class="font-semibold">Revisionssichere Dokumentation</span><br />
+                            	Die Lösung dokumentiert automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe und E-Auktion (Gebote, Preisschritte etc) übersichtlich und revisionssicher. Der Report ist jederzeit abrufbar.
+                            </li>
+                            <li>
+                            	<span class="font-semibold">automatische und selektive Veröffentlichung</span><br />
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
@@ -319,10 +407,10 @@
 
     <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white mt-20">
         <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
-            <h2 class="text-5xl font-semibold">
+            <h2 class="text-3xl lg:text-5xl font-semibold">
                Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
             </h2>
-            <p class="text-3xl mx-auto text-center w-2/3 mt-7">
+            <p class="text-xl lg:text-3xl mx-auto text-center w-2/3 mt-7">
                 Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
                 und erhalten Sie ein kleines Müllionär-Präsent
             </p>
