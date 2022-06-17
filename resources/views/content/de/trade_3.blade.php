@@ -11,7 +11,7 @@
 
     <section class="container relative mx-auto -mt-48 px-6 z-10 mb-0">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full xl:h-[60rem]">
-            <div class="pt-64">
+            <div class="pt-64 pr-0 lg:pr-10">
                 <h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10 mb-10">
                     <span class="font-semibold">Mit Lubey TRADE</span> - mit unseren E-Vergaben lassen sich komplexe Abfallvermarktungen der Industrie ganz einfach bewältigen.
                 </h3>

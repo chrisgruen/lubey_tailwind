@@ -10,11 +10,10 @@
     </section>
 
     <section class="container relative mx-auto -mt-48 px-6 z-10 mb-0">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            <div class="pt-64">
-                <h3 class="text-4xl text-blue-800 font-light leading-10 mb-10">
-                    <span class="font-semibold">Mit Lubey TRADE</span> - Lernen Sie <br />
-                    die Vorteile als Entsorger für Abfälle kennen
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full xl:h-[60rem]">
+            <div class="pt-64 pr-0 lg:pr-10">
+                <h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10 mb-10">
+                    <span class="font-semibold">Mit Lubey TRADE</span> - Lernen Sie die Vorteile der EU-weiten Stoffstrombeschaffung als Energieerzeuger kennen 
                 </h3>
                 <div class="flex">
                     <div class="flex-none w-14 h-14">
@@ -23,7 +22,7 @@
                     <div>
                         <h3 class="text-lg text-blue-800 font-semibold">Einfacher Zugriff auf alle Stoffe</h3>
                         <p class="mb-8">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Lubey Trade ermöglicht den Zugang zu erweiterten Beschaffungsmärkten in ganz Europa. Mit kurzer Vorlaufzeit sichern Sie sich die Auslastung Ihrer Anlagen.
                         </p>
                     </div>
                 </div>
@@ -32,9 +31,9 @@
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div>
-                        <h3 class="text-lg text-blue-800 font-semibold">Rechtsverbindliche Verträge</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Beste Preise dank verdeckter E-Auktion</h3>
                         <p class="mb-8">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Der innovative Beschaffungsmechanismus ermöglicht bessere Preise am Markt. Mit dem dynamischen Beschaffungssystem lassen sich beste wirtschaftliche Ergebnisse erzielen.
                         </p>
                     </div>
                 </div>
@@ -43,37 +42,39 @@
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div>
-                        <h3 class="text-lg text-blue-800 font-semibold">100% faire Vermarktung</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Komplexe E-Vergaben einfach gemacht</h3>
                         <p class="mb-8">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           	Mit Lubey Trade lassen sich komplexe Beschaffungsprozesse ganz einfach per E-Vergabe bewältigen. Es können mehrere Stoffströme gleichzeitig beschafft werden.
                         </p>
                     </div>
                 </div>
-                <div class="mt-10">
-                    <a href="#" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-3 tracking-wider hover:text-white hover:bg-blue-800">
-                        <span class="uppercase font-semibold">Jetzt</span> Anmelden und erleben wie einfach es geht!
+                <div class="mt-10 mb-10 xl-mb-0">
+                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                        <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
             </div>
             <div class="relative pt-0 mx-auto w-full">
-                <div class="absolute z-20 w-[36rem] top-0 left-10">
+                <div class="xl:absolute w-full xl-w-[36rem] top-10 xl-top-0 xl-left-10 z-20">
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_energy.png')}}" alt="Lubey Trade"/>
-                    <div class="w-full border border-blue-800 rounded-md px-10 py-16 text-blue-800 text-lg">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
+                        <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
+                        Die Sicherung ausgewogener Stoffströme in unsere Anlagen benötigt Alternativen zu bisherigen Beschaffungskonzepten.
+                    	<p class="text-xs mt-5 italic">Ein Mitarbeiter eines Müllheizkraftwerkes</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
    
+   {{--
     <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub5">
         <div class="pt-20 pb-16">
-            <h2 class="text-5xl text-white text-center">
-                Erhöhen Sie Ihre Reichweite mit Lubey
+            <h2 class="text-3xl lg:text-5xl text-white text-center">
+                Mit Lubey Connect
             </h2>
-            <h2 class="text-3xl text-white text-center font-light">
-                Zugriff auf europaweite Vergaben
+            <h2 class="text-2xl lg:text-3xl text-white text-center font-light">
+                vollautomatisiertes Abfallmanagement für die Industrie
             </h2>
 
             <div class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
@@ -81,49 +82,77 @@
                     <div class="relative bg-white text-blue-800 h-full lg:h-full px-10 py-7 rounded">
                         <img src="{{asset('img/frontend/Check.png')}}" width="45" alt="Check"/>
                         <h3 class="text-xl my-3 font-semibold">
-                            Erstellen von Suchaufträgen
+                            Stets den Überblick behalten
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+                            Mit Lubey Connect können alle Entsorgungsaufträge eingesehen, der aktuelle Status der Entsorgung geprüft, Entsorgungsrechnungen bzw. -gutschriften aufgerufen und übersichtlich dargestellt werden.
                         </p>
                     </div>
                     <div class="relative bg-white text-blue-800 h-full lg:h-full px-10 py-7 rounded">
                         <img src="{{asset('img/frontend/Check.png')}}" width="45" alt="Check"/>
                         <h3 class="text-xl my-3 font-semibold">
-                            Online auch per Umkreissuche
+                            Vollautomatisch Entsorgungen auslösen
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+							Mit Lubey Connect können per Knopfdruck  Entsorgungen für Abfälle ausgelöst werden, ganz einfach über den Browser oder die Lubey Connect App.
                         </p>
                     </div>
                     <div class="relative bg-white text-blue-800 h-full lg:h-full px-10 py-7 rounded">
                         <img src="{{asset('img/frontend/Check.png')}}" width="45" alt="Check"/>
                         <h3 class="text-xl my-3 font-semibold">
-                            Benachrichtigung bei Auftragzuschlag
+                            Digitales Abrechnungsmanagement
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+							Mit Lubey Connect  erfolgt ein automatisiertes Abrechnungsmanagement. Eine manuelle Erfassung ist für den Einzelhändler nicht mehr nötig.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    --}}
     
-    <section class="container relative mx-auto px-6 py-10 mb-0">
+    <!--  Video -->
+	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
+        <h2 class="text-3xl text-center text-blue-800 font-semibold">
+           So einfach geht's
+        </h2>
+        <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
+        	<iframe
+        		src="https://www.youtube.com/embed/UBOj6rqRUME"
+        		frameborder="0"
+        		allowfullscreen
+        		class="absolute top-0 left-0 w-full h-full"
+        	></iframe>
+        </div>
+    </section>
+    
+    {{--
+    <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 my-10 px-5 md:px-36">
+        <div class="grid grid-cols-1 lg:grid-cols-2 my-10 px-0 lg:px-36">
         	<div>
+        		<div class="flex my-10">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div class="pr-5 md:pr-20">
+                        <h3 class="text-lg text-blue-800 font-semibold">Erstellung strukturierter E-Vergaben</h3>
+                        <p class="mb-15">
+                        	Erstellen Sie mit Lubey Trade selbst komplexe Vergaben mit nur wenigen Mausklicks.
+                        </p>
+                    </div>
+                </div>
             	<div class="flex my-10">
                     <div class="flex-none w-14 h-14">
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div class="pr-5 md:pr-20">
-                        <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Automatisierte Vertragsdokumente</h3>
                         <p class="mb-15">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.  
                         </p>
                     </div>
                 </div>
@@ -132,9 +161,20 @@
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div class="pr-5 md:pr-20">
-                        <h3 class="text-lg text-blue-800 font-semibold">Zulassungsprüfung</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Veröffentlichung</h3>
                         <p class="mb-15">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Alle mit Lubey Trade erstellten Vergaben werden kostenlos und automatisch auf Lubey.de und den von Ihnen gewünschten Foren veröffentlicht.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-10">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div class="pr-5 md:pr-20">
+                        <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
+                        <p class="mb-15">
+                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben. 
                         </p>
                     </div>
                 </div>
@@ -145,9 +185,31 @@
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div class="pr-5 md:pr-20">
-                        <h3 class="text-lg text-blue-800 font-semibold">E-Auktion</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Zulassungsprüfung</h3>
                         <p class="mb-15">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Sie prüfen die Erstgebote und lassen die Teilnehmer zur E-Auktion zu. Auf Wunsch erledigt das Lubey Support Team diese Aufgabe für Sie. 
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-10">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div class="pr-5 md:pr-20">
+                        <h3 class="text-lg text-blue-800 font-semibold">verdeckte E-Auktion</h3>
+                        <p class="mb-15">
+                            Die Bieter haben nun die Möglichkeit in einer festgelegten Frist alle 10 Minuten neue Gebote abzugeben.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-10">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div class="pr-5 md:pr-20">
+                        <h3 class="text-lg text-blue-800 font-semibold">Zuschlagprüfung</h3>
+                        <p class="mb-15">
+                            Sie prüfen die finalen Ergebnisse der E-Auktion. Auf Wunsch erledigen wir das für Sie.
                         </p>
                     </div>
                 </div>
@@ -158,21 +220,22 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Zuschlag</h3>
                         <p class="mb-15">
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Sie erteilen den Zuschlag an den Bestbieter oder den Bieter Ihres Vertrauens.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="mt-10 text-center">
-			<a href="#" class="bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
-                <span class="font-semibold">Jetzt</span> Anmelden und erleben wie einfach es geht!
+			<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
+                <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
             </a>
         </div>
 	</section>
+	--}}
 	
     <!-- COL 3 -->
-    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+    <section class="container mx-auto px-6 mt-20 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
@@ -211,74 +274,76 @@
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-20">
         <div class="container mx-auto px-6 pt-10 pb-6 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full mt-4 text-white border-b pb-10">
-                <div class="px-10">
+                <div class="px-0 lg:px-10">
                     <h2 class="text-3xl font-semibold">Ausgewählte Vergaben</h2>
                 </div>
-                <div class="h-full">
-                    <a href="#" class="bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
-                        Jetzt Anmelden und mehr Vergaben ansehen!
+                <div class="mt-10 lg:mt-0">
+                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                        <span class="font-semibold mr-1">Jetzt</span> Anmelden und mehr Vergaben ansehen!
                     </a>
                 </div>
             </div>
 
-            <div class="flex items-center mt-0 border-b">
-                <div class="flex-none w-20 mr-12">
-                    <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
-                </div>
-                <div class="flex-initial w-full relative overflow-x-auto ">
-                    <table class="w-full text-base text-left text-white">
-                        <thead class="text-lg font-light bg-transparent">
-                            <tr>
-                                <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
-                                    Los 1
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    Textilien
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    40.000 Tonnen
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5">
-                                    29.04.2022 | 12:00 Uhr
-                                </th>
-                                <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
-                                    <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
-                                        Details anzeigen
-                                    </button>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="bg-transparent border-t">
-                                <td class="px-6 py-4 align-top">
-                                    AVV 200110
-                                </td>
-                                <td class="px-6 py-4 align-top w-60">
-                                    Alttextilien, namentlich Bekleidung und Schuhe
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    200.000 Tonnen
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                   DE 29664, Walsrode
-                                </td>
-                            </tr>
-                            <tr class="bg-transparent">
-                                <td class="px-6 py-4 align-top">
-                                    AVV 200110
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    Alttextilien, namentlich Bekleidung und Schuhe
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    200.000 Tonnen
-                                </td>
-                                <td class="px-6 py-4 align-top">
-                                    DE 29640, Schneverdingen
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+			<div class="overflow-x-scroll">
+                <div class="flex items-center mt-0 border-b">
+                    <div class="flex-none w-20 mr-12">
+                        <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
+                    </div>
+                    <div class="flex-initial w-full relative overflow-x-auto ">
+                        <table class="w-full text-base text-left text-white">
+                            <thead class="text-lg font-light bg-transparent">
+                                <tr>
+                                    <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
+                                        Los 1
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        Textilien
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        40.000 Tonnen
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
+                                        29.04.2022 | 12:00 Uhr
+                                    </th>
+                                    <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
+                                        <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
+                                            Details anzeigen
+                                        </button>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-transparent border-t">
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        AVV 200110
+                                    </td>
+                                    <td class="px-6 py-4 align-top w-60 whitespace-nowrap">
+                                        Alttextilien, namentlich Bekleidung und Schuhe
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        200.000 Tonnen
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                       DE 29664, Walsrode
+                                    </td>
+                                </tr>
+                                <tr class="bg-transparent">
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        AVV 200110
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        Alttextilien, namentlich Bekleidung und Schuhe
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        200.000 Tonnen
+                                    </td>
+                                    <td class="px-6 py-4 align-top whitespace-nowrap">
+                                        DE 29640, Schneverdingen
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <div class="flex items-center mt-0 mb-7 border-b">
@@ -289,19 +354,19 @@
                     <table class="w-full text-base text-left text-white">
                         <thead class="text-lg font-light bg-transparent">
                         <tr>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl">
+                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
                                 Los 2
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 Textilien
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 40.000 Tonnen
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5">
+                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
                                 29.04.2022 | 12:00 Uhr
                             </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-right" colspan="2">
+                            <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
                                 <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
                                     Details anzeigen
                                 </button>
@@ -310,16 +375,16 @@
                         </thead>
                         <tbody>
                         <tr class="bg-transparent border-t">
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 AVV 200110
                             </td>
-                            <td class="px-6 py-4 w-60 align-top">
+                            <td class="px-6 py-4 w-60 align-top whitespace-nowrap">
                                 Alttextilien, namentlich Bekleidung und Schuhe
                             </td>
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 200.000 Tonnen
                             </td>
-                            <td class="px-6 py-4 align-top">
+                            <td class="px-6 py-4 align-top whitespace-nowrap">
                                 DE 29664, Walsrode
                             </td>
                         </tr>
@@ -330,9 +395,11 @@
         </div>
     </section>
     
+    {{--
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise
 		</h2>
     </section>
+    --}}
 @endsection
