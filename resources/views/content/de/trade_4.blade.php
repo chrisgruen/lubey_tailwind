@@ -184,7 +184,7 @@
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
-                <a href="{{route('content.page',['pageID'=>'digit'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
                 </a>
                 <div class="absolute bottom-0 right-0 z-0" >

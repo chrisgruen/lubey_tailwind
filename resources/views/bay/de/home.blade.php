@@ -50,7 +50,7 @@
         				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Lubey Consult</h2>
         				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Beratungsleistungen zur Abfallentsorgung</p>
         				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Vermarktung und Software</p>
-        				<a href="{{route('content.page',['pageID'=>'digit'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+        				<a href="{{route('content.page',['pageID'=>'individual'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
             				Erfahren Sie mehr
             			</a>
         			</div>
@@ -123,7 +123,7 @@
 
                 <div class="flex mt-8">
             		<div class="flex-none w-14 h-14"></div>
-                    <a href="{{route('content.page',['pageID'=>'digit'])}}" class="bg-white border border-blue-800 text-lg text-blue-800  rounded mb-3 py-2 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="{{route('content.page',['pageID'=>'individual'])}}" class="bg-white border border-blue-800 text-lg text-blue-800  rounded mb-3 py-2 px-5 hover:text-white hover:bg-blue-800">
                         Erfahren Sie mehr
                     </a>
                 </div>
@@ -263,7 +263,7 @@
         </h2>
         <div class="flex flex-wrap mt-20">
             <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-				<img src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" width="200"/>
+				<img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
                     <p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
@@ -273,7 +273,7 @@
                 </div>
             </div>
             <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-				<img src="{{asset('img/frontend/branche2.png')}}" alt="Handel" width="200"/>
+				<img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
                     <p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
@@ -283,7 +283,7 @@
                 </div>
             </div>
             <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-				<img src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" width="200"/>
+				<img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
                     <p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
@@ -293,7 +293,7 @@
                 </div>
             </div>
             <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-				<img src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" width="200"/>
+				<img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
                     <p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
@@ -303,7 +303,7 @@
                 </div>
             </div>
             <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-                <img src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" width="200"/>
+                <img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
                     <p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
@@ -343,7 +343,7 @@
           	<div class="absolute bottom-0 w-64 z-0" >
           		<img class="w-full z-0" src="{{asset('img/frontend/group1.png')}}" alt="group1"/>
           	</div>
-              <a href="{{route('content.page',['pageID'=>'digit'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+              <a href="{{route('content.page',['pageID'=>'individual'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
                   Erfahren Sie mehr
               </a>
       	  </div>
