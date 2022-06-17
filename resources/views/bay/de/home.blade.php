@@ -37,7 +37,7 @@
         			<div class="container mx-auto px-6 mt-7 md:mt-20">
         				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Digitale Lösungen</h2>
         				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Individuell entwickelte Software rund um die Entsorgung</p>
-        				<a href="{{route('content.page',['pageID'=>'consult'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+        				<a href="{{route('content.page',['pageID'=>'individual'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
             				Erfahren Sie mehr
             			</a>
         			</div>
@@ -50,7 +50,7 @@
         				<h2 class="text-3xl xl:text-5xl font-semibold text-white">Lubey Consult</h2>
         				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Beratungsleistungen zur Abfallentsorgung</p>
         				<p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Vermarktung und Software</p>
-        				<a href="{{route('content.page',['pageID'=>'individual'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
+        				<a href="{{route('content.page',['pageID'=>'consult'])}}" class="inline-block bg-transparent text-lg text-white hover:text-white font-semibold py-3 px-5 mt-5 border rounded">
             				Erfahren Sie mehr
             			</a>
         			</div>
