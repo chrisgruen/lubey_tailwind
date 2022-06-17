@@ -111,9 +111,8 @@
             </div>
         </div>
     </section>
-    
-    
-        <section class="container relative mx-auto px-5 py-10 mb-0">
+        
+    <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
         </div>
@@ -217,9 +216,45 @@
             </a>
         </div>
 	</section>
-	
-    <!-- table Vergaben -->
-    <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-0">
+    
+    <!-- COL 3 -->
+    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
+            <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
+                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                    Erfahren Sie mehr
+                </a>
+                <div class="absolute bottom-0 right-0 z-0" >
+                    <img class="w-[21rem]" src="{{asset('img/frontend/group1_col3.png')}}" alt="group1"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
+                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="relative inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                    Erfahren Sie mehr
+                </a>
+                <div class="absolute bottom-0 right-0 z-0">
+                    <img class="w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
+                <h3>Lubey</h3>
+                <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
+                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="relative inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                    Erfahren Sie mehr
+                </a>
+                <div class="absolute bottom-0 right-0 z-0">
+                    <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- table Vergaben -->
+    <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-20">
         <div class="container mx-auto px-6 pt-10 pb-6 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full mt-4 text-white border-b pb-10">
                 <div class="px-0 lg:px-10">
@@ -338,42 +373,6 @@
                         </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- COL 3 -->
-    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
-            <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
-                <h3>Lubey</h3>
-                <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
-                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
-                    Erfahren Sie mehr
-                </a>
-                <div class="absolute bottom-0 right-0 z-0" >
-                    <img class="w-[21rem]" src="{{asset('img/frontend/group1_col3.png')}}" alt="group1"/>
-                </div>
-            </div>
-            <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
-                <h3>Lubey</h3>
-                <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
-                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="relative inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
-                    Erfahren Sie mehr
-                </a>
-                <div class="absolute bottom-0 right-0 z-0">
-                    <img class="w-80" src="{{asset('img/frontend/group3_col3.png')}}"  alt="group3"/>
-                </div>
-            </div>
-            <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
-                <h3>Lubey</h3>
-                <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
-                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="relative inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
-                    Erfahren Sie mehr
-                </a>
-                <div class="absolute bottom-0 right-0 z-0">
-                    <img class="w-[20rem]" src="{{asset('img/frontend/group4_col3.png')}}" alt="group4"/>
                 </div>
             </div>
         </div>
