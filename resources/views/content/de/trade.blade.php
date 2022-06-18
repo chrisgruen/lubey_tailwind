@@ -12,7 +12,7 @@
         <div class="flex items-center flex-wrap mb-0">
             <div class="w-full md:w-1/2 px-0 lg:px-14">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
-					<span class="font-semibold">Mit Lubey TRADE</span> - macht den
+					<span class="font-semibold">Lubey TRADE</span> - macht den
 					Handel mit Abfällen einfacher,
 					effizienter und sicherer
 				</h3>

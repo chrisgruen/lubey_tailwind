@@ -111,6 +111,24 @@
             </div>
         </div>
     </section>
+    
+    <!--  Video -->
+	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
+        <h2 class="text-3xl text-center text-blue-800 font-semibold">
+           So einfach geht's
+        </h2>
+        <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
+        	<iframe
+        		src="https://www.youtube.com/embed/J7r8GXwSBZ4"
+        		frameborder="0"
+        		allowfullscreen
+        		class="absolute top-0 left-0 w-full h-full"
+        	></iframe>
+        </div>
+        <h2 class="text-3xl text-center text-blue-800 font-semibold mt-10 xl:mt-20">
+           Sehen Sie hier die 5 einfachen Schritte der E-Vergabe mit verdeckter Auktion
+        </h2>
+    </section>
         
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">

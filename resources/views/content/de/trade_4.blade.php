@@ -252,6 +252,23 @@
         </div>
     </section>
     
+	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-10 xl:mt-20">
+        <h2 class="text-3xl text-center text-blue-800 font-semibold">
+           So funktioniert's
+        </h2>
+        <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
+           	Die fünf Schritte der E-Vergabe mit Auktion auf Lubey Trade 
+        </p>
+        <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
+        	<iframe
+        		src="https://www.youtube.com/embed/J7r8GXwSBZ4"
+        		frameborder="0"
+        		allowfullscreen
+        		class="absolute top-0 left-0 w-full h-full"
+        	></iframe>
+        </div>
+    </section>
+    
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
@@ -366,7 +383,7 @@
         </p>
         <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
         	<iframe
-        		src="https://www.youtube.com/embed/UBOj6rqRUME"
+        		src="https://www.youtube.com/embed/J7r8GXwSBZ4"
         		frameborder="0"
         		allowfullscreen
         		class="absolute top-0 left-0 w-full h-full"
