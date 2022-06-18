@@ -40,12 +40,22 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#8E5BA0] to-[#482E51] text-white margin-to-top2 mt-0 h-128">
+    <section class="bg-gradient-to-b from-[#8E5BA0] to-[#482E51] text-white margin-to-top2 mt-0 pb-16 h-auto">
         <div class="container mx-auto px-6 pt-10 pb-0 px-5">
-			<h2 class="text-3xl md:text-5xl text-center">So funktioniert's</h2>
-			<p class="text-center">
+			<h2 class="text-3xl lg:text-5xl text-center">So funktioniert's</h2>
+			<p class="text-center mt-5">
 				Erfahren Sie anhand eines kurzen Videos wie einfach heute schon digitales und intelligentes Abfallmanagement geht
 			</p>
+			<div class="w-full xl:w-4/5 mx-auto bg-blue-100 mt-10 xl:mt-20">
+    			<div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
+                	<iframe
+                		src="https://www.youtube.com/embed/UBOj6rqRUME"
+                		frameborder="0"
+                		allowfullscreen
+                		class="absolute top-0 left-0 w-full h-full">
+            		</iframe>
+            	</div>
+        	</div>
         </div>
     </section>
 

@@ -33,7 +33,7 @@
             <div>
                 <ul class="inline-flex mr-3">
                     <li>
-                        <a class="px-4 text-blue-800 text-lg {{ Request::is('digit*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'individual'])}}">Digitale Lösungen</a>
+                        <a class="px-4 text-blue-800 text-lg {{ Request::is('individual*') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'individual'])}}">Digitale Lösungen</a>
                     </li>
                     <li>
                         <a class="px-4 text-blue-800 text-lg {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}" href="{{route('content.page',['pageID'=>'trade'])}}">Trade</a>

@@ -223,7 +223,7 @@
         </div>
     </section>
 
-    <div class="container mx-auto mt-20">
+    <div class="container mx-auto px-5 mt-20">
         <h2 class="text-3xl text-blue-800 text-center mb-16 font-light">
             <span class="font-semibold">Die Zukunft auf Ihre Bedürfnisse angestimmt</span> - mit unseren Lösungen<br />
             sind Inkompatibilität & Hoher Personalaufwand Geschichte
