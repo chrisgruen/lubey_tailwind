@@ -1,10 +1,10 @@
 @extends('layouts.frontend_tailwind')
 @section('description')Bei Lubey Trade trifft sich die gesamte Branche. Hier können Sie kostenlose E-Vergaben und Auktionen erstellen, um den Bestpreis für Ihre Stoffe zu erzielen.@endsection
 @section('content')
-	<section class="h-40 md:h-72 bg-header-trade z-0 bg-cover bg-htrade">
-		<div class="container mx-auto px-6 pt-10 md:pt-20">
-			<p class="text-3xl md:text-5xl font-semibold text-white">Lubey</p>
-			<h2 class="text-4xl md:text-7xl font-semibold text-white">TRADE</h2>
+	<section class="h-40 lg:h-72 bg-cover bg-htrade z-0">
+		<div class="container mx-auto px-5 pt-10 lg:pt-20">
+			<p class="text-3xl lg:text-5xl font-semibold text-white">Lubey</p>
+			<h2 class="text-4xl lg:text-7xl font-semibold text-white">TRADE</h2>
 		</div>
     </section>
 

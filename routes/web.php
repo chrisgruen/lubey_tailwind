@@ -22,4 +22,6 @@ Route::get('/', function () {
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/home', [HomeController::class, 'getHomeScreen'])->name('home');
+Route::get('/registrieren', [HomeController::class, 'getSignUpStep1'])->name('register');
+Route::get('/login', [HomeController::class, 'getSignUpStep1'])->name('register');
 Route::get('/{pageID}', [HomeController::class, 'getContent'])->name('content.page');

@@ -26,5 +26,11 @@ class HomeController extends Controller {
         } else {
             abort(404);
         }
-    }   
+    } 
+    
+    public function getSignUpStep1() {
+        //$user = new User();
+        //$company = new Company();
+        return view('registration.signupStep1');
+    }
 }
