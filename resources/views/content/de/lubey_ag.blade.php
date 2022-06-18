@@ -96,7 +96,7 @@
         	<p class="mt-5">Die Lubey AG versteht sich als Innovationstreiber und beteiligt sich aus diesem Grund an zahlreichen Forschungs- und Entwicklungs-Vorhaben.</p>
     	</div>
     	
-    	<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
+    	<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-10">
             <div>
                 <p>Als Beitrag zur Nachhaltigkeit und zum Umweltschutz ist die Recyclingfähigkeit von Kunststoffen ein wichtiger Bestandteil. Zur besseren und einfacheren Analyse
                     von Kunststoffgemischen entwickelt die Lubey AG in Kooperation mit dem Fraunhofer Institut ein
