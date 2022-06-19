@@ -4,7 +4,7 @@
 	<section class="h-40 lg:h-72 bg-cover bg-htrade-5 z-0">
 		<div class="container mx-auto px-5 pt-10 lg:pt-20">
 			<h2 class="text-3xl lg:text-5xl font-semibold text-white">Lubey<span class="text-4xl lg:text-7xl font-semibold">TRADE</span><br />
-                <span class="font-light">für die Industrie</span>
+                <span class="font-light">für Energieerzeuger</span>
             </h2>
 		</div>
     </section>
@@ -13,16 +13,27 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full xl:h-[60rem]">
             <div class="pt-64 pr-0 lg:pr-10">
                 <h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10 mb-10">
-                    <span class="font-semibold">Mit Lubey TRADE</span> - mit unseren E-Vergaben lassen sich komplexe Abfallvermarktungen der Industrie ganz einfach bewältigen.
+                    <span class="font-semibold">Mit Lubey TRADE</span> - Lernen Sie die Vorteile der EU-weiten Stoffstrombeschaffung als Energieerzeuger kennen 
                 </h3>
                 <div class="flex">
                     <div class="flex-none w-14 h-14">
                         <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
                     </div>
                     <div>
-                        <h3 class="text-lg text-blue-800 font-semibold">Beste Preise dank der verdeckten E-Auktion</h3>
+                        <h3 class="text-lg text-blue-800 font-semibold">Einfacher Zugriff auf alle Stoffe</h3>
                         <p class="mb-8">
-                            Der innovative Versteigerungsmechanismus auf Lubey Trade ermöglicht bessere Preise am Markt.
+                            Lubey Trade ermöglicht den Zugang zu erweiterten Beschaffungsmärkten in ganz Europa. Mit kurzer Vorlaufzeit sichern Sie sich die Auslastung Ihrer Anlagen.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div>
+                        <h3 class="text-lg text-blue-800 font-semibold">Beste Preise dank verdeckter E-Auktion</h3>
+                        <p class="mb-8">
+                            Der innovative Beschaffungsmechanismus ermöglicht bessere Preise am Markt. Mit dem dynamischen Beschaffungssystem lassen sich beste wirtschaftliche Ergebnisse erzielen.
                         </p>
                     </div>
                 </div>
@@ -33,18 +44,7 @@
                     <div>
                         <h3 class="text-lg text-blue-800 font-semibold">Komplexe E-Vergaben einfach gemacht</h3>
                         <p class="mb-8">
-                            Mit Lubey Trade lassen sich komplexe Abfallvermarktungen ganz einfach per E-Vergabe bewältigen.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
-                    </div>
-                    <div>
-                        <h3 class="text-lg text-blue-800 font-semibold">100% faire Vermarktung</h3>
-                        <p class="mb-8">
-                           	Lubey ist unabhängig, frei von externem Einfluss und an kein Entsorgungsunternehmen gebunden.
+                           	Mit Lubey Trade lassen sich komplexe Beschaffungsprozesse ganz einfach per E-Vergabe bewältigen. Es können mehrere Stoffströme gleichzeitig beschafft werden.
                         </p>
                     </div>
                 </div>
@@ -56,19 +56,19 @@
             </div>
             <div class="relative pt-0 mx-auto w-full">
                 <div class="xl:absolute w-full xl-w-[36rem] top-10 xl-top-0 xl-left-10 z-20">
-                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_industry.png')}}" alt="Lubey Trade"/>
+                    <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_energy.png')}}" alt="Lubey Trade"/>
                     <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
                         <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
-                        Innovationen bilden das Herzstück der Industrie 4.0 und ermöglichen es, die digitalisierte Kreislaufwirtschaft der Zukunft in die Wirklichkeit umzusetzen. 
-                        Wir tragen unseren Teil zu dieser Vision bei, indem wir mit unserem Konzept die zielgerichtete Verwertung von Abfällen optimieren, Rohstoffe schonen und Kosten einsparen.
-                    	<p class="text-xs mt-5 italic">Dieter Althaus, Vice President Governmental Affairs Magna Europe<br />Ministerpräsident von Thüringen a.D.</p>
+                        Die Sicherung ausgewogener Stoffströme in unsere Anlagen benötigt Alternativen zu bisherigen Beschaffungskonzepten.
+                    	<p class="text-xs mt-5 italic">Ein Mitarbeiter eines Müllheizkraftwerkes</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub3">
+   
+   {{--
+    <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub5">
         <div class="pt-20 pb-16">
             <h2 class="text-3xl lg:text-5xl text-white text-center">
                 Mit Lubey Connect
@@ -110,11 +110,12 @@
             </div>
         </div>
     </section>
+    --}}
     
     <!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
-           So wird's gemacht
+           So einfach geht's
         </h2>
         <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
         	<iframe
@@ -125,7 +126,8 @@
         	></iframe>
         </div>
     </section>
-     
+    
+    {{--
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
@@ -230,9 +232,10 @@
             </a>
         </div>
 	</section>
+	--}}
 	
     <!-- COL 3 -->
-    <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
+    <section class="container mx-auto px-6 mt-20 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
@@ -267,134 +270,13 @@
         </div>
     </section>
     
-    <!-- table Vergaben -->
-    <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-20">
-        <div class="container mx-auto px-6 pt-10 pb-6 px-5">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full mt-4 text-white border-b pb-10">
-                <div class="px-0 lg:px-10">
-                    <h2 class="text-3xl font-semibold">Ausgewählte Vergaben</h2>
-                </div>
-                <div class="mt-10 lg:mt-0">
-                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
-                        <span class="font-semibold mr-1">Jetzt</span> Anmelden und mehr Vergaben ansehen!
-                    </a>
-                </div>
-            </div>
-
-			<div class="overflow-x-scroll">
-                <div class="flex items-center mt-0 border-b">
-                    <div class="flex-none w-20 mr-12">
-                        <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>
-                    </div>
-                    <div class="flex-initial w-full relative overflow-x-auto ">
-                        <table class="w-full text-base text-left text-white">
-                            <thead class="text-lg font-light bg-transparent">
-                                <tr>
-                                    <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
-                                        Los 1
-                                    </th>
-                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                        Textilien
-                                    </th>
-                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                        40.000 Tonnen
-                                    </th>
-                                    <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                        29.04.2022 | 12:00 Uhr
-                                    </th>
-                                    <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
-                                        <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
-                                            Details anzeigen
-                                        </button>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="bg-transparent border-t">
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        AVV 200110
-                                    </td>
-                                    <td class="px-6 py-4 align-top w-60 whitespace-nowrap">
-                                        Alttextilien, namentlich Bekleidung und Schuhe
-                                    </td>
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        200.000 Tonnen
-                                    </td>
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                       DE 29664, Walsrode
-                                    </td>
-                                </tr>
-                                <tr class="bg-transparent">
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        AVV 200110
-                                    </td>
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        Alttextilien, namentlich Bekleidung und Schuhe
-                                    </td>
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        200.000 Tonnen
-                                    </td>
-                                    <td class="px-6 py-4 align-top whitespace-nowrap">
-                                        DE 29640, Schneverdingen
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="flex items-center mt-0 mb-7 border-b">
-                <div class="flex-none w-20 mr-12">
-                    <img src="{{asset('img/frontend/Altholz.png')}}"  alt="Check"/>
-                </div>
-                <div class="flex-initial w-full relative overflow-x-auto ">
-                    <table class="w-full text-base text-left text-white">
-                        <thead class="text-lg font-light bg-transparent">
-                        <tr>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-2xl whitespace-nowrap">
-                                Los 2
-                            </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                Textilien
-                            </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                40.000 Tonnen
-                            </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 whitespace-nowrap">
-                                29.04.2022 | 12:00 Uhr
-                            </th>
-                            <th scope="col" class="px-6 pt-1 pb-5 text-right whitespace-nowrap" colspan="2">
-                                <button class="bg-transparent text-white hover:text-white py-2 px-4 mt-5 border">
-                                    Details anzeigen
-                                </button>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr class="bg-transparent border-t">
-                            <td class="px-6 py-4 align-top whitespace-nowrap">
-                                AVV 200110
-                            </td>
-                            <td class="px-6 py-4 w-60 align-top whitespace-nowrap">
-                                Alttextilien, namentlich Bekleidung und Schuhe
-                            </td>
-                            <td class="px-6 py-4 align-top whitespace-nowrap">
-                                200.000 Tonnen
-                            </td>
-                            <td class="px-6 py-4 align-top whitespace-nowrap">
-                                DE 29664, Walsrode
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
+	@include('content.de.partials.table')
     
+    {{--
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise
 		</h2>
     </section>
+    --}}
 @endsection
