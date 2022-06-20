@@ -315,7 +315,7 @@
         </div>
     </section>
 
-	<section class="h:full xl:h-[30rem] bg-[#1C77B7] mt-32 z-0">
+	<section class="h:full xl:h-[30rem] bg-htrade-subhome mt-32 z-0">
 		<div class="container h-full mx-auto z-10">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full text-white">
 				<div class="relative h-full px-5 lg:px-10 py-20">
