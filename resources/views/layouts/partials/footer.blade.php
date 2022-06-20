@@ -5,7 +5,7 @@
                 <h5 class=" mb-6 text-lg font-semibold">Lubey AG</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
-                        Große Nikolaistraße 8</span><br>
+                        Große Nikolaistraße 8<br>
                         06108 Halle (Saale)<br>
                         Telefon: 0345 977 24 96 0<br>
                         E-Mail: office@lubey.ag
