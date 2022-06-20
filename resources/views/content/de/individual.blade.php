@@ -17,8 +17,8 @@
 				<p class="mt-5">
 					Wir sind überzeugt, dass erfolgbringende Software Lösungen nur individuell entwickelt werden können.
 					Jedes Unternehmen ist einzigartig und in seinem jeweiligen eigenen Prozess der digitalen Transformation.
-					Wir analysieren mit Ihnen Ihre Zielsetzungen, vorhandene Bestandssysteme, deren Schnittstellen und die Bedürfnisse der Anwender für optimale Prozesse. 
-					So beraten wir Sie exakt dem, was Sie wirklich benötigen und entwickeln die Lösung passende Lösung dazu. 
+					Wir analysieren mit Ihnen Ihre Zielsetzungen, vorhandene Bestandssysteme, deren Schnittstellen und die Bedürfnisse der Anwender für optimale Prozesse.
+					So beraten wir Sie exakt dem, was Sie wirklich benötigen und entwickeln die Lösung passende Lösung dazu.
 				</p>
 				<div class="mt-10">
     				<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
@@ -74,9 +74,9 @@
                 <h2 class="text-3xl font-semibold mb-5 text-blue-800">IST-Situation</h2>
                 <p>
                 	Wer kennt das nicht: Viele unserer Auftraggeber klagen über Lösungen die in die Jahre gekommen sind und über Inkompatibilität Ihrer Anwendungen.
-					Der Arbeitsaufwand und Prozessfluss wird nicht immer digitaler und einfacher, sondern bestenfalls hybrid und meist immer träger. 
+					Der Arbeitsaufwand und Prozessfluss wird nicht immer digitaler und einfacher, sondern bestenfalls hybrid und meist immer träger.
 					Gleichzeitig werden eigene Anforderungen und gesetzliche Pflichten aber auch die Kundenerwartungen immer komplexer.
-					Man behilft sich oft mit dem Erstellen und Versenden von Tabellen oder einfach mit doppelten Arbeitsaufwand. 
+					Man behilft sich oft mit dem Erstellen und Versenden von Tabellen oder einfach mit doppelten Arbeitsaufwand.
 					Das bindet unnötig Zeit und Personalressourcen.
                 </p>
             </div>
@@ -113,14 +113,14 @@
         <div class="container mx-auto">
             <div class="flex items-center flex-wrap text-white">
                 <div class="w-full md:w-2/3 mt-12 pr-5 lg:pr-10">
-                    <h2 class="text-3xl lg:text-5xl font-semibold">CO2-Bilanz</h2>
+                    <h2 class="text-3xl lg:text-5xl font-semibold">CO²-Bilanz</h2>
                     <p class="text-xl lg:text-3xl font-light mt-3">Automatisierung komplexer Berechnungen</p>
                     <p class="mt-3">
-                        Mit Lubey CO2-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
+                        Mit Lubey CO²-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
                         für Ihr Unternehmen entwickeln und ausbauen.
                     </p>
                     <p class="mt-4">
-                        Wir helfen Ihnen digitale Lösungen, um eigene CO2 Emissionen messen,
+                        Wir helfen Ihnen digitale Lösungen, um eigene CO² Emissionen messen,
                         verringern und künftig sogar in Geschäftsprozessen einpreisen zu können.
                     </p>
                 </div>
@@ -145,7 +145,7 @@
                 </h2>
                 <p class="mt-16">
                     Egal welche Branche; Viele Standorte = viele Dienstleister = vielfältige Prozesse und Formate.
-					Oft fehlen in der Verwaltung wichtige Daten und Belege zur zentralen Auswertung, 
+					Oft fehlen in der Verwaltung wichtige Daten und Belege zur zentralen Auswertung,
                 </p>
             </div>
         </div>
@@ -153,7 +153,7 @@
 
     <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
     	<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-gray-400"></div> 
+    		<div class="flex-grow h-px bg-gray-400"></div>
     		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
             <div class="flex-grow h-px bg-gray-400"></div>
         </div>
@@ -173,7 +173,7 @@
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
                         Unser Motto: Von der Stange gibt es bei uns nicht! Schildern Sie uns Ihre Herausforderung und wir kümmern uns um die richtige Lösung. Egal, ob Sie eine bessere Schnittstelle zwischen Ihren digitalen Bestandssystemen brauchen oder eine Neues ERP System, wir helfen Ihnen mit für Sie maßgeschneiderten Lösungen und machen Sie damit einzigartiger, erfolgreicher und agiler im Markt. Wir verstehen nicht nur viel von Software, sondern auch von Abfällen, Wertstoffen und deren Kreislauf. Denn digitale Entsorgung ist unser Metier.
-						Deshalb hört unsere Beratung nicht nach der Software auf. Wir können Erzeuger auch zur richtigen Abfallbehandlung vor Ort, Abfall-Vermarktung und Prozessoptimierung mit Ihren Dienstleistern beraten. Entsorgungsunternehmen vertrauen uns, weil wir Ihre Prozesse bis ins kleinste Detail kennen.  
+						Deshalb hört unsere Beratung nicht nach der Software auf. Wir können Erzeuger auch zur richtigen Abfallbehandlung vor Ort, Abfall-Vermarktung und Prozessoptimierung mit Ihren Dienstleistern beraten. Entsorgungsunternehmen vertrauen uns, weil wir Ihre Prozesse bis ins kleinste Detail kennen.
                     </p>
                 </div>
             </div>
@@ -208,7 +208,7 @@
             <h2 id="accordion-collapse-heading-4">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
                     <span>
-                    	Wir verstehen uns als Schnellboot in Sachen Software Entwicklung 
+                    	Wir verstehen uns als Schnellboot in Sachen Software Entwicklung
                 	</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>

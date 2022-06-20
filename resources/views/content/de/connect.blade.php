@@ -16,17 +16,17 @@
 					Digitalisierung der Entsorgung und Abrechnung
 				</h3>
 				<p class="mt-5">
-					„Connect“ digitalisiert die direkte Entsorgung und deren Abrechnung. 
-					Durch die Automatisierung kann die Zusammenarbeit 
-					zwischen Entsorgern und Erzeuger vereinfacht 
+					„Connect“ digitalisiert die direkte Entsorgung und deren Abrechnung.
+					Durch die Automatisierung kann die Zusammenarbeit
+					zwischen Entsorgern und Erzeuger vereinfacht
 					und weitaus effizienter gemacht werden.
 				</p>
 				<p class="mt-5">
-					Connect ist in der Lage alle Entsorgungsaufträge, 
+					Connect ist in der Lage alle Entsorgungsaufträge,
 					die mit Lubey Trade zustande gekommen sind, verwalten, auslösen und
- 					automatisiert abrechnen zu können.  
+ 					automatisiert abrechnen zu können.
 					Zusätzlich sind Erzeuger und Entsorger direkt über die Lösung
-					vernetzt und können auf einfachem Wege kommunizieren.  
+					vernetzt und können auf einfachem Wege kommunizieren.
 				</p>
 				<div class="mt-10">
     				<a href="#" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-7 text-lg hover:text-white hover:bg-blue-800">
@@ -61,7 +61,7 @@
 
     <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
     	<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-gray-400"></div> 
+    		<div class="flex-grow h-px bg-gray-400"></div>
     		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
             <div class="flex-grow h-px bg-gray-400"></div>
         </div>
@@ -72,8 +72,7 @@
             <h2 id="accordion-collapse-heading-1">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 rounded-t-xl border border-b-0 border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                     <span>
-                    	Für jedes Unternehmen die richtige Struktur<br />
-                    	Digitale Vernetzung zwischen den Geschäfts-Parteien
+                    	Für jedes Unternehmen die richtige Struktur
                 	</span>
                     <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -81,11 +80,11 @@
             <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
-                        Connect ist in der Lage alle Entsorgungsaufträge, die mit Trade zustande gekommen sind, verwalten, auslösen und automatisiert abrechnen zu können.  
-                        Zusätzlich sind Erzeuger und Entsorger direkt über die Lösung vernetzt und können auf einfachem Wege kommunizieren.  
+                        Connect ist in der Lage alle Entsorgungsaufträge, die mit Trade zustande gekommen sind, verwalten, auslösen und automatisiert abrechnen zu können.
+                        Zusätzlich sind Erzeuger und Entsorger direkt über die Lösung vernetzt und können auf einfachem Wege kommunizieren.
                     </p>
                     <p class="mb-2">
-                        Optional kann dies so weit ausgebaut werden, dass durch intelligente und flexible Abholauslösungen und Vernetzung mit Fahrern des Entsorgers oder seiner beauftragten Logistikpartnern Leerfahrten, bzw. Umsonst-Fahrten ganzer Fahrzeugflotten vermieden werden können.   
+                        Optional kann dies so weit ausgebaut werden, dass durch intelligente und flexible Abholauslösungen und Vernetzung mit Fahrern des Entsorgers oder seiner beauftragten Logistikpartnern Leerfahrten, bzw. Umsonst-Fahrten ganzer Fahrzeugflotten vermieden werden können.
                     </p>
                 </div>
             </div>
@@ -105,7 +104,6 @@
             <h2 id="accordion-collapse-heading-3">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
                     <span>
-                    	Transparente Statistiken für eine bessere Auswertung<br />
                     	Vollelektronisch Rechnungen bzw. Gutschriften übermitteln
                 	</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -139,7 +137,6 @@
             <h2 id="accordion-collapse-heading-5">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
                     <span>
-                    	Vollelektronisch Rechnungen bzw. Gutschriften erstellen, übermitteln und verarbeiten<br />
                     	Für jedes Unternehmen die richtige Struktur
                 	</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -189,7 +186,7 @@
                             <div class="text-gray-600 mb-8 pr-20">
                                 <h4 class="text-blue-800 text-lg font-semibold">Facility-Management System 1</h4>
                                 <p class="text-gray-600">
-                                    Sie wollen das Abfallmanagement Ihrer Standorte, Einzelhandelsfilialen oder Werke optimal zentral verwalten? 
+                                    Sie wollen das Abfallmanagement Ihrer Standorte, Einzelhandelsfilialen oder Werke optimal zentral verwalten?
                                     Dann können wir die für Sie passende Lösung auf der Basis von Lubey Connect entwickeln.
                                 </p>
                             </div>

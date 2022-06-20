@@ -59,7 +59,7 @@
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_disposer.png')}}" alt="Lubey Trade"/>
                     <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
                         <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
-                        Angesichts der immer größer werdenden Stoffmengen in der Kreislaufwirtschaft müssen sich die Entsorgerbetriebe des Handels für eine umweltgerechte Abfallverwertung zu nutzen. 
+                        Angesichts der immer größer werdenden Stoffmengen in der Kreislaufwirtschaft müssen sich die Entsorgerbetriebe des Handels für eine umweltgerechte Abfallverwertung zu nutzen.
                         Langfristig betrachtet, wird diese Herausforderung allerdings nur durch ein starkes Netzwerk mit kompetenten Handelspartnern zu bewältigen sein.
                     	<p class="text-xs mt-5 italic">Sandra Fischer, Geschäftsleitung<br />Schatz Umwelt GmbH</p>
                     </div>
@@ -67,16 +67,16 @@
             </div>
         </div>
     </section>
-    
+
     <section class="mt-20 mx-auto bg-subtrade-1 bg-cover bg-htrade-sub4">
         <div class="py-10">
-            <div class="relative container mx-auto px-6 my-10">   
+            <div class="relative container mx-auto px-6 my-10">
             	<div class="hidden xl:block xl:absolute z-20 w-[35rem] bottom-0 left-32">
             		<img class="object-cover h-full min-w-full" src="{{asset('img/frontend/trade_entsorger1.png')}}" alt="Lubey Trade"/>
         		</div>
         		<div class="grid grid-cols-1 lg:grid-cols-3 gap-5 text-white">
                     <div class="h-full lg:h-full">
-                        
+
                     </div>
                     <div class="col-span-2">
                     	<h2 class="text-3xl lg:text-4xl font-semibold py-5">Erhöhen Sie Ihre Reichweite mit Lubey</h2>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10 text-white">
                     <div class="h-full lg:h-full px-10 py-7 rounded">
-                        
+
                     </div>
                     <div class="relative bg-white text-blue-800 h-full lg:h-full px-10 py-7 rounded">
                         <img src="{{asset('img/frontend/Check.png')}}" width="45" alt="Check"/>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 gap-5 h-full lg:h-64 text-white ">
                     <div class="relative h-full lg:h-full px-10 py-7 rounded">
-                        
+
                     </div>
                     <div class="relative text-blue-800 h-full lg:h-full px-10 py-7 rounded">
 
@@ -126,15 +126,15 @@
             </div>
         </div>
     </section>
-    
+
 	@include('content.de.partials.table')
-    
+
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-10 xl:mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
            So funktioniert's
         </h2>
         <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
-           	Die fünf Schritte der E-Vergabe mit Auktion auf Lubey Trade 
+           	Die fünf Schritte der E-Vergabe mit Auktion auf Lubey Trade
         </p>
         <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
         	<iframe
@@ -145,7 +145,7 @@
         	></iframe>
         </div>
     </section>
-    
+
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
@@ -159,17 +159,8 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Registrierung</h3>
                         <p class="mb-15">
-                        </p>
-                    </div>
-                </div>
-            	<div class="flex my-10">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
-                    </div>
-                    <div class="pr-5 md:pr-20">
-                        <h3 class="text-lg text-blue-800 font-semibold">E-Vergabe Veröffentlichung</h3>
-                        <p class="mb-15">
-                            Bei Veröffentlichung auf Lubey.de ist die Vergabe sofort für Sie einsehbar. Auf Wunsch mit Benachrichtigung.  
+                            E-Vergabe Veröffentlichung<br />
+                            Bei Veröffentlichung auf Lubey.de ist die Vergabe sofort für Sie einsehbar. Auf Wunsch mit Benachrichtigung.
                         </p>
                     </div>
                 </div>
@@ -192,6 +183,17 @@
                         <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
                         <p class="mb-15">
                             Teilnahme erklären, Anforderungen beantworten und Gebot in Rekordzeit abgeben.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-10">
+                    <div class="flex-none w-14 h-14">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    </div>
+                    <div class="pr-5 md:pr-20">
+                        <h3 class="text-lg text-blue-800 font-semibold">Persönlicher Support</h3>
+                        <p class="mb-15">
+                            In allen Prozess-Schritten können Sie Ihre Fragen an uns richten. Ganz persönlich am Telefon.
                         </p>
                     </div>
                 </div>
@@ -249,14 +251,14 @@
             </a>
         </div>
 	</section>
-	
+
 	<!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-5">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
            So funktioniert's
         </h2>
         <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
-            Erfahren Sie anhand eines kurzen Videos wie einfach es ist, sich an mit Lubey Trade erstellten Vergaben zu beteiligen. 
+            Erfahren Sie anhand eines kurzen Videos wie einfach es ist, sich an mit Lubey Trade erstellten Vergaben zu beteiligen.
         </p>
         <div class="relative h-0 overflow-hidden max-w-full w-full mt-10" style="padding-bottom: 56.25%">
         	<iframe
@@ -282,7 +284,7 @@
             </button>
         </div>
     </section>
-	
+
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
@@ -318,7 +320,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise

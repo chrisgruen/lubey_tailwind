@@ -18,7 +18,7 @@
         			</div>
         		</div>
         	</div>
-        	
+
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out bg-slide-1 bg-cover bg-hslider-2" data-carousel-item >
         		<div class="flex flex-row">
@@ -138,14 +138,14 @@
         <div class="container mx-auto">
             <div class="flex items-center flex-wrap text-white">
                 <div class="w-full md:w-2/3 mt-12 pr-5 lg:pr-10">
-                    <h2 class="text-3xl lg:text-5xl font-semibold">CO2-Bilanz</h2>
+                    <h2 class="text-3xl lg:text-5xl font-semibold">CO²-Bilanz</h2>
                     <p class="text-xl lg:text-3xl font-light mt-3">Automatisierung komplexer Berechnungen</p>
                     <p class="mt-3">
-                        Mit Lubey CO2-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
+                        Mit Lubey CO²-Bilanz können Sie Nachhaltigkeitsaspekte in einem standartisierten Verfahren (Scope3 Level)
                         für Ihr Unternehmen entwickeln und ausbauen.
                     </p>
                     <p class="mt-4">
-                        Wir helfen Ihnen digitale Lösungen, um eigene CO2 Emissionen messen,
+                        Wir helfen Ihnen digitale Lösungen, um eigene CO² Emissionen messen,
                         verringern und künftig sogar in Geschäftsprozessen einpreisen zu können.
                     </p>
                 </div>
@@ -319,7 +319,7 @@
 		<div class="container h-full mx-auto z-10">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full text-white">
 				<div class="relative h-full px-5 lg:px-10 py-20">
-					<h2 class="text-3xl md:text-5xl font-semibold">Forschung & Entwicklung</h2>
+					<h2 class="text-3xl md:text-5xl font-semibold">Wir entwickeln die Zukunft für Sie</h2>
                     <p class="text-3xl font-light mt-3">Zum Beispiel das Kunststoff Analyse Projekt gemeinsam mit Fraunhofer Institut</p>
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 border rounded">
                         Erfahren Sie mehr
@@ -382,7 +382,7 @@
       	  </div>
         </div>
     </section>
-    
+
     @include('content.de.partials.newsletter')
 
 @endsection

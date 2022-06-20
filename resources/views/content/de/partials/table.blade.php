@@ -12,7 +12,7 @@
             </div>
         </div>
 
-		<div class="overflow-x-scroll">
+		<div class="overflow-x-auto">
             <div class="flex items-center mt-0 border-b">
                 <div class="flex-none w-20 mr-12">
                     <img src="{{asset('img/frontend/Alttextilien.png')}}"  alt="Check"/>

@@ -1,7 +1,7 @@
 <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white">
 	<div class="container mx-auto px-6 pt-10 pb-6 px-5">
 		<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-white"></div> 
+    		<div class="flex-grow h-px bg-white"></div>
     		<span class="flex-shrink text-3xl font-semibold px-6">NEWSLETTER</span>
             <div class="flex-grow h-px bg-white"></div>
         </div>
@@ -29,8 +29,8 @@
 			</div>
 			<div class="w-full xl:w-3/5 px-0 lg:px-10">
 				<div>Lubey Newsletter mit auf meine Bedürfnisse zugeschnittenen <br />Informationen rund um die Themen</div>
-				   				
-				<div class="overflow-x-scroll">
+
+				<div class="overflow-x-auto">
                     <div class="w-[32rem] flex space-x-4 mt-5">
                     	<div class="flex-none w-24">
                     		<span>Lubey</span><br />
