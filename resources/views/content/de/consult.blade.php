@@ -8,7 +8,7 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto px-6 mt-10 xl:-mt-10 z-10">
+    <section class="container relative mx-auto px-6 mt-10 xl:-mt-10 z-10 mb-20">
         <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-5 xl:pt-8">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
@@ -16,13 +16,13 @@
 					Unsere Abfall-Experten unterstützen Sie mit kompetenter Beratung in Ihrem Betrieb
 				</h3>
 				<p class="mt-5">
-					Lubey bietet speziell für mittlere und große Unternehmen 
-					Beratungsleistungen von der Prozessoptimierung in Betrieben, bis zur Vermarktung 
-					von Abfällen an. Erfahrene Experten unterstützen Sie Vorort an Ihren 
+					Lubey bietet speziell für mittlere und große Unternehmen
+					Beratungsleistungen von der Prozessoptimierung in Betrieben, bis zur Vermarktung
+					von Abfällen an. Erfahrene Experten unterstützen Sie Vorort an Ihren
 					Standorten rund um das Thema Entsorgung und Nachhaltigkeit.
 					Dabei beraten wir Sie nicht nur zu Umweltaspekten, Sicherheit und
-					Abfallrechtlichen Bestimmungen, sondern auch zu den ökonomischen 
-					Potentialen, die in Ihrem Abfall stecken. 
+					Abfallrechtlichen Bestimmungen, sondern auch zu den ökonomischen
+					Potentialen, die in Ihrem Abfall stecken.
 				</p>
 				<div class="mt-10">
     				<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
@@ -55,8 +55,8 @@
                             <div class="mb-8">
                                 <h4 class="text-xl font-semibold mb-4">Erkennung von Digitalisierungspotential </h4>
                                 <p>
-                                    Wir analysieren mit Ihnen Ihre Zielsetzungen, vorhandene Bestandssysteme, deren Schnittstellen und die Bedürfnisse der Anwender für optimale Prozesse. 
-									So beraten wir Sie exakt zu dem, was Sie wirklich benötigen und können gleich die passende Lösung dazu entwickeln.  
+                                    Wir analysieren mit Ihnen Ihre Zielsetzungen, vorhandene Bestandssysteme, deren Schnittstellen und die Bedürfnisse der Anwender für optimale Prozesse.
+									So beraten wir Sie exakt zu dem, was Sie wirklich benötigen und können gleich die passende Lösung dazu entwickeln.
                                 </p>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                             <div class="mb-8">
                                 <h4 class="text-xl font-semibold mb-4">Mehr Nachhaltigkeit mit automatisierten CO² Bilanzen</h4>
                                 <p>
-                                    Wir helfen Ihnen die passende Lösung zu finden oder zu entwickeln, um eigene 
+                                    Wir helfen Ihnen die passende Lösung zu finden oder zu entwickeln, um eigene
 									C02 Emissionen messen, verringern und künftig sogar in Geschäftsprozessen einpreisen zu können
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
 
     <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
     	<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-gray-400"></div> 
+    		<div class="flex-grow h-px bg-gray-400"></div>
     		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
             <div class="flex-grow h-px bg-gray-400"></div>
         </div>
@@ -105,7 +105,7 @@
             <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
-                    	Unsere Experten unterstützen Sie mit kompetenter Beratung zum Einhalten von gesetzlichen und betrieblichen Abfall-Bestimmungen und bei der Analyse und Optimierung von Entsorgungsprozessen. Wir erkennen Risiken und Potentiale und beraten Sie in der gesamten Prozesskette Ihrer Stoffströme, von der Abfallerzeugung bis zur Abfallvermarktung.   
+                    	Unsere Experten unterstützen Sie mit kompetenter Beratung zum Einhalten von gesetzlichen und betrieblichen Abfall-Bestimmungen und bei der Analyse und Optimierung von Entsorgungsprozessen. Wir erkennen Risiken und Potentiale und beraten Sie in der gesamten Prozesskette Ihrer Stoffströme, von der Abfallerzeugung bis zur Abfallvermarktung.
                     </p>
                 </div>
             </div>
@@ -140,7 +140,7 @@
             <h2 id="accordion-collapse-heading-4">
                 <button type="button" class="flex justify-between items-center p-5 w-full text-xl text-left text-gray-500 border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
                     <span>
-                    	Mehr Nachhaltigkeitsaspekte integrieren 
+                    	Mehr Nachhaltigkeitsaspekte integrieren
                 	</span>
                     <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -148,7 +148,7 @@
             <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                       	Wir helfen Ihnen eigene Nachhaltigkeits-Standards zu entwickeln und damit auch ökonomische Vorteile zu erzielen. Zum Beispiel mit Lösungen für automatisierte C02-Bilanzen oder ähnlichen komplexen Berechnungen.  Mit Lubey können Sie 
+                       	Wir helfen Ihnen eigene Nachhaltigkeits-Standards zu entwickeln und damit auch ökonomische Vorteile zu erzielen. Zum Beispiel mit Lösungen für automatisierte C02-Bilanzen oder ähnlichen komplexen Berechnungen.  Mit Lubey können Sie
 						Nachhaltigkeitsaspekte in einem standardisierten Verfahren (Scope 1-3 Level) für Ihr Unternehmen entwickeln und ausbauen.
 						Wir helfen Ihnen mit digitalen Lösungen, um eigene C02 Emissionen messen, verringern und künftig sogar in Geschäftsprozessen einpreisen zu können.
                     </p>
@@ -165,7 +165,7 @@
                     Wo Standard aufhört, fängt Zufriedenheit an
                 </h3>
                 <p class="mt-5">
-                    Wir sind überzeugt, dass erfolgreiche Software Lösungen nur individuell entwickelt werden können. 
+                    Wir sind überzeugt, dass erfolgreiche Software Lösungen nur individuell entwickelt werden können.
 					Wir entwickeln für Sie die Lösung die Ihnen hilft Prozesse zu meistern und um sich im Markt zu differenzieren.
                 </p>
                 <div class="mt-10">

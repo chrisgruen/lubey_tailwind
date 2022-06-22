@@ -8,7 +8,7 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto mt-10 xl:-mt-20 px-6 z-10">
+    <section class="container relative mx-auto mt-10 xl:-mt-20 px-6 z-10 mb-20">
         <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-14 xl:pt-24">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
