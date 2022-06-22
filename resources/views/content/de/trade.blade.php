@@ -9,7 +9,7 @@
     </section>
 
     <section class="container relative mx-auto px-6 mt-10 xl:-mt-40 z-10 mb-0">
-        <div class="flex items-center flex-wrap mb-0">
+        <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-14">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Lubey TRADE</span> - macht den
@@ -282,7 +282,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white mt-20">
+    <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white my-20">
         <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
             <h2 class="text-3xl lg:text-5xl font-semibold">
                Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
@@ -291,9 +291,9 @@
                 Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
                 und erhalten Sie ein kleines Müllionär-Präsent
             </p>
-            <button class="bg-transparent hover:text-white py-3 px-8 mt-5 border rounded text-xl">
+            <a href="{{route('user.signup.registrieren')}}" class="inline-flex mt-5 bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-2 px-5 text-lg hover:text-white hover:bg-blue-800">
                 Registrieren
-            </button>
+            </a>
         </div>
     </section>
 

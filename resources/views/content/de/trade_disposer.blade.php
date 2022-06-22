@@ -279,9 +279,9 @@
                 Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
                 und erhalten Sie ein kleines Müllionär-Präsent
             </p>
-            <button class="bg-transparent hover:text-white py-3 px-8 mt-5 border rounded text-xl">
+            <a href="{{route('user.signup.registrieren')}}" class="inline-flex mt-5 bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-2 px-5 text-lg hover:text-white hover:bg-blue-800">
                 Registrieren
-            </button>
+            </a>
         </div>
     </section>
 
