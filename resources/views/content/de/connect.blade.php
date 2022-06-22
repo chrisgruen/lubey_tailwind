@@ -9,7 +9,7 @@
     </section>
 
     <section class="container relative mx-auto px-6 mt-10 xl:-mt-60 z-10">
-        <div class="flex items-center flex-wrap mb-20 xl:pt-36">
+        <div class="flex items-center flex-wrap xl:pt-36">
             <div class="w-full md:w-1/2 px-0 xl:px-14 mb-16 xl:mb-0" >
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Neues Zeitalter</span> - <br />

@@ -9,7 +9,7 @@
     </section>
 
     <section class="container relative mx-auto px-6 mt-10 xl:-mt-10 z-10">
-        <div class="flex items-center flex-wrap mb-20">
+        <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-5 xl:pt-8">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Expertise vorort</span> - <br />
