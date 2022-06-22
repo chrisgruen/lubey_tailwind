@@ -6,7 +6,7 @@
                 <h2 class="text-3xl font-semibold">Ausgewählte Vergaben</h2>
             </div>
             <div class="mt-10 lg:mt-0">
-                <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
                     <span class="font-semibold mr-1">Jetzt</span> Anmelden und mehr Vergaben ansehen!
                 </a>
             </div>

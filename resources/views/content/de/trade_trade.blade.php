@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="mt-10 mb-10 xl-mb-0">
-                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
@@ -59,7 +59,7 @@
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_trade.png')}}" alt="Lubey Trade"/>
                     <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
                         <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
-                        Wir stehen für Regionalität bei unseren Produkten, aber auch wenn es um die Optimierung in der Abfallverwertung geht, möchten wir auf regionale Partner setzen und nachhaltig agieren. 
+                        Wir stehen für Regionalität bei unseren Produkten, aber auch wenn es um die Optimierung in der Abfallverwertung geht, möchten wir auf regionale Partner setzen und nachhaltig agieren.
                         Mit Lubey konnten wir unsere Entsorgungsprozesse optimieren, und einen lokalen Entsorger finden und das auch noch zum besten Preis.
                     	<p class="text-xs mt-5 italic">Pascal Kneuer, Inhaber REWE Nürnberg<br />Boxdorf, Heroldsberg & Erlangen</p>
                     </div>
@@ -67,7 +67,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub2">
         <div class="py-16">
             <h2 class="text-3xl lg:text-5xl p-5 text-white text-center">
@@ -110,7 +110,7 @@
             </div>
         </div>
     </section>
-    
+
 	<!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
@@ -125,19 +125,19 @@
         	></iframe>
         </div>
     </section>
-        
+
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
         </div>
-        
+
         <div class="mt-10 text-center">
-			<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
+			<a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
                 <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
             </a>
         </div>
 	</section>
-	
+
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
@@ -173,9 +173,9 @@
             </div>
         </div>
     </section>
-    
+
 	@include('content.de.partials.table')
-    
+
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise

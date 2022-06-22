@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="mt-10 mb-10 xl-mb-0">
-                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
@@ -246,7 +246,7 @@
             </div>
         </div>
         <div class="mt-10 text-center">
-			<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
+			<a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
                 <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
             </a>
         </div>

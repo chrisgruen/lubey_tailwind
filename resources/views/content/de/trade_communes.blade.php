@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="mt-10 mb-10 xl-mb-0">
-                    <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
@@ -59,8 +59,8 @@
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_commune.png')}}" alt="Lubey Trade"/>
                     <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
                         <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
-                        Für die Stadtwerke Halle (Saale) spielt die Digitalisierung der kommunalen Abfallentsorgung eine zentrale Rolle, da sie konkrete Lösungen für die immer komplexer werdenden Herausforderungen bietet. 
-                        Durch die enge Vernetzung der Branche gewährleistet sie, dass Abfälle effizient recycelt und somit natürliche Ressourcen geschont werden. 
+                        Für die Stadtwerke Halle (Saale) spielt die Digitalisierung der kommunalen Abfallentsorgung eine zentrale Rolle, da sie konkrete Lösungen für die immer komplexer werdenden Herausforderungen bietet.
+                        Durch die enge Vernetzung der Branche gewährleistet sie, dass Abfälle effizient recycelt und somit natürliche Ressourcen geschont werden.
                         Damit dieses Vorhaben gelingt, bedarf es innovativer Ideen.
                     	<p class="text-xs mt-5 italic">Matthias Lux, Geschäftsführer der<br />Stadtwerke Halle GmbH</p>
                     </div>
@@ -83,7 +83,7 @@
                     <div class="relative bg-white text-blue-800 h-full lg:h-full px-10 py-7 rounded">
                         <img src="{{asset('img/frontend/Check.png')}}" width="45" alt="Check"/>
                         <h3 class="text-xl my-3 font-semibold">
-                            Mehr Wettbewerb 
+                            Mehr Wettbewerb
                         </h3>
                         <p>
                             Nutzen Sie kostenlos unser Lubey Trade Entsorger-Netzwerk und unseren optionalen Marketing-Support für noch mehr Bieter.
@@ -111,7 +111,7 @@
             </div>
         </div>
     </section>
-    
+
     <!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
@@ -129,7 +129,7 @@
            Sehen Sie hier die 5 einfachen Schritte der E-Vergabe mit verdeckter Auktion
         </h2>
     </section>
-        
+
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
@@ -154,7 +154,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Automatisierte Vertragsdokumente</h3>
                         <p class="mb-15">
-                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.  
+                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.
                         </p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
                         <p class="mb-15">
-                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben. 
+                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben.
                         </p>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Zulassungsprüfung</h3>
                         <p class="mb-15">
-                            Sie prüfen die Erstgebote, erbrachten Anforderungen und können Nachforderungen stellen, dann lassen die Teilnehmer zur E-Auktion zu. 
+                            Sie prüfen die Erstgebote, erbrachten Anforderungen und können Nachforderungen stellen, dann lassen die Teilnehmer zur E-Auktion zu.
                         </p>
                     </div>
                 </div>
@@ -229,12 +229,12 @@
             </div>
         </div>
         <div class="mt-10 text-center">
-			<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
+			<a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg text-left rounded mb-3 py-3 px-6 hover:text-white hover:bg-blue-800">
                 <span class="font-semibold mr-1">Jetzt</span> Anmelden und erleben wie einfach es geht!
             </a>
         </div>
 	</section>
-    
+
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
@@ -270,9 +270,9 @@
             </div>
         </div>
     </section>
-    
+
 	@include('content.de.partials.table')
-    
+
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise

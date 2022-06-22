@@ -21,7 +21,7 @@
 					findet jedes abfallerzeugende Unternehmen den richtigen Entsorger. Folgende Highlights erwarten den Nutzer bei Lubey Trade:
 				</p>
 				<div class="mt-10">
-    				<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
+    				<a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span>Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
@@ -88,8 +88,8 @@
             			</a>
             		</div>
             	</div>
-            </div>            
-		</div>   
+            </div>
+		</div>
 	</section>
 
     <section class="container mx-auto px-6 mt-20">
@@ -103,12 +103,12 @@
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
         </div>
     </section>
-    
+
     @include('content.de.partials.table')
 
     <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
     	<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-gray-400"></div> 
+    		<div class="flex-grow h-px bg-gray-400"></div>
     		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
             <div class="flex-grow h-px bg-gray-400"></div>
         </div>
@@ -127,7 +127,7 @@
             <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
-                        Lubey Trade kann Branchenübergreifend eingesetzt werden und bietet branchenunabhängig allen Teilnehmern effizientere Abfall-Vermarktungen und meist wirtschaftlich bessere Ergebnisse. Egal, ob Einzelhandel, Industrie-Erzeuger, Pharmakonzern oder Sammler und Sortierer, alle können, je nach Stoffstrom und Mengen, große Vorteile erzielen.  
+                        Lubey Trade kann Branchenübergreifend eingesetzt werden und bietet branchenunabhängig allen Teilnehmern effizientere Abfall-Vermarktungen und meist wirtschaftlich bessere Ergebnisse. Egal, ob Einzelhandel, Industrie-Erzeuger, Pharmakonzern oder Sammler und Sortierer, alle können, je nach Stoffstrom und Mengen, große Vorteile erzielen.
                     </p>
                 </div>
             </div>
@@ -170,7 +170,7 @@
             <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                       	Alle Vertragsbestandteile und Leistungsbeschreibungen werden automatisch erstellt und sind zum Abschluss der Vergabe-Erstellung  einsehbar. Diese können vor Veröffentlichung geprüft, übernommen, gänzlich oder in Teilen weggelassen oder ergänzt werden. Die Struktur dieser Verträge wurde mit führenden, praktizierenden Fachanwälten im Vergaberecht erarbeitet. Die Inhalte sind treffend und klar formuliert. Der Erzeuger spart sich ggbf. bisherige externe Dienstleistungen und viel Zeit. 
+                       	Alle Vertragsbestandteile und Leistungsbeschreibungen werden automatisch erstellt und sind zum Abschluss der Vergabe-Erstellung  einsehbar. Diese können vor Veröffentlichung geprüft, übernommen, gänzlich oder in Teilen weggelassen oder ergänzt werden. Die Struktur dieser Verträge wurde mit führenden, praktizierenden Fachanwälten im Vergaberecht erarbeitet. Die Inhalte sind treffend und klar formuliert. Der Erzeuger spart sich ggbf. bisherige externe Dienstleistungen und viel Zeit.
                     </p>
                 </div>
             </div>
@@ -296,7 +296,7 @@
             </button>
         </div>
     </section>
-    
+
 	<section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">
     		Aktuelle Marktpreise
