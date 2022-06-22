@@ -8,8 +8,8 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto mt-10 xl:-mt-20 px-6 z-10 mb-20">
-        <div class="flex items-center flex-wrap">
+    <section class="container relative mx-auto mt-10 xl:-mt-20 px-6 z-10 h-full mb-0">
+        <div class="flex items-center flex-wrap h-auto">
             <div class="w-full md:w-1/2 px-0 lg:px-14 xl:pt-24">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
 					<span class="font-semibold">Digitale Lösungen</span> - Wo Standard aufhört, fängt Zufriedenheit an
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#94CE6D] to-[#53B36E] text-white margin-to-top2 mt-0">
+    <section class="bg-gradient-to-b from-[#94CE6D] to-[#53B36E] text-white mt-0">
         <div class="container mx-auto px-6 pt-0 pb-0 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 text-white">
                 <div class="pt-0 px-20">

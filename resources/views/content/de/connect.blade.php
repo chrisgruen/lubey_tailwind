@@ -8,7 +8,7 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto px-6 mt-10 xl:-mt-60 z-10 mb-20">
+    <section class="container relative mx-auto px-6 mt-10 xl:-mt-60 z-10 h-full mb-0">
         <div class="flex items-center flex-wrap xl:pt-36">
             <div class="w-full md:w-1/2 px-0 xl:px-14 mb-16 xl:mb-0" >
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#8E5BA0] to-[#482E51] text-white margin-to-top2 mt-0 pb-16 h-auto">
+    <section class="bg-gradient-to-b from-[#8E5BA0] to-[#482E51] text-white  mt-0 pb-16 h-auto">
         <div class="container mx-auto px-6 pt-10 pb-0 px-5">
 			<h2 class="text-3xl lg:text-5xl text-center">So funktioniert's</h2>
 			<p class="text-center mt-5">

@@ -8,7 +8,7 @@
 		</div>
     </section>
 
-    <section class="container relative mx-auto px-6 mt-10 xl:-mt-10 z-10 mb-20">
+    <section class="container relative mx-auto px-6 mt-10 xl:-mt-10 z-10 h-full mb-0">
         <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-5 xl:pt-8">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#EFC313] to-[#FCDA50] margin-to-top2 mt-0">
+    <section class="bg-gradient-to-b from-[#EFC313] to-[#FCDA50] mt-0">
         <div class="container mx-auto px-6 pt-0 pb-0 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 <div class="hidden xl:block pt-0 px-20">
