@@ -12,7 +12,7 @@
         <div class="flex items-center flex-wrap mb-20 ">
             <div class="w-full md:w-1/2 px-0 lg:px-14 xl:pt-24">
 				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
-					<span class="font-semibold">Digitale Lösungen</span> - Wo Standard aufhören, fängt Zufriedenheit an
+					<span class="font-semibold">Digitale Lösungen</span> - Wo Standard aufhört, fängt Zufriedenheit an
 				</h3>
 				<p class="mt-5">
 					Wir sind überzeugt, dass erfolgbringende Software Lösungen nur individuell entwickelt werden können.

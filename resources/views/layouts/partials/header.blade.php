@@ -18,7 +18,7 @@
 			<svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 		</button>
 		<div class="absolute hidden md:block top-3 right-3">
-            <a href="{{route('content.page',['pageID'=>'new_home'])}}" class="bg-white border border-blue-800 text-blue-800 text-sm rounded py-2 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
+            <a href="{{route('user.signin') }}" class="bg-white border border-blue-800 text-blue-800 text-sm rounded py-2 px-3 uppercase tracking-wider hover:text-white hover:bg-blue-800">
                 <i class="fas fa-user"></i> Login
             </a>
         </div>
@@ -27,31 +27,31 @@
 				<div class="w-full">
         			<ul class="flex flex-col mt-4 ml-6 md:flex-row md:space-x-8 md:mt-12 md:text-sm md:font-medium md:text-lg">
         				<li>
-        					<a href="{{route('content.page',['pageID'=>'individual'])}}" 
+        					<a href="{{route('content.page',['pageID'=>'individual'])}}"
         						class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('individual*') ? 'font-bold' : 'hover:text-blue-600' }}">
         						Digitale Lösungen
     						</a>
         				</li>
         				<li>
-        					<a href="{{route('content.page',['pageID'=>'trade'])}}" 
+        					<a href="{{route('content.page',['pageID'=>'trade'])}}"
         						class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}">
             					Trade
     						</a>
         				</li>
         				<li>
-        					<a href="{{route('content.page',['pageID'=>'connect'])}}" 
+        					<a href="{{route('content.page',['pageID'=>'connect'])}}"
         						class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('connect') ? 'font-bold' : 'hover:text-blue-600' }}">
         						Connect
         					</a>
         				</li>
         				<li>
-        					<a href="{{route('content.page',['pageID'=>'consult'])}}" 
+        					<a href="{{route('content.page',['pageID'=>'consult'])}}"
         						class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('consult') ? 'font-bold' : 'hover:text-blue-600' }}">
         						Consult
     						</a>
         				</li>
         				<li>
-        					<a href="{{route('content.page',['pageID'=>'lubey_ag'])}}" 
+        					<a href="{{route('content.page',['pageID'=>'lubey_ag'])}}"
         						class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('lubey_ag') ? 'font-bold' : 'hover:text-blue-600' }}">
         						Lubey AG
     						</a>

@@ -22,6 +22,12 @@ Route::get('/', function () {
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/home', [HomeController::class, 'getHomeScreen'])->name('home');
-Route::get('/registrieren', [HomeController::class, 'getSignUpStep1'])->name('register');
-Route::get('/login', [HomeController::class, 'getSignUpStep1'])->name('register');
+Route::get('/login', [HomeController::class, 'getSignin'])->name('user.signin');
+Route::get('/registrieren', [HomeController::class, 'getSignUpStep1'])->name('user.signup.registrieren');
+Route::post('/registration', [HomeController::class, 'postSignUpStep1'])->name('user.signup.Step1');
+
+
 Route::get('/{pageID}', [HomeController::class, 'getContent'])->name('content.page');
+
+
+
