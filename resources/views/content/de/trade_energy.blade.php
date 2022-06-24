@@ -13,7 +13,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full xl:h-[60rem]">
             <div class="pt-64 pr-0 lg:pr-10">
                 <h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10 mb-10">
-                    <span class="font-semibold">Mit Lubey TRADE</span> - Lernen Sie die Vorteile der EU-weiten Stoffstrombeschaffung als Energieerzeuger kennen
+                    <span class="font-semibold">Mit Lubey TRADE</span> - Lernen Sie die Vorteile der EU-weiten Stoffstrombeschaffung als Energieerzeuger kennen 
                 </h3>
                 <div class="flex">
                     <div class="flex-none w-14 h-14">
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-
+   
    {{--
     <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub5">
         <div class="pt-20 pb-16">
@@ -111,7 +111,7 @@
         </div>
     </section>
     --}}
-
+    
     <!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
@@ -126,7 +126,7 @@
         	></iframe>
         </div>
     </section>
-
+    
     {{--
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
@@ -152,7 +152,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Automatisierte Vertragsdokumente</h3>
                         <p class="mb-15">
-                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.
+                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.  
                         </p>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
                         <p class="mb-15">
-                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben.
+                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben. 
                         </p>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Zulassungsprüfung</h3>
                         <p class="mb-15">
-                            Sie prüfen die Erstgebote und lassen die Teilnehmer zur E-Auktion zu. Auf Wunsch erledigt das Lubey Support Team diese Aufgabe für Sie.
+                            Sie prüfen die Erstgebote und lassen die Teilnehmer zur E-Auktion zu. Auf Wunsch erledigt das Lubey Support Team diese Aufgabe für Sie. 
                         </p>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
         </div>
 	</section>
 	--}}
-
+	
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-20 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
@@ -269,9 +269,9 @@
             </div>
         </div>
     </section>
-
+    
 	@include('content.de.partials.table')
-
+    
     {{--
     <section class="container mx-auto px-6 my-20">
     	<h2 class="text-3xl text-blue-800 text-center">

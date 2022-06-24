@@ -10,7 +10,6 @@
                         Telefon: 0345 977 24 96 0<br>
                         E-Mail: office@lubey.ag
                     </li>
-
                 </ul>
             </div>
             <div class="w-full md:w-1/4 text-center md:text-left ">

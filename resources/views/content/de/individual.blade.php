@@ -21,7 +21,7 @@
 					So beraten wir Sie exakt dem, was Sie wirklich benötigen und entwickeln die Lösung passende Lösung dazu.
 				</p>
 				<div class="mt-10">
-    				<a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
+    				<a href="https://outlook.office365.com/owa/calendar/LubeyAG@lubey.ag/bookings/" target="_blank" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span>Beratungstermin vereinbaren!
                     </a>
                 </div>
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-b from-[#94CE6D] to-[#53B36E] text-white mt-0">
+    <section class="bg-gradient-to-b from-[#94CE6D] to-[#53B36E] text-white margin-to-top2 mt-0">
         <div class="container mx-auto px-6 pt-0 pb-0 px-5">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 text-white">
                 <div class="pt-0 px-20">
@@ -100,7 +100,7 @@
 					Egal, ob eine Schnittstellen fehlt oder eine ganze ERP Lösung, wir entwickeln es für Sie maßgescheidert.
                 </p>
                 <div class="mt-10 text-lg">
-                    <a href="#" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
+                    <a href="https://outlook.office365.com/owa/calendar/LubeyAG@lubey.ag/bookings/" target="_blank" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 hover:text-white hover:bg-blue-800">
                         <span class="font-semibold">JETZT</span> Termin vereinbaren
                     </a>
                 </div>
@@ -126,9 +126,11 @@
                 </div>
                 <div class="w-full md:w-1/3 mt-12">
                     <img src="{{asset('img/frontend/Recycle.png')}}" alt="Recycle" width="200"/>
+                    {{--
                     <button class="bg-transparent hover:text-white py-2 px-4 mt-5 text-lg border rounded">
                         Erfahren Sie mehr
                     </button>
+                    --}}
                 </div>
             </div>
         </div>
@@ -147,6 +149,22 @@
                     Egal welche Branche; Viele Standorte = viele Dienstleister = vielfältige Prozesse und Formate.
 					Oft fehlen in der Verwaltung wichtige Daten und Belege zur zentralen Auswertung,
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+            <div class="px-10">
+                <h2 class="text-3xl text-blue-800">
+                    <span class="font-semibold">MIT Lubey</span> - einfacher <br />
+                </h2>
+                <p class="mt-16">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="px-10 mt-10 lg:mt-0">
+                <img src="{{asset('img/frontend/individual_lubey_loesung_soll.png')}}" alt="Lubey Lösung"/>
             </div>
         </div>
     </div>
@@ -229,7 +247,7 @@
             sind Inkompatibilität & Hoher Personalaufwand Geschichte
         </h2>
         <div class="mt-10 text-lg text-center px-5">
-            <a href="#" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 text-left hover:text-white hover:bg-blue-800">
+            <a href="https://outlook.office365.com/owa/calendar/LubeyAG@lubey.ag/bookings/" target="_blank" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-5 text-left hover:text-white hover:bg-blue-800">
                 <span class="font-semibold mr-1">JETZT</span> einen Beratungstermin vereinbaren
             </a>
         </div>

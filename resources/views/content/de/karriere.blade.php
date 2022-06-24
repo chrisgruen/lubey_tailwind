@@ -14,7 +14,7 @@
     <section class="container mx-auto my-5 p-5">
         <div class="row justify-content-center">
             <div class="col-md-8 ">
-                <h3 class="text-lg font-semibold my-3 text-blue-800">Das erwartet Bewerber bei Lubey</h3>
+                <h3 class="text-2xl font-semibold my-3 text-blue-800">Das erwartet Bewerber bei Lubey</h3>
                 <ul class="list-disc ml-4 my-4">
                     <li>Spannende, abwechslungsreiche und herausfordernde Aufgaben in einem vielfältigen Aufgabenspektrum</li>
                     <li>Flache Hierarchien, kurze Entscheidungswege</li>
@@ -30,7 +30,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 border">
             <div class="p-5">
-                <h4 class="mt-3 text-blue-800 text-lg font-semibold">Senior Sales Consultant (m/w/d)</h4>
+                <h4 class="mt-3 text-blue-800 text-2xl font-semibold">Senior Sales Consultant (m/w/d)</h4>
                 <ul class="list-disc ml-4 my-2">
                     <li><span class="custom-list1-txt">ab sofort</span></li>
                     <li><span class="custom-list1-txt">Vollzeit/Teilzeit</span></li>
@@ -70,7 +70,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 border mt-10">
             <div class="p-5">
-                <h4 class="mt-3 text-blue-800 text-lg font-semibold">Softwareentwickler PHP (m/w/d)</h4>
+                <h4 class="mt-3 text-blue-800 text-2xl font-semibold">Softwareentwickler PHP (m/w/d)</h4>
                 <ul class="list-disc ml-4 my-2">
                     <li><span class="custom-list1-txt">ab sofort</span></li>
                     <li><span class="custom-list1-txt">Vollzeit/Teilzeit</span></li>
@@ -98,7 +98,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 border mt-10">
             <div class="p-5">
-                <h4 class="mt-3 text-blue-800 text-lg font-semibold">Werkstudierende Backoffice/Salessupport (m/w/d)</h4>
+                <h4 class="mt-3 text-blue-800 text-2xl font-semibold">Werkstudierende Backoffice/Salessupport (m/w/d)</h4>
                 <ul class="list-disc ml-4 my-2">
                     <li><span class="custom-list1-txt">ab sofort</span></li>
                     <li><span class="custom-list1-txt">Teilzeit</span></li>

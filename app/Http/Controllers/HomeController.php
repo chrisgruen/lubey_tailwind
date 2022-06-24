@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
 class HomeController extends Controller {
@@ -58,5 +59,19 @@ class HomeController extends Controller {
         );
 
         return view('registration.passedStep1');
+    }
+
+    public function subscribe_newsletter(Request $request)
+    {
+
+        $this->validate($request, [
+            'email' => 'email|required',
+            'accept_privacy' => 'accepted'
+            //'g-recaptcha-response' => 'required|captcha'
+        ],
+            ['accept_privacy.accepted' => 'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben.']
+        );
+
+        dd($request->all());
     }
 }
