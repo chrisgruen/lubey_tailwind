@@ -1,27 +1,27 @@
 @extends('layouts.frontend_tailwind')
 @section('description')Bei Lubey Trade trifft sich die gesamte Branche. Hier können Sie kostenlose E-Vergaben und Auktionen erstellen, um den Bestpreis für Ihre Stoffe zu erzielen.@endsection
 @section('content')
-	<section class="h-40 lg:h-72 bg-cover bg-htrade z-0">
-		<div class="container mx-auto px-5 pt-10 lg:pt-20">
-			<p class="text-3xl lg:text-5xl font-semibold text-white">Lubey</p>
-			<h2 class="text-4xl lg:text-7xl font-semibold text-white">TRADE</h2>
-		</div>
+    <section class="h-40 lg:h-72 bg-cover bg-htrade z-0">
+        <div class="container mx-auto px-5 pt-10 lg:pt-20">
+            <p class="text-3xl lg:text-5xl font-semibold text-white">Lubey</p>
+            <h2 class="text-4xl lg:text-7xl font-semibold text-white">TRADE</h2>
+        </div>
     </section>
 
     <section class="container relative mx-auto h-full px-6 mt-10 xl:-mt-40 z-10 h-full mb-0">
         <div class="flex items-center flex-wrap">
             <div class="w-full md:w-1/2 px-0 lg:px-14">
-				<h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
-					<span class="font-semibold">Lubey TRADE</span> - macht den
-					Handel mit Abfällen einfacher,
-					effizienter und sicherer
-				</h3>
-				<p class="mt-5">
-					Darüber hinaus lassen sich gute wirtschaftliche Effekte erzielen. Über unterschiedliche Vermarktungswege und Vermarktungsformen
-					findet jedes abfallerzeugende Unternehmen den richtigen Entsorger. Folgende Highlights erwarten den Nutzer bei Lubey Trade:
-				</p>
-				<div class="mt-10">
-    				<a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
+                <h3 class="text-3xl lg:text-4xl text-blue-800 font-light leading-10">
+                    <span class="font-semibold">Lubey TRADE</span> - macht den
+                    Handel mit Abfällen einfacher,
+                    effizienter und sicherer
+                </h3>
+                <p class="mt-5">
+                    Darüber hinaus lassen sich gute wirtschaftliche Effekte erzielen. Über unterschiedliche Vermarktungswege und Vermarktungsformen
+                    findet jedes abfallerzeugende Unternehmen den richtigen Entsorger. Folgende Highlights erwarten den Nutzer bei Lubey Trade:
+                </p>
+                <div class="mt-10">
+                    <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span>Anmelden und erleben wie einfach es geht!
                     </a>
                 </div>
@@ -33,68 +33,68 @@
     </section>
 
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-0">
-		<div class="container mx-auto px-6 py-16 px-5">
+        <div class="container mx-auto px-6 py-16 px-5">
             <h2 class="text-center text-3xl text-white">
-            	Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
+                Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
             </h2>
             <div class="flex flex-wrap mt-16">
-            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
-            		<div class="mt-7">
-            			<h3 class="text-lg font-semibold">Städte & Kommunen</h3>
-            			<p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
-            			<a href="{{route('content.page',['pageID'=>'trade_communes'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
-            				mehr erfahren
-            			</a>
-            		</div>
-            	</div>
-            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
-            		<div class="mt-7">
-            			<h3 class="text-lg font-semibold">Handel</h3>
-            			<p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
-            			<a href="{{route('content.page',['pageID'=>'trade_trade'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
-            				mehr erfahren
-            			</a>
-            		</div>
-            	</div>
-            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
-            		<div class="mt-7">
-            			<h3 class="text-lg font-semibold">Industrie</h3>
-            			<p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
-            			<a href="{{route('content.page',['pageID'=>'trade_industry'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
-            				mehr erfahren
-            			</a>
-            		</div>
-            	</div>
-            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
-            		<div class="mt-7">
-            			<h3 class="text-lg font-semibold">Entsorger</h3>
-            			<p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
-            			<a href="{{route('content.page',['pageID'=>'trade_disposer'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
-            				mehr erfahren
-            			</a>
-            		</div>
-            	</div>
-            	<div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
-            		<img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
-            		<div class="mt-7">
-            			<h3 class="text-lg font-semibold">Energieerzeuger</h3>
-            			<p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
-            			<a href="{{route('content.page',['pageID'=>'trade_energy'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
-            				mehr erfahren
-            			</a>
-            		</div>
-            	</div>
-            </div>            
-		</div>   
-	</section>
+                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
+                    <div class="mt-7">
+                        <h3 class="text-lg font-semibold">Städte & Kommunen</h3>
+                        <p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_communes'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                            mehr erfahren
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
+                    <div class="mt-7">
+                        <h3 class="text-lg font-semibold">Handel</h3>
+                        <p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_trade'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                            mehr erfahren
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
+                    <div class="mt-7">
+                        <h3 class="text-lg font-semibold">Industrie</h3>
+                        <p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_industry'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                            mehr erfahren
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
+                    <div class="mt-7">
+                        <h3 class="text-lg font-semibold">Entsorger</h3>
+                        <p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_disposer'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                            mehr erfahren
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
+                    <div class="mt-7">
+                        <h3 class="text-lg font-semibold">Energieerzeuger</h3>
+                        <p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_energy'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                            mehr erfahren
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="container mx-auto px-6 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
-           So funktioniert's
+            So funktioniert's
         </h2>
         <p class="text-center mx-auto mt-7 w-full lg:w-1/2">
             Die Schritte einer E-Vergabe mit dem dynamischen Beschaffungs-System der verdeckten E-Auktion sind hier zusammengefasst.
@@ -103,13 +103,13 @@
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
         </div>
     </section>
-    
+
     @include('content.de.partials.table')
 
     <section class="container mx-auto mt-10 pt-5 xl-pt-10 px-5">
-    	<div class="flex items-center py-4">
-    		<div class="flex-grow h-px bg-gray-400"></div> 
-    		<span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
+        <div class="flex items-center py-4">
+            <div class="flex-grow h-px bg-gray-400"></div>
+            <span class="flex-shrink text-blue-800 text-3xl lg:text-5xl px-6">Alle Vorteile im Überblick</span>
             <div class="flex-grow h-px bg-gray-400"></div>
         </div>
     </section>
@@ -127,7 +127,7 @@
             <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                     <p class="mb-2">
-                        Lubey Trade kann Branchenübergreifend eingesetzt werden und bietet branchenunabhängig allen Teilnehmern effizientere Abfall-Vermarktungen und meist wirtschaftlich bessere Ergebnisse. Egal, ob Einzelhandel, Industrie-Erzeuger, Pharmakonzern oder Sammler und Sortierer, alle können, je nach Stoffstrom und Mengen, große Vorteile erzielen.  
+                        Lubey Trade kann Branchenübergreifend eingesetzt werden und bietet branchenunabhängig allen Teilnehmern effizientere Abfall-Vermarktungen und meist wirtschaftlich bessere Ergebnisse. Egal, ob Einzelhandel, Industrie-Erzeuger, Pharmakonzern oder Sammler und Sortierer, alle können, je nach Stoffstrom und Mengen, große Vorteile erzielen.
                     </p>
                 </div>
             </div>
@@ -170,7 +170,7 @@
             <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                       	Alle Vertragsbestandteile und Leistungsbeschreibungen werden automatisch erstellt und sind zum Abschluss der Vergabe-Erstellung  einsehbar. Diese können vor Veröffentlichung geprüft, übernommen, gänzlich oder in Teilen weggelassen oder ergänzt werden. Die Struktur dieser Verträge wurde mit führenden, praktizierenden Fachanwälten im Vergaberecht erarbeitet. Die Inhalte sind treffend und klar formuliert. Der Erzeuger spart sich ggbf. bisherige externe Dienstleistungen und viel Zeit. 
+                        Alle Vertragsbestandteile und Leistungsbeschreibungen werden automatisch erstellt und sind zum Abschluss der Vergabe-Erstellung  einsehbar. Diese können vor Veröffentlichung geprüft, übernommen, gänzlich oder in Teilen weggelassen oder ergänzt werden. Die Struktur dieser Verträge wurde mit führenden, praktizierenden Fachanwälten im Vergaberecht erarbeitet. Die Inhalte sind treffend und klar formuliert. Der Erzeuger spart sich ggbf. bisherige externe Dienstleistungen und viel Zeit.
                     </p>
                 </div>
             </div>
@@ -185,7 +185,7 @@
             <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
                     <p class="mb-2">
-                       	Lubey Trade dokumentiert dem Erzeuger automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe. Prüfergebnisse, Nachweise, Erstgebote, E-Auktions Gebote un  Preisschritte werden übersichtlich und revisionssicher festgehalten.
+                        Lubey Trade dokumentiert dem Erzeuger automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe. Prüfergebnisse, Nachweise, Erstgebote, E-Auktions Gebote un  Preisschritte werden übersichtlich und revisionssicher festgehalten.
                     </p>
                 </div>
             </div>
@@ -214,32 +214,32 @@
             </h2>
             <div id="accordion-collapse-body-7" class="hidden" aria-labelledby="accordion-collapse-heading-7">
                 <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-               		<p class="mb-2">
-                        <ul class="list-decimal pl-5">
-                            <li>
-                            	<span class="font-semibold">Vergaberechtskonforme E-Vergabe</span><br />
-                            	Trade ist so konzipiert, dass die Vergabegesetze, die bei öffentlich-rechtlichen Ausschreibungen von Abfällen und Wertstoffen zu beachten sind, erfüllt werden. Auch hochkomplexen EU-Vergaben können über Trade durchgeführt werden.
-                            </li>
-                            <li>
-                            	<span class="font-semibold">Stoffpreise per Festpreis oder Indexkopplung</span><br />
-                            	Der Erzeuger kann bei Ausschreibungserstellung auswählen, ob der Stoff als Festpreis oder als indexbasierter Preis angeboten und abgerechnet wird. Diese Möglichkeit bietet allen Beteiligten das größtmögliche Maß an Sicherheit.
-                            </li>
-                            <li>
-                            	<span class="font-semibold">Auto-Fehler-Indikationen</span><br />
-                            	Das System macht den Anwender aufmerksam auf Fehler bei der Eingabe. Daher kommt es nur sehr selten zu Anwendungsfehlern. Dieser Sicherheitsaspekt hat zum Beispiel bei betriebsinternen Verfahrens-Fristen eine sehr hohe Relevanz.
-                            </li>
-                            <li>
-                            	<span class="font-semibold">CO² Footprints mit einbeziehen</span><br />
-                            	CO² Footprints können wahlweise zum Bestandteil der Vermarktung gemacht und auch eingepreist werden. Dies beinhaltet die Bemessung von CO² Emissionen des Transportes, als auch (optional) die Verrechnung von CO² Emissionen (Gutschriften) in der thermischen Verwertung.
-                            </li>
-                            <li>
-                            	<span class="font-semibold">Revisionssichere Dokumentation</span><br />
-                            	Die Lösung dokumentiert automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe und E-Auktion (Gebote, Preisschritte etc) übersichtlich und revisionssicher. Der Report ist jederzeit abrufbar.
-                            </li>
-                            <li>
-                            	<span class="font-semibold">automatische und selektive Veröffentlichung</span><br />
-                            </li>
-                        </ul>
+                    <p class="mb-2">
+                    <ul class="list-decimal pl-5">
+                        <li>
+                            <span class="font-semibold">Vergaberechtskonforme E-Vergabe</span><br />
+                            Trade ist so konzipiert, dass die Vergabegesetze, die bei öffentlich-rechtlichen Ausschreibungen von Abfällen und Wertstoffen zu beachten sind, erfüllt werden. Auch hochkomplexen EU-Vergaben können über Trade durchgeführt werden.
+                        </li>
+                        <li>
+                            <span class="font-semibold">Stoffpreise per Festpreis oder Indexkopplung</span><br />
+                            Der Erzeuger kann bei Ausschreibungserstellung auswählen, ob der Stoff als Festpreis oder als indexbasierter Preis angeboten und abgerechnet wird. Diese Möglichkeit bietet allen Beteiligten das größtmögliche Maß an Sicherheit.
+                        </li>
+                        <li>
+                            <span class="font-semibold">Auto-Fehler-Indikationen</span><br />
+                            Das System macht den Anwender aufmerksam auf Fehler bei der Eingabe. Daher kommt es nur sehr selten zu Anwendungsfehlern. Dieser Sicherheitsaspekt hat zum Beispiel bei betriebsinternen Verfahrens-Fristen eine sehr hohe Relevanz.
+                        </li>
+                        <li>
+                            <span class="font-semibold">CO² Footprints mit einbeziehen</span><br />
+                            CO² Footprints können wahlweise zum Bestandteil der Vermarktung gemacht und auch eingepreist werden. Dies beinhaltet die Bemessung von CO² Emissionen des Transportes, als auch (optional) die Verrechnung von CO² Emissionen (Gutschriften) in der thermischen Verwertung.
+                        </li>
+                        <li>
+                            <span class="font-semibold">Revisionssichere Dokumentation</span><br />
+                            Die Lösung dokumentiert automatisch im „Sales Cockpit“ alle wesentlichen Ergebnisse der Vergabe und E-Auktion (Gebote, Preisschritte etc) übersichtlich und revisionssicher. Der Report ist jederzeit abrufbar.
+                        </li>
+                        <li>
+                            <span class="font-semibold">automatische und selektive Veröffentlichung</span><br />
+                        </li>
+                    </ul>
                     </p>
                 </div>
             </div>
@@ -285,7 +285,7 @@
     <section class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white my-20">
         <div class="container mx-auto text-center px-6 pt-10 pb-10 px-5">
             <h2 class="text-3xl lg:text-5xl font-semibold">
-               Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
+                Werden Sie JETZT <img class="inline w-80" src="{{asset('img/frontend/muellionaer1.png')}}" alt="muellionaer"/>
             </h2>
             <p class="text-xl lg:text-3xl mx-auto text-center w-2/3 mt-7">
                 Registrieren Sie sich auf Lubey.de <span>bis zum 30.06.2022</span>
