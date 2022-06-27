@@ -39,17 +39,17 @@
                         <div class="w-full text-center mb-5 lg:mb-0">
                             <img class="inline-block" src="{{ url('/img/icons_svg/icon-10.svg') }}" width="60px" alt="Icon_1">
                             <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
-                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                            <p>Beantworten Sie wenige Fragen und legen Sie so Ihre Rolle fest.</p>
                         </div>
                         <div class="w-full text-center mb-5 lg:mb-0">
                             <img class="inline-block" src="{{ url('/img/icons_svg/icon-11.svg') }}" width="60px" alt="Icon_1">
                             <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
-                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                            <p>Wir überprüfen Ihre Handelsberechtigung und senden Ihnen den Aktivierungsschlüssel per Post zu</p>
                         </div>
                         <div class="w-full text-center mb-5 lg:mb-0">
                             <img class="inline-block" src="{{ url('/img/icons_svg/icon-12.svg') }}" width="60px" alt="Icon_1">
                             <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
-                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                            <p>Durch Eingabe des Aktivierungsschlüssels wird Ihr Profil aktiviert.</p>
                         </div>
                     </div>
                     <p class="mt-7">
