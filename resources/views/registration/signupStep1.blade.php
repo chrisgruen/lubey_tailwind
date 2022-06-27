@@ -13,11 +13,53 @@
         </div>
     </section>
 
-    <section class="container mx-auto my-5 p-5">
-        <div class="w-full md:w-1/2 mx-auto mt-5">
-            <h4 class="text-lg text-center text-blue-800 mb-5 mt-5">
-                Erst wenn alle Zulassungsvoraussetzungen erfüllt sind, können Sie am Handel bei Lubey Trade teilnehmen. Bei der Registrierung müssen Sie unter anderem Angaben zu Ihrem Unternehmen oder zu Ihrer Einrichtung machen.
-            </h4>
+    <section class="container mx-auto p-5">
+        <div class="container mx-auto py-5 pb-6 px-5 lg:px-24">
+            <div class="w-full mx-auto">
+                <h4 class="text-xl text-blue-800 mb-5 mt-5">
+                    Erst wenn alle Zulassungsvoraussetzungen erfüllt sind, können Sie am Handel bei Lubey Trade teilnehmen. Bei der Registrierung müssen Sie unter anderem Angaben zu Ihrem Unternehmen oder zu Ihrer Einrichtung machen.
+                </h4>
+            </div>
+            <div id="accordion-collapse" data-accordion="open">
+                <h2 id="accordion-collapse-heading-1">
+                    <button type="button" class="flex justify-between items-center p-2 w-full text-xl text-left text-gray-500 rounded-t-lg border border-b-0 border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+                    <span class="text-blue-800">
+                    	Weitere Informationen zum Zulassungsprozess <i class="fas fa-chevron-right icon-small"></i>
+                	</span>
+                        <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                    <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 pt-10">
+                        <div class="w-full text-center mb-5 lg:mb-0">
+                            <img class="inline-block" src="{{ url('/img/icons_svg/icon-9.svg') }}" width="60px" alt="Icon_1">
+                            <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
+                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                        </div>
+                        <div class="w-full text-center mb-5 lg:mb-0">
+                            <img class="inline-block" src="{{ url('/img/icons_svg/icon-10.svg') }}" width="60px" alt="Icon_1">
+                            <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
+                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                        </div>
+                        <div class="w-full text-center mb-5 lg:mb-0">
+                            <img class="inline-block" src="{{ url('/img/icons_svg/icon-11.svg') }}" width="60px" alt="Icon_1">
+                            <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
+                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                        </div>
+                        <div class="w-full text-center mb-5 lg:mb-0">
+                            <img class="inline-block" src="{{ url('/img/icons_svg/icon-12.svg') }}" width="60px" alt="Icon_1">
+                            <h2 class="text-3xl text-blue-800 font-semibold mt-2">Profil</h2>
+                            <p>Erstellen und bestätigen  Sie Ihr persönliches Profil.</p>
+                        </div>
+                    </div>
+                    <p class="mt-7">
+                        Bei der Registrierung müssen Sie unter anderem Angaben zu Ihrem Unternehmen oder zu Ihrer Einrichtung machen. Entsprechend Ihrer Rolle sind verschiedene Nachweise bzw. Dokumente zu erbringen. So muss z. B. ein Erzeuger von Abfall seine Erzeugernummer oder der Sammler von Abfall seine Sammlernummer verpflichtend angeben sowie diesbezügliche amtliche Nachweise erbringen. Erst nach Erfüllung der Zulassungsvoraussetzungen wird die Handelsberechtigung erteilt und ein Unternehmen darf bei Lubey Trade mit Abfällen und Sekundärrohstoffen handeln.
+                    </p>
+                    <p class="mt-7">
+                        Alle Bedingungen zum Handel auf Lubey Trade entnehmen Sie bitte unseren derzeit gültigen allgemeinen Geschäftsbedingungen. Die gesetzlichen Grundlagen zum Handel sowie zum Umgang mit Sekundärrohstoffen und Abfällen sind im Gesetz zur Neuordnung des Kreislaufwirtschafts- und Abfallrechts geregelt. Je nach Stoffklasse können weitere gesetzliche Bedingungen hinzukommen.
+                    </p>
+                </div>
+            </div>
         </div>
 
         @if(count($errors) > 0)
@@ -30,7 +72,7 @@
 
         <div class="w-full lg:w-1/2 mx-auto mt-5">
             <form class="bg-white px-0 py-5 mb-4 h-full" action="{{ route('user.signup.Step1') }}" method="post" >
-                @honeypot
+                {{-- @honeypot --}}
                 <div class="text-lg font-semibold mb-3">@lang('messages.personalData')</div>
 
                 <div class="mb-4">
