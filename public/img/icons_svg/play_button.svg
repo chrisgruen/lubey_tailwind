@@ -1,0 +1,19 @@
+<svg id="Play-Button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 60">
+    <defs>
+        <style>.cls-1{fill:url(#Unbenannter_Verlauf_18);}
+            .cls-1:hover{fill:#ff0000;}
+            .cls-2{fill:url(#Unbenannter_Verlauf_18-2);}.cls-3{fill:#fff;}.cls-4{fill:#f1f1f1;}</style>
+        <linearGradient id="Unbenannter_Verlauf_18" x1="59.06" y1="41.18" x2="0.61" y2="14.07" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#51ade6"/>
+            <stop offset="0.15" stop-color="#51ade6"/>
+            <stop offset="0.85" stop-color="#07468f"/>
+            <stop offset="1" stop-color="#07468f"/>
+        </linearGradient>
+        <linearGradient id="Unbenannter_Verlauf_18-2" x1="3.33" y1="30" x2="66.7" y2="30" xlink:href="#Unbenannter_Verlauf_18"/>
+    </defs>
+    <path class="cls-1" id="pb_bg" d="M55,8H15C8.4,8,3.5,10.51,3.5,17.11L3.33,30,3.5,43c0,6.6,4.9,9,11.5,9H55c6.6,0,11.44-2.4,11.44-9l.26-13-.26-12.89C66.44,10.51,61.6,8,55,8Z"/>
+    <path class="cls-2"
+          d="M55,9.5c6.6,0,9.94,2.56,9.94,7.64L65.2,30l-.26,13c0,1.85,0,7.5-9.94,7.5H15C5,50.5,5,44.85,5,43L4.83,30,5,17.11c0-5,3.36-7.61,10-7.61H55M55,8H15C8.4,8,3.5,10.51,3.5,17.11L3.33,30,3.5,43c0,6.6,4.9,9,11.5,9H55c6.6,0,11.44-2.4,11.44-9l.26-13-.26-12.89C66.44,10.51,61.6,8,55,8Z"/>
+    <polygon class="cls-3" points="28.22 21.03 28.22 38.97 45.61 30 28.22 21.03"/>
+    <polygon class="cls-4" points="28.22 21.03 45.61 30 28.22 22.04 28.22 21.03"/>
+</svg>
