@@ -5,6 +5,8 @@ return [
     'signin_connect'                                                     => 'Bei Lubey Connect anmelden',
     "personalData"                                                       => "Angaben zu Ihrer Person",
     'selectSalutation'                                                   => 'Anrede',
+    'mr'                                                                 => 'Herr',
+    'mrs'                                                                => 'Frau',
     'your_firstname'                                                     => 'Ihr Vorname',
     'your_lastname'                                                      => 'Ihr Nachname',
     'emailConfirm'                                                       => 'E-Mail Bestätigung',

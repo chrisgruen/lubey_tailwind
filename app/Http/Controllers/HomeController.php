@@ -39,6 +39,28 @@ class HomeController extends Controller {
         return view('registration.signupStep1');
     }
 
+    public function postSignin(Request $request) {
+        $this->validate($request, [
+            'email'    => 'required|email',
+            'password' => 'required|min:4'
+        ]);
+        dd('User signin: ',$request->all());
+
+        /*
+        if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
+            $this->checkPremium(Auth::company());
+            if (Auth::check() && (!Auth::company()->agb_accepted_at || (Auth::company()->agb_accepted_at && strtotime(Auth::company()->agb_accepted_at) < strtotime(config('trade.date_gtc_accept')))) && config('trade.check_gtc_accept'))
+                return redirect()->route('company.' . __('company.gtc_updated'));
+            return redirect()->intended(route('bay.index'));
+        } else {
+            $was_redirected = false;
+            if (redirect()->intended(route('user.signin'))->getTargetUrl() != route('user.signin'))
+                $was_redirected = true;
+            return view('user.signin', array('attempt' => true, 'was_redirected' => $was_redirected));
+        }
+        */
+    }
+
     public function postSignUpStep1(Request $request) {
 
         $this->validate($request, [
