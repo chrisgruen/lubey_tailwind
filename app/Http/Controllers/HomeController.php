@@ -1,8 +1,11 @@
 <?php
 namespace App\Http\Controllers;
 
+use App\Notifications\User\PasswordResetNotification;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller {
 
@@ -30,7 +33,7 @@ class HomeController extends Controller {
     }
 
     public function getSignin() {
-        return view('user.signin');
+        return view('user.signin',['attempt' => false]);
     }
 
     public function getSignUpStep1() {
@@ -44,21 +47,41 @@ class HomeController extends Controller {
             'email'    => 'required|email',
             'password' => 'required|min:4'
         ]);
-        dd('User signin: ',$request->all());
 
-        /*
         if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
+            /*
             $this->checkPremium(Auth::company());
             if (Auth::check() && (!Auth::company()->agb_accepted_at || (Auth::company()->agb_accepted_at && strtotime(Auth::company()->agb_accepted_at) < strtotime(config('trade.date_gtc_accept')))) && config('trade.check_gtc_accept'))
                 return redirect()->route('company.' . __('company.gtc_updated'));
+            */
             return redirect()->intended(route('bay.index'));
         } else {
             $was_redirected = false;
             if (redirect()->intended(route('user.signin'))->getTargetUrl() != route('user.signin'))
                 $was_redirected = true;
-            return view('user.signin', array('attempt' => true, 'was_redirected' => $was_redirected));
+            return view('user.signin', ['attempt' => true, 'was_redirected' => $was_redirected]);
         }
-        */
+    }
+
+    public function passwordReset(Request $request) {
+
+        $user = User::where('email', '=', $request->email)->first();
+        $ret_val = array('status' => 'false', 'class' => 'danger', 'message' => trans('messages.noUserKnown'));
+
+        if ($user) {
+            //update Password
+            $new_password = str_random(8);
+            $user->password = bcrypt($new_password);
+            $ret_val['status'] = true;
+            $ret_val['class'] = 'success';
+            $user->save();
+            $user->notify(new PasswordResetNotification($new_password));
+            //Mail::to($user->email, $user->firstname . ' ' . $user->lastname)->send(new PasswordResetMail($user, $new_password));
+            $ret_val['message'] = trans('messages.passwordSent');
+        }
+
+        return redirect()->route('user.signin')->with('message', $ret_val['message']);
+        //return response(json_encode($ret_val))->header('Content-Type', 'application/json');
     }
 
     public function postSignUpStep1(Request $request) {

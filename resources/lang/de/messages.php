@@ -31,4 +31,7 @@ return [
     'terms_of_participation'                                             => 'Teilnahmebedingungen',
     "privacy"                                                            => "Datenschutz",
     "register"                                                           => "Registrieren",
+    "sendNewPassword"                                                    => "Hier können Sie ein neues Passwort an Ihre hinterlegte E-Mail-Adresse schicken lassen.",
+    "sendPassword"                                                       => "Passwort zuschicken",
+    "noUserKnown"                                                        => "Es gibt keinen Benutzer mit dieser E-Mail-Adresse",
 ];

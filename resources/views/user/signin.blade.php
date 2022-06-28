@@ -32,13 +32,13 @@
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
                         Benutzer
                     </label>
-                    <input type="email" id="email" name="email" class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Ihre E-Mail-Adresse">
+                    <input name="email" class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Ihre E-Mail-Adresse">
                 </div>
                 <div class="mb-6">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
                         Passwort
                     </label>
-                    <input type="password" id="email"  name="password" class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"  placeholder="************">
+                    <input type="password" name="password" class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"  placeholder="************">
                 </div>
                 <div class="flex items-center justify-between">
                     <div></div>
@@ -48,7 +48,35 @@
                 </div>
                 @csrf()
             </form>
-            <div class="border-t border-b border-gray-300 mt-0 py-2">
+
+            @if($attempt==true || Session::get('message'))
+                <div id="reset-box" class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
+                    <div class="text-sm font-semibold leading-2">@lang('auth.failed')</div>
+                    <p class="text-xs my-2">@lang('messages.sendNewPassword')</p>
+                    <form class="px-0 py-0 mb-4 h-full" action="{{ route('user.passwordReset') }}" method="post">
+                        <div class="mb-4">
+                            <label class="hidden block text-gray-700 text-sm font-bold mb-2" for="email">
+                                Benutzer
+                            </label>
+                            <input name="email" class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Ihre E-Mail-Adresse">
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div></div>
+                            <button type="submit" class="bg-white border border-blue-800 text-sm text-blue-800  rounded py-1 px-5 hover:text-white hover:bg-blue-800">
+                                @lang('messages.sendPassword')
+                            </button>
+                        </div>
+                        @csrf()
+                    </form>
+                    @if(Session::has('message'))
+                        <div class="bg-red-100 border border-red-400 p-2" role="alert">
+                            {{ Session::get('message') }}
+                        </div>
+                    @endif
+                </div>
+            @endif
+
+            <div class="border-t border-b border-gray-300 mt-7 py-2">
                 <a class="text-blue-500 hover:text-blue-800"
                    href="https://connect.lubey.de" target="_blank">@lang('messages.signin_connect') <i class="fal fa-arrow-square-right"></i>
                 </a>
@@ -66,7 +94,9 @@
 
 @push('scripts')
     <script>
-
+        @if($attempt==true || Session::get('message'))
+        var scroll_element = document.getElementById("reset-box");
+        scroll_element.scrollIntoView();
+        @endif
     </script>
 @endpush
-

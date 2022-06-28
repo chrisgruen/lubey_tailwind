@@ -27,7 +27,7 @@ Route::post('/login', [HomeController::class, 'postSignin'])->name('user.signin'
 Route::get('/registrieren', [HomeController::class, 'getSignUpStep1'])->name('user.signup.registrieren');
 Route::post('/registration', [HomeController::class, 'postSignUpStep1'])->name('user.signup.Step1');
 Route::post('/newsletter_subscribe', [HomeController::class, 'subscribe_newsletter'])->name('newsletter.subscribe');
-
+Route::post('/passwordReset', [HomeController::class, 'passwordReset'])->name('user.passwordReset');
 
 Route::get('/{pageID}', [HomeController::class, 'getContent'])->name('content.page');
 
