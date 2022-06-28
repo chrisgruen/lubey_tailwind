@@ -13,7 +13,7 @@
         </div>
     </section>
 
-    <section class="container mx-auto p-5">
+    <section class="container mx-auto mb-10 p-5">
         <div class="container mx-auto py-5 pb-6 px-5 lg:px-24">
             <div class="w-full mx-auto">
                 <h4 class="text-xl text-blue-800 mb-5 mt-5">

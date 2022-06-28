@@ -13,7 +13,7 @@
         </div>
     </section>
 
-    <section class="container mx-auto my-5 p-5">
+    <section class="container mx-auto mt-5 mb-10 p-5">
         <h2 class="text-3xl text-center text-blue-800 mb-5 mt-5">
             @lang('messages.login_lubey_trade')
         </h2>
