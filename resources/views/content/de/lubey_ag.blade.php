@@ -10,7 +10,7 @@
 			<h2 class="text-2xl md:text-3xl">Lösungsanbieter für digitale Entsorgung</h2>
 		</div>
     </section>
-    
+
     <section class="container mx-auto my-5 p-5">
         <div class="mb-5">
             <div class="col-md-8 text-left">
@@ -26,24 +26,24 @@
                 </p>
             </div>
         </div>
-           
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7">
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7 text-center">
             <div>
-                <img src="{{asset('img/normal/Bild-Vorstand-Laemmerhirt-469x316.jpg')}}" alt="Dr. Michael Lämmerhirt"/>
+                <img class="inline-block" src="{{asset('img/normal/Bild-Vorstand-Laemmerhirt-469x316.jpg')}}" alt="Dr. Michael Lämmerhirt"/>
                 <p class="mt-2 leading-4">
                     <span class="font-semibold">Dr. Michael Lämmerhirt</span><br />
                    	Vorstandsvorsitzender
                	</p>
             </div>
             <div>
-                <img src="{{asset('img/normal/Bild-Vorstand-Peinhardt-469x316.jpg')}}" alt="Ulrich Peinhardt"/>
+                <img class="inline-block" src="{{asset('img/normal/Bild-Vorstand-Peinhardt-469x316.jpg')}}" alt="Ulrich Peinhardt"/>
                 <p class="mt-2 leading-4">
                     <span class="font-semibold">Ulrich Peinhardt</span><br />
                    	Vorstand
                	</p>
             </div>
         </div>
-        
+
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-7">
             <div>
                 <img src="{{asset('img/normal/Bild-Aufsichtsrat-Althaus-469x316.jpg')}}" alt="Dieter Althaus"/>
@@ -90,12 +90,12 @@
                 </ul>
             </div>
         </div>
-        
+
         <div class="mt-16">
         	<h3 class="text-blue-800 text-xl font-semibold">Forschung und Entwicklung</h3>
         	<p class="mt-5">Die Lubey AG versteht sich als Innovationstreiber und beteiligt sich aus diesem Grund an zahlreichen Forschungs- und Entwicklungs-Vorhaben.</p>
     	</div>
-    	
+
     	<div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-10">
             <div>
                 <p>Als Beitrag zur Nachhaltigkeit und zum Umweltschutz ist die Recyclingfähigkeit von Kunststoffen ein wichtiger Bestandteil. Zur besseren und einfacheren Analyse
