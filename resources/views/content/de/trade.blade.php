@@ -38,7 +38,7 @@
                 Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
             </h2>
             <div class="flex flex-wrap mt-16">
-                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                     <img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Städte & Kommunen</h3>
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                     <img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Handel</h3>
@@ -58,7 +58,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                     <img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Industrie</h3>
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                     <img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Entsorger</h3>
@@ -78,7 +78,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                     <img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Energieerzeuger</h3>
