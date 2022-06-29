@@ -10,7 +10,6 @@
                 <div class="flex flex-row">
                     <div class="container mx-auto px-6 mt-7 xl:mt-20">
                         <h2 class="text-3xl xl:text-5xl font-semibold text-white">Die ZUKUNFT <br />der Entsorgung ist digital.</h2>
-                        <p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">Unabhängig, transparent und sicher.</p>
                         <p class="text-xl xl:text-3xl text-3xl font-light mt-3 text-white">intelligent, vernetzt, digital.</p>
                         <a href="{{route('content.page',['pageID'=>'trade'])}}"
                            class="inline-block bg-transparent text-lg text-white hover:text-white hover:bg-blue-800 font-semibold py-3 px-5 mt-5 border rounded">
