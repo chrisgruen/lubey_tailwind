@@ -33,57 +33,58 @@
     </section>
 
     <section class="bg-gradient-to-b from-blue-800 to-[#4FAAE3] text-white mt-0">
-        <div class="container mx-auto px-6 py-16 px-5">
+        <div class="container mx-auto py-16 px-0">
             <h2 class="text-center text-3xl text-white">
                 Nutzen Sie die Lubey TRADE <span class="font-semibold">für Vorteile Ihrer Branche</span>
             </h2>
+
             <div class="flex flex-wrap mt-16">
-                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
-                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
+                <div class="relative w-full lg:w-1/5 mb-10 lg:mb-0 px-2 pb-10 flex flex-col">
+                    <img class="object-cover" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Städte & Kommunen</h3>
-                        <p class="mb-7 mt-4 pr-5">Für Vergaben der öffentlichen Hand</p>
-                        <a href="{{route('content.page',['pageID'=>'trade_communes'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                        <p class="mb-7 mt-4">Für Vergaben der öffentlichen Hand</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_communes'])}}" class="absolute bottom-3 inline-block bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
                             mehr erfahren
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
-                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
+                <div class="relative w-full lg:w-1/5 mb-10 lg:mb-0 px-2 pb-10 flex flex-col">
+                    <img class="object-cover" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Handel</h3>
-                        <p class="mb-7 mt-4 pr-5">Abfallvermarktungen im Einzelhandel</p>
-                        <a href="{{route('content.page',['pageID'=>'trade_trade'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                        <p class="mb-7 mt-4">Abfallvermarktungen im Einzelhandel</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_trade'])}}" class="absolute bottom-3 inline-block bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
                             mehr erfahren
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
-                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
+                <div class="relative w-full lg:w-1/5 mb-10 lg:mb-0 px-2 pb-10 flex flex-col">
+                    <img class="object-cover" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Industrie</h3>
-                        <p class="mb-7 mt-4 pr-5">Industrie-Abfälle zum Profitcenter machen</p>
-                        <a href="{{route('content.page',['pageID'=>'trade_industry'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                        <p class="mb-7 mt-4">Industrie-Abfälle zum Profitcenter machen</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_industry'])}}" class="absolute bottom-3 inline-block bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
                             mehr erfahren
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
-                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
+                <div class="relative w-full lg:w-1/5 mb-10 lg:mb-0 px-2 pb-10 flex flex-col">
+                    <img class="object-cover" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Entsorger</h3>
-                        <p class="mb-7 mt-4 pr-5">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
-                        <a href="{{route('content.page',['pageID'=>'trade_disposer'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                        <p class="mb-7 mt-4">schneller Stoffstrom-Zugriff für Entsorgungsunternehmen</p>
+                        <a href="{{route('content.page',['pageID'=>'trade_disposer'])}}" class="absolute bottom-3 inline-block bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
                             mehr erfahren
                         </a>
                     </div>
                 </div>
-                <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
-                    <img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
+                <div class="relative w-full lg:w-1/5 mb-10 lg:mb-0 px-2 pb-10 flex flex-col">
+                    <img class="object-cover" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
                     <div class="mt-7">
                         <h3 class="text-lg font-semibold">Energieerzeuger</h3>
                         <p class="mb-7 mt-4 pr-5">Schneller Zugriff auf Ersatz-Brennstoffe und Rohstoffe</p>
-                        <a href="{{route('content.page',['pageID'=>'trade_energy'])}}" class="bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
+                        <a href="{{route('content.page',['pageID'=>'trade_energy'])}}" class="absolute bottom-3 inline-block bg-transparent border border-white text-white  rounded  py-2 px-4 tracking-wider hover:text-white hover:bg-blue-800">
                             mehr erfahren
                         </a>
                     </div>
