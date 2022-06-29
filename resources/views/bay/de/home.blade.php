@@ -269,7 +269,7 @@
             erfahren Sie mehr relevante Informationen
         </h2>
         <div class="flex flex-wrap mt-20">
-            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                 <img class="object-cover pr-5" src="{{asset('img/frontend/branche1.png')}}" alt="Städte & Kommunen" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Städte & Kommunen</h3>
@@ -279,7 +279,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                 <img class="object-cover pr-5" src="{{asset('img/frontend/branche2.png')}}" alt="Handel" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Handel</h3>
@@ -289,7 +289,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                 <img class="object-cover pr-5" src="{{asset('img/frontend/branche3.png')}}" alt="Industrie" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Industrie</h3>
@@ -299,7 +299,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                 <img class="object-cover pr-5" src="{{asset('img/frontend/branche4.png')}}" alt="Entsorger" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Entsorger</h3>
@@ -309,7 +309,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-col w-full xl:w-1/5 mt-10 lg:mt-0 text-left">
+            <div class="flex-col w-full lg:w-1/5 mt-10 lg:mt-0 text-left">
                 <img class="object-cover pr-5" src="{{asset('img/frontend/branche5.png')}}" alt="Energieerzeuger" />
                 <div class="mt-7">
                     <h3 class="text-lg font-semibold text-blue-800">Energieerzeuger</h3>
