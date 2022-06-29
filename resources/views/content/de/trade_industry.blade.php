@@ -59,7 +59,7 @@
                     <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/person_industry.png')}}" alt="Lubey Trade"/>
                     <div class="relative w-full border border-blue-800 rounded-md px-10 pt-28 pb-14 text-center text-blue-800 text-lg">
                         <img class="absolute top-4 left-1/2 transform -translate-x-1/2" src="{{asset('img/frontend/kommas.png')}}" width="100" alt="Check"/>
-                        Innovationen bilden das Herzstück der Industrie 4.0 und ermöglichen es, die digitalisierte Kreislaufwirtschaft der Zukunft in die Wirklichkeit umzusetzen. 
+                        Innovationen bilden das Herzstück der Industrie 4.0 und ermöglichen es, die digitalisierte Kreislaufwirtschaft der Zukunft in die Wirklichkeit umzusetzen.
                         Wir tragen unseren Teil zu dieser Vision bei, indem wir mit unserem Konzept die zielgerichtete Verwertung von Abfällen optimieren, Rohstoffe schonen und Kosten einsparen.
                     	<p class="text-xs mt-5 italic">Dieter Althaus, Vice President Governmental Affairs Magna Europe<br />Ministerpräsident von Thüringen a.D.</p>
                     </div>
@@ -67,7 +67,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="mt-20 mx-auto bg-subtrade-1 mt-24 bg-cover bg-htrade-sub3">
         <div class="py-16">
             <h2 class="text-3xl lg:text-5xl p-5 text-white text-center">
@@ -110,7 +110,7 @@
             </div>
         </div>
     </section>
-    
+
     <!--  Video -->
 	<section class="container mx-auto w-full lg:w-[60rem] px-5 mt-20">
         <h2 class="text-3xl text-center text-blue-800 font-semibold">
@@ -125,7 +125,7 @@
         	></iframe>
         </div>
     </section>
-     
+
     <section class="container relative mx-auto px-5 py-10 mb-0">
         <div class="w-full md:w-2/3 mx-auto mt-12">
             <img class="object-cover h-full min-w-full" src="{{asset('img/frontend/Lubey_Trade_Anbieter.png')}}" alt="Lubey Trade Anbieter" />
@@ -150,7 +150,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Automatisierte Vertragsdokumente</h3>
                         <p class="mb-15">
-                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.  
+                            Alle Angebotsbedingungen, Leistungs- und Stoffbeschreibungen werden automatisiert für Sie erstellt.
                         </p>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Erstgebot</h3>
                         <p class="mb-15">
-                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben. 
+                            Die Bieter können in kürzester Zeit die Vergabe einsehen, Teilnahme erklären und ihr Erstgebot abgeben.
                         </p>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     <div class="pr-5 md:pr-20">
                         <h3 class="text-lg text-blue-800 font-semibold">Zulassungsprüfung</h3>
                         <p class="mb-15">
-                            Sie prüfen die Erstgebote und lassen die Teilnehmer zur E-Auktion zu. Auf Wunsch erledigt das Lubey Support Team diese Aufgabe für Sie. 
+                            Sie prüfen die Erstgebote und lassen die Teilnehmer zur E-Auktion zu. Auf Wunsch erledigt das Lubey Support Team diese Aufgabe für Sie.
                         </p>
                     </div>
                 </div>
@@ -230,14 +230,14 @@
             </a>
         </div>
 	</section>
-	
+
     <!-- COL 3 -->
     <section class="container mx-auto px-6 mt-14 mb-14 px-0 lg:px-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full lg:h-80 text-white">
             <div class="relative bg-gradient-to-b from-[#92CD6B] to-[#4DB069] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">INDIVIDUAL</h2>
-                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="relative inline-block bottom-5 z-10 bg-green-400/50 hover:text-white hover:bg-[#719F55] mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
                 </a>
                 <div class="absolute bottom-0 right-0 z-0" >
@@ -247,7 +247,7 @@
             <div class="relative bg-gradient-to-b from-[#8C589E] to-[#482F51] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h2 class="relative text-3xl font-semibold z-10 mb-3">CONNECT</h2>
-                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="relative inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="relative inline-block bottom-5 z-10 bg-purple-500/50 hover:text-white hover:bg-[#70477E] mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
                 </a>
                 <div class="absolute bottom-0 right-0 z-0">
@@ -257,7 +257,7 @@
             <div class="relative bg-gradient-to-b from-[#EEC114] to-[#FCD850] h-80 lg:h-full pl-10 pt-20 z-0">
                 <h3>Lubey</h3>
                 <h3 class="relative text-3xl font-semibold z-10 mb-3">CONSULTING</h3>
-                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="relative inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white mt-5 py-2 px-12 text-lg font-semibold border rounded">
+                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="relative inline-block bottom-5 z-10 bg-yellow-400/50 hover:text-white hover:bg-[#BA9811] mt-5 py-2 px-12 text-lg font-semibold border rounded">
                     Erfahren Sie mehr
                 </a>
                 <div class="absolute bottom-0 right-0 z-0">
@@ -266,7 +266,7 @@
             </div>
         </div>
     </section>
-    
+
 	@include('content.de.partials.table')
 
     @include('content.de.partials.market_prices')

@@ -350,7 +350,7 @@
                 <div class="absolute bottom-0 w-64 z-0" >
                     <img class="w-full z-0" src="{{asset('img/frontend/group1.png')}}" alt="group1"/>
                 </div>
-                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-green-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'individual'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-green-400/50 hover:text-white hover:bg-[#719F55] py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </a>
             </div>
@@ -361,7 +361,7 @@
                 <div class="absolute bottom-0 w-64 z-0" >
                     <img class="w-full" src="{{asset('img/frontend/group2.png')}}" alt="group2"/>
                 </div>
-                <a href="{{route('content.page',['pageID'=>'trade'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-blue-800/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'trade'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-blue-800/50 hover:text-white hover:bg-blue-800 py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </a>
             </div>
@@ -372,7 +372,7 @@
                 <div class="absolute bottom-0 w-64 z-0" >
                     <img class="w-full" src="{{asset('img/frontend/group3.png')}}" alt="group3"/>
                 </div>
-                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-purple-500/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'connect'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-purple-500/50 hover:text-white hover:bg-[#70477E] py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </a>
             </div>
@@ -383,7 +383,7 @@
                 <div class="absolute bottom-0 w-64 z-0" >
                     <img class="w-full" src="{{asset('img/frontend/group4.png')}}" alt="group4"/>
                 </div>
-                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-yellow-400/50 hover:text-white py-2 px-12 text-lg font-semibold mt-5 border rounded">
+                <a href="{{route('content.page',['pageID'=>'consult'])}}" class="absolute inline-block bottom-5 right-5 z-10 bg-yellow-400/50 hover:text-white hover:bg-[#BA9811] py-2 px-12 text-lg font-semibold mt-5 border rounded">
                     Erfahren Sie mehr
                 </a>
             </div>
