@@ -35,7 +35,7 @@ Route::middleware(['guest'])->group(function () {
 // normal User login (general)
 
 Route::middleware(['auth:web'])->group(function () {
-    Route::post('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
+    Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
