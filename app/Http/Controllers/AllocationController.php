@@ -1,12 +1,9 @@
 <?php
 namespace App\Http\Controllers;
 
-use Alloc\Allocation;
-use Alloc\AllocationAttendance;
-use Alloc\Http\Controllers\Controller;
-use Alloc\Lot;
-use Alloc\LotBiddings;
-use Alloc\Participation;
+use App\Models\Allocation;
+//use Alloc\AllocationAttendance;
+use App\Models\Lot;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -15,6 +12,7 @@ class AllocationController extends Controller
 
     public function getDetails(Request $request, $allocationName)
     {
+        /*
         $validationResult = array('has_errors' => false, "errors" => array());
         $attendance = null;
         $allocation = Allocation::query()->where('name', $allocationName)->with(['lots', 'biddings'])->first();
@@ -50,14 +48,7 @@ class AllocationController extends Controller
         }
         $attendance = AllocationAttendance::query()->with(['members'])->where('allocation_id', $allocation->id)->where('company_id', Auth::company_id())->first();
 //        return view('bay.debug');
-        return view('allocation.details.alloc.detail', [
-            'allocation' => $allocation,
-            'lots' => $allocation->lots->sortBy('sort_order'),
-            'favorite' => false,
-            'validationResult' => (object)$validationResult,
-            'biddingDisabled' => false,
-            'attendance' => $attendance,
-            'step' => 'lots',
-        ]);
+        */
+        return view('allocation.detail');
     }
 }
