@@ -1,14 +1,11 @@
 <?php
 namespace App\Http\Controllers;
 
-use Alloc\Allocation;
-use Alloc\AllocationAttendance;
+use App\Models\Allocation;
+//use Alloc\AllocationAttendance;
 use App\Notifications\User\PasswordResetNotification;
-use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller {
 
@@ -29,7 +26,9 @@ class HomeController extends Controller {
 
     public function getContent($contentName) {
         if (view()->exists("content." . App::getLocale() . "." . $contentName)) {
-            return view("content." . App::getLocale() . "." . $contentName);
+            $allocations = Allocation::getRandomAllocations('disposal');
+            //dump($allocations);
+            return view("content." . App::getLocale() . "." . $contentName,['allocations' => $allocations]);
         } else {
             abort(404);
         }
