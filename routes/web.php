@@ -45,6 +45,7 @@ Route::get('/dashboard', [HomeController::class, 'getDashboard'])->name('bay.ind
 
 Route::get('/alloc_details/{allocationName}', [AllocationController::class, 'getDetails'])->name('alloc.details');
 Route::post('/newsletter_subscribe', [HomeController::class, 'subscribe_newsletter'])->name('newsletter.subscribe');
+Route::post('/chartdata', [HomeController::class, 'getChartData'])->name('chartdata');
 
 
 Route::get('/{pageID}', [HomeController::class, 'getContent'])->name('content.page');

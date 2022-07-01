@@ -1,6 +1,8 @@
 <?php
 namespace App\Http\Controllers;
 
+use App\Models\ChartData;
+use App\Models\ChartFamiliy;
 use App\Models\Allocation;
 //use Alloc\AllocationAttendance;
 use App\Notifications\User\PasswordResetNotification;
@@ -28,7 +30,8 @@ class HomeController extends Controller {
         if (view()->exists("content." . App::getLocale() . "." . $contentName)) {
             $allocations = Allocation::getRandomAllocations('disposal');
             //dump($allocations);
-            return view("content." . App::getLocale() . "." . $contentName,['allocations' => $allocations]);
+            $catalog = ChartFamiliy::get()->toTree()->first();
+            return view("content." . App::getLocale() . "." . $contentName,['allocations' => $allocations, 'chart_families' => $catalog]);
         } else {
             abort(404);
         }
@@ -46,6 +49,20 @@ class HomeController extends Controller {
         }
         */
         return view('bay.index');
+    }
+
+    public function getChartData(Request $request) {
+        $response = array('status' => 'error', 'message' => 'failure');
+        if ($request->has('chartid')) {
+            $response['status'] = 'ok';
+            $chart_data = array();
+            $data = ChartData::query()->where('chart_family_id', $request->input('chartid'))->get();
+            foreach ($data as $item) {
+                $chart_data[] = array('date' => date('Y/m/d', strtotime($item->date)), 'small' => $item->low, 'large' => $item->high);
+            }
+            $response['data'] = $chart_data;
+        }
+        return response((json_encode($response)))->header('Content-Type', 'application/json');
     }
 
 

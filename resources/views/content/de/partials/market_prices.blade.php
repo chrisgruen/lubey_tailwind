@@ -2,5 +2,5 @@
     <h2 class="text-3xl text-blue-800 text-center">
         Aktuelle Marktpreise
     </h2>
-    {{-- @include('partials.chart') --}}
+    @include('partials.chart')
 </section>
