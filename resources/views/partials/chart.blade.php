@@ -72,12 +72,16 @@
         function updateChart() {
             chart.series.clear();
             let chartid = $('#familyselector :selected').data('chartid');
+            let url = '{{ route('chartdata') }}';
+
             $.ajax({
-                type: 'GET',
-                url: "{{route('chartdata')}}",
+                type: 'POST',
+                url: url,
                 data: {'chartid': chartid},
                 dataType: 'json',
-
+                headers: {
+                    'X-CSRF-TOKEN': '{{csrf_token()}}'
+                },
                 success: function (data) {
                     if (data.status === 'ok') {
                         createSeries(data.data);
