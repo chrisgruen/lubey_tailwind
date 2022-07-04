@@ -482,6 +482,7 @@ class Allocation extends Model {
     static function getRandomAllocations($nature) {
         $where = array();
         //$where[] = array('state', 'first_offer');
+        //$where[] = array('id', 15);
         if($nature)
             $where[] = array('nature',$nature);
         $ret_val = Allocation::query()->with(['lots', 'lots.slices'])->where('incognito',0)->where($where);

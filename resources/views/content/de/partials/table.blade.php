@@ -16,6 +16,7 @@
             <div class="overflow-x-auto pb-10">
                 @foreach($allocations as $allocation)
                     @foreach($allocation->lots->sortBy('sort_order') as $lot)
+                        @if(count($lot->slices) > 0)
                         <div class="flex items-center mt-0 border-b">
                             <div class="flex-none w-20 mr-12 self-start py-5">
                                 @if(isset($lot->family->name))
@@ -92,6 +93,7 @@
                                 </table>
                             </div>
                         </div>
+                        @endif
                     @endforeach
                 @endforeach
             </div>
