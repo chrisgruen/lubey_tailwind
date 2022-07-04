@@ -1,17 +1,7 @@
 @extends('layouts.frontend_tailwind')
 @section('title')
-    @lang('messages.news') - {{$news->headline}}
+    @lang('Newsletter - Anmeldung')
 @endsection
-@push('meta')
-    <meta property="og:title" content="@lang('messages.news') - {{strip_tags($news->headline)}}">
-    <meta property="og:description" content="{{strip_tags($news->teaser)}}">
-    <meta property="og:url" content="{{ route('news.detail',['name'=>$news->canonical_name])}}" />
-    @if($news->category->desktop_img)
-        <meta property="og:image" content="{{URL::to('news_documents')}}/{{$news->category->mobile_img->filename}}" />
-    @else
-        <meta property="og:image" content="{{ url('/img/normal/Header-News-960x320.jpg') }}" />
-    @endif
-@endpush
 @section('content')
 
     <section class="h-38 md:h-54 bg-blue-800">
