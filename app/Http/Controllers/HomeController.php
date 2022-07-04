@@ -79,6 +79,10 @@ class HomeController extends Controller {
             ['accept_privacy.accepted' => 'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben.']
         );
 
+        $errors['error_email'] = "invalid";
+
+        return view('content.de.newsletter_danke');
+        return view('content.de.newsletter_fehler', ['error' => $errors['error_email']]);
         dd($request->all());
     }
 }
