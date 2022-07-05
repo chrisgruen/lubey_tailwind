@@ -54,26 +54,5 @@
 @endsection
 
 @push('scripts')
-    <script src="{{URL::to('build/js/app.js')}}"></script>
-    <script>
-        let player;
-        $(document).ready(function () {
-            if (window.location.hash === "#movie") {
-                filter_news();
-            }
-            $('#category_selector a').click(function () {
-                filter_news($(this).data('category'));
-            })
-        });
 
-        function filter_news(category) {
-            if (category === 'all') {
-                $('#news_container div.col-md-4').show();
-            } else {
-                $('#news_container div.col-md-4').hide();
-                $('#news_container div.col-md-4[data-category="' + category + '"]').show();
-            }
-        }
-
-    </script>
 @endpush

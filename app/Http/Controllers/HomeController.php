@@ -52,7 +52,7 @@ class HomeController extends Controller {
     }
 
     public function getChartData(Request $request) {
-        //  dd($request->all());
+        // dd($request->all());
         $response = array('status' => 'error', 'message' => 'failure');
         if ($request->has('chartid')) {
             $response['status'] = 'ok';

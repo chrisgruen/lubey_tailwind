@@ -39,17 +39,12 @@
     </div>
 </div>
 @push('scripts')
-    <script src="{{asset('build/js/app.js')}}"></script>
     <script src="{{asset('build/js/chart.js')}}"></script>
     <script>
-        $(document).ready(function () {
-            //$('#chart i').tooltip({"html": true});
-            let chart_count = $('#familyselector option:not(.fake_optgroup) ').length;
-            var random = Math.floor(Math.random() * chart_count);
-            $("#familyselector option:not(.fake_optgroup)").eq(random).prop('selected', true);
+        document.addEventListener("DOMContentLoaded", function(){
+            let familyselector = document.getElementById('familyselector');
             updateChart();
-
-            $('#familyselector').change(function () {
+            familyselector.addEventListener ("change", function () {
                 updateChart();
             });
         });
@@ -71,24 +66,30 @@
 
         function updateChart() {
             chart.series.clear();
-            let chartid = $('#familyselector :selected').data('chartid');
-            let url = '{{ route('chartdata') }}';
+            select_chart = document.getElementById('familyselector');
+            var chartid = select_chart.options[select_chart.selectedIndex].getAttribute('data-chartid');
 
-            $.ajax({
-                type: 'POST',
-                url: url,
-                data: {'chartid': chartid},
-                dataType: 'json',
-                headers: {
-                    'X-CSRF-TOKEN': '{{csrf_token()}}'
-                },
-                success: function (data) {
-                    if (data.status === 'ok') {
-                        createSeries(data.data);
-                        $('#chartdiv').fadeIn();
+            let url = '{{ route('chartdata') }}';
+            let ajax = new XMLHttpRequest();
+
+            ajax.open("Post", url, true);
+            ajax.setRequestHeader("Content-Type", "application/json");
+            ajax.setRequestHeader("X-CSRF-TOKEN", "{{csrf_token()}}");
+            data = {'chartid': chartid};
+
+            ajax.onreadystatechange = function() {
+                // Check if the request is compete and was successful
+                if(this.readyState === 4 && this.status === 200) {
+                    // Inserting the response from server into an HTML element
+                    let response = JSON.parse(this.responseText);
+                    if(response.status == 'ok'){
+                        familyselector = document.getElementById("familyselector");
+                        createSeries(response.data);
                     }
+                    //console.log(response)
                 }
-            });
+            };
+            ajax.send(JSON.stringify(data));
         }
 
         function createSeries(raw_data) {
@@ -118,5 +119,4 @@
             series2.fill = am4core.color("#22aeec");
         }
     </script>
-
 @endpush
