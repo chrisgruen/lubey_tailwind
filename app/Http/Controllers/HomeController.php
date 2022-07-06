@@ -67,22 +67,62 @@ class HomeController extends Controller {
     }
 
 
-
-    public function subscribe_newsletter(Request $request)
-    {
+    public function subscribe_newsletter(Request $request) {
 
         $this->validate($request, [
-            'email' => 'email|required',
-            'accept_privacy' => 'accepted'
+            'email'                => 'email|required',
+            'accept_privacy' =>'accepted'
             //'g-recaptcha-response' => 'required|captcha'
         ],
             ['accept_privacy.accepted' => 'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben.']
         );
 
-        $errors['error_email'] = "invalid";
+        //dd($request->all());
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, config('trade.newsletter_subscription_url'));
+        curl_setopt($ch, CURLOPT_POST, 1);
 
-        return view('content.de.newsletter_danke');
-        return view('content.de.newsletter_fehler', ['error' => $errors['error_email']]);
-        dd($request->all());
+        $err_message = 'Fehler';
+        $extras = '<Produkte>';
+        $extras .= $request->has('product_connect') ? 'Connect,' : '';
+        $extras .= $request->has('product_trade') ? 'Trade,' : '';
+        $extras .= $request->has('product_individual') ? 'Digitale Lösungen,' : '';
+        $extras .= $request->has('product_individual') ? 'Consulting, ' : '';
+        $extras .= ' <Trade>';
+        $extras .= $request->has('trade_commune') ? 'Städte & Kommunen,' : '';
+        $extras .= $request->has('trade_trade') ? 'Handel,' : '';
+        $extras .= $request->has('trade_industry') ? 'Industrie,' : '';
+        $extras .= $request->has('trade_disposer') ? 'Entsorger,' : '';
+
+        dd($extras);
+        $data = [
+            'url_ok' => 'https://lubey.de/ok',
+            'url_error' => 'https://lubey.de/error', 'email' => $request->input('email'),
+            'extra1' => $extras,
+        ];
+
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_VERBOSE, true);
+        curl_setopt($ch, CURLOPT_HEADER, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        $server_output = curl_exec($ch);
+        $curl_info = curl_getinfo($ch);
+        curl_close($ch);
+        preg_match("!\r\n(?:location|URI): *(.*?) *\r\n!", $server_output, $matches);
+        if (count($matches) > 1) {
+            $url = $curl_info['redirect_url'];
+            if ($url == 'https://lubey.de/ok') {
+                return redirect()->route('content.page', ['pageID' => 'newsletter_danke']);
+            } else {
+                parse_str(parse_url($url, PHP_URL_QUERY), $errors);
+
+                $err_message = '';
+                foreach($errors as $error) {
+                    $err_message .= $error ."<br />";
+                }
+                return view('content.de.newsletter_fehler', ['error' => $err_message]);
+            }
+        }
+        return redirect()->route('content.page', ['pageID' => 'newsletter_fehler'])->with('error', $err_message);
     }
 }

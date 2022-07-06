@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AllocationController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\NewsCategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,15 +44,15 @@ Route::middleware(['auth'])->group(function () {
     Route::view('/user/profile', 'user.profile')->name('user.profile');
 
     // news
-    Route::view('/news/categories', 'news.categories')->name('news.categories');
-    Route::view('/news/articles', 'news.articles')->name('news.articles');
+    Route::get('admin/news/categories', [NewsCategoryController::class, 'index'])->name('admin.news.categories');
+    Route::view('admin/news/articles', 'news.articles')->name('admin.news.articles');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/home', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/dashboard', [HomeController::class, 'getDashboard'])->name('bay.index');
-Route::get('/news', [NewsController::class, 'index'])->name('news');
-Route::get('/news/{name}', [NewsController::class, 'get'])->name('news.detail');
+Route::get('/actual', [NewsController::class, 'public_news'])->name('content.actual');
+Route::get('/actual/{name}', [NewsController::class, 'public_news_detail'])->name('content.actual.detail');
 
 Route::get('/alloc_details/{allocationName}', [AllocationController::class, 'getDetails'])->name('alloc.details');
 Route::post('/newsletter_subscribe', [HomeController::class, 'subscribe_newsletter'])->name('newsletter.subscribe');

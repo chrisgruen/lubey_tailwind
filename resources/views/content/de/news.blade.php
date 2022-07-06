@@ -38,7 +38,7 @@
                             </h4>
                             <p class="pt-2">{!! $article->teaser!!}</p>
                             <p class="absolute more_link bottom-2 right-4">
-                                <a href="{{ route('news.detail',['name'=>$article->canonical_name])}}"
+                                <a href="{{ route('content.actual.detail',['name'=>$article->canonical_name])}}"
                                    class="text-blue-500 hover:text-blue-800 hover:underline">@lang('newsletter.to_article')
                                     <i class="fas fa-chevron-right icon-small" aria-hidden="true"></i>
                                 </a>

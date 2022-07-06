@@ -20,9 +20,11 @@
                     Vielen Dank für Ihr Interesse an unserem Newsletter.<br>
                     Leider gab es einen Fehler bei der Anmeldung. Bitte versuchen Sie es erneut.
                 </p>
-                <div class="w-full md:w-1/2 p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800 h-auto" role="alert">
-                    invalid
-                </div>
+                @if(isset($error))
+                    <div class="w-full md:w-1/2 p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800 h-auto" role="alert">
+                        {!! $error !!}
+                    </div>
+                @endif
                 <a href="{{route('content.page',['pageID'=>'home'])}}" class="inline-block mt-5 text-blue-500 hover:text-blue-800 hover:underline">
                    >> Zur Newsletter-Anmeldung
                 </a>

@@ -39,7 +39,7 @@
                         <a href="{{route('content.page',['pageID'=>'forschung_und_entwicklung'])}}" class="hover:underline ">Forschung & Entwicklung</a>
                     </li>
                     <li class="">
-                        <a href="{{route('content.page',['pageID'=>'news'])}}" class="hover:underline ">Aktuelles</a>
+                        <a href="{{route('content.actual')}}" class="hover:underline ">Aktuelles</a>
                     </li>
                     <li class="">
                         <a href="{{route('content.page',['pageID'=>'karriere'])}}" class="hover:underline ">Karriere</a>

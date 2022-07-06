@@ -23,7 +23,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-6 gap-3 py-1">
                 <div class="col-span-4 pr-0 lg:pr-10">
                     {!! $news->body !!}
-                    <a href="{{route('news')}}" class="inline-block mt-1 text-blue-500 hover:text-blue-800 hover:underline">
+                    <a href="{{route('content.actual')}}" class="inline-block mt-1 text-blue-500 hover:text-blue-800 hover:underline">
                         @lang('newsletter.to_overview')  <i class="fas fa-chevron-right icon-small" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -38,7 +38,7 @@
         @else
             <div class="grid grid-cols-1">
                 {!! $news->body !!}
-                <a href="{{route('news')}}" class="inline-block mt-5 text-blue-500 hover:text-blue-800 hover:underline">
+                <a href="{{route('content.actual')}}" class="inline-block mt-5 text-blue-500 hover:text-blue-800 hover:underline">
                     @lang('newsletter.to_overview')  <i class="fas fa-chevron-right icon-small" aria-hidden="true"></i>
                 </a>
             </div>
