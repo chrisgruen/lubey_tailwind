@@ -37,9 +37,14 @@ Route::middleware(['guest'])->group(function () {
 // normal User login (general)
 
 Route::middleware(['auth'])->group(function () {
+    // user
     Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
     Route::view('/user/settings', 'user.settings')->name('user.settings');
     Route::view('/user/profile', 'user.profile')->name('user.profile');
+
+    // news
+    Route::view('/news/categories', 'news.categories')->name('news.categories');
+    Route::view('/news/articles', 'news.articles')->name('news.articles');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
