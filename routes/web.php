@@ -27,7 +27,7 @@ Route::get('/', function () {
 Route::middleware(['guest'])->group(function () {
     Route::get('/registrieren', [AuthController::class, 'getSignUpStep1'])->name('user.signup.registrieren');
     Route::post('/registration', [AuthController::class, 'postSignUpStep1'])->name('user.signup.Step1');
-    Route::get('/login', [AuthController::class, 'getSignin'])->name('user.signin');
+    Route::get('/login', [AuthController::class, 'getSignin'])->name('login');
     Route::post('/login', [AuthController::class, 'postSignin'])->name('user.signin');
     Route::get('/login/passwordResetForm', [AuthController::class, 'passwordResetForm'])->name('password.email');
     Route::post('/login/passwordReset', [AuthController::class, 'passwordReset'])->name('password.reset');
@@ -36,8 +36,10 @@ Route::middleware(['guest'])->group(function () {
 
 // normal User login (general)
 
-Route::middleware(['auth:web'])->group(function () {
+Route::middleware(['auth'])->group(function () {
     Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
+    Route::view('/user/settings', 'user.settings')->name('user.settings');
+    Route::view('/user/profile', 'user.profile')->name('user.profile');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
