@@ -22,7 +22,13 @@
 @include('layouts.partials.footer')
 
     <script src="{{URL::to(mix('build/js/frontend.js'))}}"></script>
-    @stack('scripts')
+    	@stack('scripts')
+    <script>
+
+	document.getElementById('nav-toggle').onclick = function() {
+		document.getElementById("navmobil-content").classList.toggle("hidden");
+	}
+    </script>
 
     {{--
     <script>

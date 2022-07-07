@@ -1,5 +1,8 @@
 <section id="newsletter-box" class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white">
-	<div class="container mx-auto px-6 pt-10 pb-6 px-5">
+	<div class="relative container mx-auto px-6 pt-10 pb-6 px-5">
+		<div class="absolute top-5 left-64 w-96 z-10" >
+            <img class="w-full z-0" src="{{asset('img/frontend/paperflyer.png')}}" alt="group1"/>
+        </div>
 		<div class="flex items-center py-4">
     		<div class="flex-grow h-px bg-white"></div>
     		<span class="flex-shrink text-3xl font-semibold px-6">NEWSLETTER</span>
