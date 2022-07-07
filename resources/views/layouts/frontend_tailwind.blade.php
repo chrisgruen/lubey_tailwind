@@ -25,11 +25,6 @@
     	@stack('scripts')
     <script>
 
-	document.getElementById('nav-toggle').onclick = function() {
-		document.getElementById("navmobil-content").classList.toggle("hidden");
-	}
-    </script>
-
     {{--
     <script>
         let gaProperty = 'UA-135917487-1';

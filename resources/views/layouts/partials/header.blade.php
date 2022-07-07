@@ -37,31 +37,31 @@
                     <ul class="flex flex-col mt-4 ml-6 md:flex-row md:space-x-8 md:mt-12 md:text-sm md:font-medium md:text-lg">
                         <li>
                             <a href="{{route('content.page',['pageID'=>'individual'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('individual*') ? 'font-bold' : 'hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('individual*') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Digitale Lösungen
                             </a>
                         </li>
                         <li>
                             <a href="{{route('content.page',['pageID'=>'trade'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('trade') ? 'font-bold' : 'hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('trade') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Trade
                             </a>
                         </li>
                         <li>
                             <a href="{{route('content.page',['pageID'=>'connect'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('connect') ? 'font-bold' : 'hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('connect') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Connect
                             </a>
                         </li>
                         <li>
                             <a href="{{route('content.page',['pageID'=>'consult'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('consult') ? 'font-bold' : 'hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('consult') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Consult
                             </a>
                         </li>
                         <li>
                             <a href="{{route('content.page',['pageID'=>'lubey_ag'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-blue-800 {{ Request::is('lubey_ag') ? 'font-bold' : 'hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('lubey_ag') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Lubey AG
                             </a>
                         </li>
