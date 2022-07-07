@@ -20,7 +20,7 @@
                     Darüber hinaus lassen sich gute wirtschaftliche Effekte erzielen. Über unterschiedliche Vermarktungswege und Vermarktungsformen
                     findet jedes abfallerzeugende Unternehmen den richtigen Entsorger. Folgende Highlights erwarten den Nutzer bei Lubey Trade:
                 </p>
-                <div class="mt-10">
+                <div class="mt-10 mb-10 xl:mb-0">
                     <a href="{{route('user.signin')}}" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span>Anmelden und erleben wie einfach es geht!
                     </a>

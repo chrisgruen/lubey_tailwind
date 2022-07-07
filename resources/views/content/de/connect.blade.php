@@ -28,7 +28,7 @@
 					Zusätzlich sind Erzeuger und Entsorger direkt über die Lösung
 					vernetzt und können auf einfachem Wege kommunizieren.
 				</p>
-				<div class="mt-10">
+				<div class="mt-10 mb-10 xl:mb-0">
     				<a href="https://outlook.office365.com/owa/calendar/LubeyAG@lubey.ag/bookings/" target="_blank" class="bg-[#51ADE6] border border-blue-300 text-white rounded mb-3 py-3 px-7 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold">Jetzt</span> Beratungstermin vereinbaren!
                     </a>

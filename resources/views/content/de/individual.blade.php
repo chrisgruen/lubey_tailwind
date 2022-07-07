@@ -20,7 +20,7 @@
 					Wir analysieren mit Ihnen Ihre Zielsetzungen, vorhandene Bestandssysteme, deren Schnittstellen und die Bedürfnisse der Anwender für optimale Prozesse.
 					So beraten wir Sie exakt dem, was Sie wirklich benötigen und entwickeln die Lösung passende Lösung dazu.
 				</p>
-				<div class="mt-10">
+				<div class="mt-10 mb-10 xl:mb-0">
     				<a href="https://outlook.office365.com/owa/calendar/LubeyAG@lubey.ag/bookings/" target="_blank" class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-left rounded mb-3 py-3 px-5 text-lg hover:text-white hover:bg-blue-800">
                         <span class="font-semibold mr-1">Jetzt</span>Beratungstermin vereinbaren!
                     </a>
