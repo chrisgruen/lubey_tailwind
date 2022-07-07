@@ -43,7 +43,7 @@
                         </li>
                         <li>
                             <a href="{{route('content.page',['pageID'=>'trade'])}}"
-                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('trade') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
+                               class="block py-2 px-4 border-b border-gray-100 hover:bg-blue-800 hover:text-white md:hover:bg-transparent md:border-0 md:p-0 md:text-blue-800 md:hover:text-blue-600 {{ Request::is('trade*') ? 'font-bold bg-blue-800 text-white md:bg-transparent md:text-blue-800' : 'md:hover:text-blue-600' }}">
                                 Trade
                             </a>
                         </li>
