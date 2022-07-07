@@ -1,6 +1,6 @@
 <section id="newsletter-box" class="bg-gradient-to-b from-[#4FAAE3] to-blue-800 text-white">
 	<div class="relative container mx-auto px-6 pt-10 pb-6 px-5">
-		<div class="absolute top-7 left-72 w-96 z-10" >
+		<div class="absolute hidden lg:inline-block top-7 left-72 w-96 z-10" >
             <img class="w-full z-0" src="{{asset('img/frontend/paperflyer.png')}}" alt="group1"/>
         </div>
 		<div class="flex items-center py-4">
