@@ -336,10 +336,12 @@
                 <div>
                 	<p class="text-lg font-semibold mb-2">Registrierung und Nutzung für abfallerzeugende Unternehmen</p>
                 	<p>Mit erfolgreicher Zuschlagserteilung bei einer E-Vergabe* in Lubey Trade wird für das abfallerzeugende Unternehmen ein Lubey Connect Konto angelegt. Die Zugangsdaten werden per E-Mail zugesendet. Das Konto enthält alle vertrags- und entsorgungsrelevanten Informationen aus der E-Vergabe (z.B. Stoffstandorte, Entsorger und Entsorgungsverträge). Die monatliche Nutzung des Lubey Connect Kontos ist kostenlos. Es fällt lediglich ein Verwaltungsentgelt pro Entsorgungsvertrag entsprechend der Lubey Connect Preisliste an. Dieses Entgelt ist gestaffelt nach der Anzahl der Entsorgungsverträge eines abfallerzeugenden Unternehmens und wird für die Zeit des Entsorgungsvertrages monatlich erhoben.</p>
+                	<div class="text-xs mt-2">*vorausgesetzt, der Erzeuger wünscht ein Entsorgungs- und Abrechnungsmanagement über Lubey Connect</div>
                 </div>
                 <div class="mt-5">
                 	<p class="text-lg font-semibold mb-2">Registrierung und Nutzung für Entsorger</p>
                 	<p>Sobald ein Entsorger den Zuschlag für eine Vergabe* auf Lubey Trade erhalten hat, wird für ihn automatisch ein Lubey Connect Konto mit allen Entsorgungsverträgen angelegt. Die Zugangsdaten erhält er per E-Mail. Die monatliche Nutzung von Lubey Connect, ohne die Premium Funktionen, ist für den Entsorger kostenlos. Optional kann er die Premium Funktionen für 4,90 Euro (monatlich) hinzubuchen.</p>
+                	<div class="text-xs mt-2">*vorausgesetzt, der Erzeuger wünscht ein Entsorgungs- und Abrechnungsmanagement über Lubey Connect</div>
                 	<p class="mt-2">Preise auf Anfrage.</p>
                 </div>
             </div>
