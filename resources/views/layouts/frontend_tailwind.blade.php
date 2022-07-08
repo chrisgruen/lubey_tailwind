@@ -22,13 +22,12 @@
 @include('layouts.partials.footer')
 
     <script src="{{URL::to(mix('build/js/frontend.js'))}}"></script>
-    	@stack('scripts')
-    <script>
+	@stack('scripts')
 
-    {{--
+
     <script>
         let gaProperty = 'UA-135917487-1';
-        $(document).ready(function () {
+        window.addEventListener("load", function(){
             @if(!config('app.debug'))
             if (document.cookie.split(';').filter(function (item) {
                 return item.indexOf('cookieconsent_status=allow') >= 0
@@ -38,8 +37,8 @@
             @endif
             window.cookieconsent.initialise({
                 "palette": {
-                    "popup": {"background": "#07468f"},
-                    "button": {"background": "#51ade6", "text": "#ffffff"}
+                    "popup": {"background": "#094992"},
+                    "button": {"background": "#51ADE6", "text": "#ffffff"}
                 },
                 "theme": "edgeless",
                 "type": "opt-in",
@@ -85,7 +84,6 @@
             }
         }
     </script>
-    --}}
 
 </body>
 </html>
