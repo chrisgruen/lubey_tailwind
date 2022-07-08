@@ -35,9 +35,14 @@
                     <li class="">
                         <a href="{{route('content.page',['pageID'=>'lubey_ag'])}}" class="hover:underline ">Über Lubey</a>
                     </li>
+                     <li class="">
+                    	<a href="{{route('content.page',['pageID'=>'preise'])}}" class="hover:underline ">Preise</a>
+                    </li>
+                    {{--
                     <li class="">
                         <a href="{{route('content.page',['pageID'=>'forschung_und_entwicklung'])}}" class="hover:underline ">Forschung & Entwicklung</a>
                     </li>
+                    --}}
                     <li class="">
                         <a href="{{route('content.actual')}}" class="hover:underline ">Aktuelles</a>
                     </li>

@@ -1,8 +1,9 @@
 @extends('layouts.frontend_tailwind')
 @section('title')
-    @lang('messages.what_is_lubey')
+    @lang('messages.prices')
 @endsection
-@section('description')Die Lubey AG ist ein unabhängiger Dienstleister zur Digitalisierung der Entsorgungswirtschaft.@endsection
+@section('description')Faire Preise und eine transparente Gestaltung der Vermarktung. Nutzen Sie Ihre Chance mit Lubey.@endsection
+
 @section('content')
 	<section class="h-38 md:h-54 bg-blue-800">
 		<div class="container mx-auto px-6 py-10 text-white">
