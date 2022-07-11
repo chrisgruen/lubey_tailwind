@@ -45,7 +45,7 @@ Route::middleware(['auth'])->group(function () {
 
     // news
     Route::get('admin/news/categories', [NewsCategoryController::class, 'index'])->name('admin.news.categories');
-    Route::view('admin/news/articles', 'news.articles')->name('admin.news.articles');
+    Route::get('admin/news/articles', [NewsController::class, 'index'])->name('admin.news.articles');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');

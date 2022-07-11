@@ -10,6 +10,13 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller {
 
+    public function index() {
+        //$news = News::query()->get();
+        app::setLocale('de');
+        $articles = News::all()->sortDesc();
+        return view('admin.news.articles', ['articles' => $articles]);
+    }
+
     public function public_news() {
         $news = News::query()->with(['category', 'category.mobile_img'])->orderBy('date', 'desc')->get();
         $categories = NewsCategory::query()->with('news')->get();

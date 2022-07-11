@@ -26,5 +26,4 @@ class NewsCategory extends Model {
             return $value;
     }
 
-
 }

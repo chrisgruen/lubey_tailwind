@@ -16,147 +16,147 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7">
         	<!-- Lubey Trade -->
             <div>
-                <h2 class="text-1xl lg:text-3xl font-semibold text-blue-800">Lubey Trade</h2>
+                <h2 class="text-3xl font-semibold text-blue-800">Lubey Trade</h2>
                 <h4 class="text-lg font-semibold mb-10">Funktionsumfang</h4>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Ausschreiben von längerfristigen Entsorgungsverträgen per E-Vergabe
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         mehrere Abfallstoffe gleichzeitig als Lose vermarkten
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Spot-Auktion zur schnellen Vermarktung von kleineren Abfallmengen mit Sofortkaufmöglichkeit
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Bestpreisauktion mit Ampel- oder Rangfolgenmechanismus
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Auktionieren von Abfällen per Effektivpreis oder Aufschlag bzw. Abschlag auf einen festgelegten Index
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Festlegen einer Preisgrenze als Schutz vor ungewollten Geboten
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Stellen von Anforderungskriterien an den Entsorger
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         strukturierte und standardisierte Eingabemasken zur Stoffbeschreibung
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         unterschiedliche Möglichkeiten zur Festlegung von Abhol- und Lieferbedingungen sowie Gebindestellung
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Umsetzung des 4-Augen-Prinzips bei der E-Vergabe
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                        Automatische Generierung von Vertragsunterlagen (Vertragsbedingungen, Angebotsbedingungen und Leistungsverzeichnis) 
+                        Automatische Generierung von Vertragsunterlagen (Vertragsbedingungen, Angebotsbedingungen und Leistungsverzeichnis)
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Revisionssichere Reports
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Vergaberechtskonforme Vergabe für öffentlich-rechtliche Anbieter
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Automatische Mitteilungen im Nutzerkonto und per Mail
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Schnelle und einfache Suchfunktion mit Umkreissuche per Postleitzahl sowie Speicherungsmöglichkeiten
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Festlegung von Favoriten
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Bewertung und Sperrung von Mitgliedern
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Unterkonten für Mitarbeiter
@@ -177,42 +177,46 @@
                 	<p class="mb-2">Bei E-Vergaben und Spot-Aktionen beträgt das Transaktionsentgelt 1,9 Prozent des sich ergebenden Gesamtgeschäftsvolumens, allerdings fällt immer ein Mindesttransaktionsentgelt pro angefangene Tonne an. Dieses steht in Abhängigkeit zur Klassifizierung des jeweiligen Stoffes sowie der angebotenen Menge (siehe Tabelle). Das Gesamtgeschäftsvolumen entspricht dabei dem gebotenen Preis.</p>
                 	<p class="mb-2">Bei öffentlich-rechtlichen Vergaben entspricht das Gesamtgeschäftsvolumen dem geschätzten Netto-Gesamtwerts des jeweiligen Loses.</p>
                 	<p class="mb-2">Bei Vergaben mit mehreren Losen wird das Transaktionsentgelt pro Los berechnet.</p>
-                	<table class="table-auto mt-5">
-                      <thead>
-                        <tr>
-                          <th class="text-left w-1/2 px-2">Angebotene Menge pro E-Auktion bzw. pro Los</th>
-                          <th class="text-left px-2">Mindesttransaktionsentgelt pro angefangene Tonne bei Standardstoffklassen</th>
-                          <th class="text-left px-2">Mindesttransaktionsentgelt pro angefangene Tonne bei Sonderstoffklassen</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>0 bis 24 t</td>
-                          <td>4,95 €</td>
-                          <td>1,95 €</td>
-                        </tr>
-                        <tr>
-                          <td>24,01 bis 100 t</td>
-                          <td>3,95 €</td>
-                          <td>1,45 €</td>
-                        </tr>
-                        <tr>
-                          <td>100,01 bis 1000 t</td>
-                          <td>2,95 €</td>
-                          <td>1,15 €</td>
-                        </tr>
-                        <tr>
-                          <td>1000,01 bis 5000 t</td>
-                          <td>1,95 €</td>
-                          <td>0,85 €</td>
-                        </tr>
-                        <tr>
-                          <td>ab 5000 t</td>
-                          <td>1,70 €</td>
-                          <td>0,55 €</td>
-                        </tr>
-                      </tbody>
-                    </table>
+
+                    <div class="w-full relative overflow-x-auto">
+                        <table class="table-auto mt-5">
+                            <thead>
+                            <tr class="border-b">
+                                <th class="text-left w-1/2 px-2 align-bottom">Angebotene Menge pro E-Auktion bzw. pro Los</th>
+                                <th class="text-left px-2 align-bottom">Mindesttransaktionsentgelt pro angefangene Tonne bei Standardstoffklassen</th>
+                                <th class="text-left px-2 align-bottom">Mindesttransaktionsentgelt pro angefangene Tonne bei Sonderstoffklassen</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="px-2 whitespace-nowrap">0 bis 24 t</td>
+                                <td class="px-2 whitespace-nowrap">4,95 €</td>
+                                <td class="px-2 whitespace-nowrap">1,95 €</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 whitespace-nowrap">24,01 bis 100 t</td>
+                                <td class="px-2 whitespace-nowrap">3,95 €</td>
+                                <td class="px-2 whitespace-nowrap">1,45 €</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 whitespace-nowrap">100,01 bis 1000 t</td>
+                                <td class="px-2 whitespace-nowrap">2,95 €</td>
+                                <td class="px-2 whitespace-nowrap">1,15 €</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 whitespace-nowrap">1000,01 bis 5000 t</td>
+                                <td class="px-2 whitespace-nowrap">1,95 €</td>
+                                <td class="px-2 whitespace-nowrap">0,85 €</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 whitespace-nowrap">ab 5000 t</td>
+                                <td class="px-2 whitespace-nowrap">1,70 €</td>
+                                <td class="px-2 whitespace-nowrap">0,55 €</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                     <div class="text-xs mt-2">Preise gültig für Auktionen und Vergaben mit Veröffentlichung ab dem 25.11.2019<br />Alle hier aufgeführten Preise sind Netto-Preise.</div>
                		<div class="mt-5">
                			Folgende Stoffklassen sind Sonderstoffklassen:
@@ -227,62 +231,62 @@
                		</div>
                 </div>
             </div>
-            
+
             <!-- Lubey Connect -->
             <div>
                 <h2 class="text-1xl lg:text-3xl font-semibold text-blue-800">Lubey Connect</h2>
                 <h4 class="text-lg font-semibold mb-10">Funktionsumfang für abfallerzeugende Unternehmen</h4>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                        Verwalten der Unternehmenstruktur (Regionen mit Märkten, Filialen oder Werken sowie dazugehörige Mitarbeiter) 
+                        Verwalten der Unternehmenstruktur (Regionen mit Märkten, Filialen oder Werken sowie dazugehörige Mitarbeiter)
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                        Verträge einsehen und bearbeiten 
+                        Verträge einsehen und bearbeiten
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                        Entsorgungsaufträge auslösen 
+                        Entsorgungsaufträge auslösen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                        Entsorgungsrechnungen einsehen und empfangen 
+                        Entsorgungsrechnungen einsehen und empfangen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Statistiken zu Abfällen abrufen und darstellen lassen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Plausibilitätesprüfung der Rechnungen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         stichprobenartige Prüfungen von Belegen (z.B. Wiegescheine)
@@ -292,43 +296,43 @@
                 	Funktionsumfang für Entsorger(ohne Premium-Paket)
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                         Entsorgungsaufträge empfangen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                       	ZUGFeRD-Rechnungen an Lubey Connect senden (Info: Hierfür bedarf es der Verwendung von eigener Software.) 
+                       	ZUGFeRD-Rechnungen an Lubey Connect senden (Info: Hierfür bedarf es der Verwendung von eigener Software.)
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                       	eigene Rechnungen einsehen 
+                       	eigene Rechnungen einsehen
                     </p>
                 </div>
                 <div class="flex text-lg font-semibold mb-5">
                 	Optionales Premium-Paket für Entsorger (kostenpflichtig)
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
-                       	Statistiken zu Abfällen abrufen und darstellen lassen 
+                       	Statistiken zu Abfällen abrufen und darstellen lassen
                     </p>
                 </div>
                 <div class="flex">
-                    <div class="flex-none w-14 h-14">
-                        <img src="{{asset('img/frontend/Check.png')}}" width="36" alt="Check"/>
+                    <div class="flex-none w-12 h-12">
+                        <img src="{{asset('img/frontend/Check.png')}}" width="30" alt="Check"/>
                     </div>
                     <p class="text-gray-600 mb-8">
                        	ZUGFeRD-Rechungen in Lubey Connect schreiben und versenden

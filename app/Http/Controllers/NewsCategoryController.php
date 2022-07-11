@@ -14,8 +14,8 @@ class NewsCategoryController extends Controller {
     public function index() {
         //$news = News::query()->get();
         app::setLocale('de');
-        $categories = NewsCategory::query()->get();;
-        return view('news.categories', ['categories' => $categories]);
+        $categories = NewsCategory::all()->sortDesc();
+        return view('admin.news.categories', ['categories' => $categories]);
     }
 
     public function add(Request $request) {
