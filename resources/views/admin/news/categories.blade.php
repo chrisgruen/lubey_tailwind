@@ -18,7 +18,7 @@
                                     {{$category->name}}
                                 </td>
                                 <td class="px-4 py-3">{{$category->time_formated}}
-                                    {{ \Carbon\Carbon::parse($category->time_formated)->format('d.m.Y')}}
+                                    {{ \Carbon\Carbon::parse($category->created_at)->format('d.m.Y')}}
                                 </td>
                                 <td class="px-4 py-3">{{$category->time_formated}}
                                     <i class="fa-solid fa-user-pen"></i>&nbsp;

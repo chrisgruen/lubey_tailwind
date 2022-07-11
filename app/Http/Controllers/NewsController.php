@@ -13,7 +13,7 @@ class NewsController extends Controller {
     public function index() {
         //$news = News::query()->get();
         app::setLocale('de');
-        $articles = News::all()->sortDesc();
+        $articles = News::orderBy('created_at', 'desc')->get();
         return view('admin.news.articles', ['articles' => $articles]);
     }
 

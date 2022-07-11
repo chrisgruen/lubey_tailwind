@@ -16,8 +16,8 @@
                         <td class="px-4 py-3">
                             {{$article->headline}}
                         </td>
-                        <td class="px-4 py-3">{{$article->time_formated}}
-                            {{ \Carbon\Carbon::parse($article->time_formated)->format('d.m.Y')}}
+                        <td class="px-4 py-3">
+                            {{ \Carbon\Carbon::parse($article->created_at)->format('d.m.Y')}}
                         </td>
                         <td class="px-4 py-3">{{$article->time_formated}}
                             <i class="fa-solid fa-user-pen"></i>&nbsp;
