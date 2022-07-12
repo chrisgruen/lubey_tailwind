@@ -36,4 +36,6 @@ return [
     "noUserKnown"                                                        => "Es gibt keinen Benutzer mit dieser E-Mail-Adresse",
     'online-marketplace'                                                 => 'Entsorgung digital',
     'what_is_lubey'                                                      => 'Was ist Lubey',
+    'smallAmounts'                                                       => 'Kleinstmengen',
+    'largeAmounts'                                                       => 'Großmengen',
 ];

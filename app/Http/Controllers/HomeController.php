@@ -51,7 +51,7 @@ class HomeController extends Controller {
         return view('bay.index');
     }
 
-    public function getChartData(Request $request) {
+    public function getChartData_old(Request $request) {
         // dd($request->all());
         $response = array('status' => 'error', 'message' => 'failure');
         if ($request->has('chartid')) {
@@ -60,6 +60,24 @@ class HomeController extends Controller {
             $data = ChartData::query()->where('chart_family_id', $request->input('chartid'))->get();
             foreach ($data as $item) {
                 $chart_data[] = array('date' => date('Y/m/d', strtotime($item->date)), 'small' => $item->low, 'large' => $item->high);
+            }
+            $response['data'] = $chart_data;
+        }
+        return response((json_encode($response)))->header('Content-Type', 'application/json');
+    }
+
+    public function getChartData(Request $request) {
+        $response = array('status' => 'error', 'message' => 'failure');
+        if ($request->has('chartid')) {
+            $response['status'] = 'ok';
+            $chart_data = [];
+            $data = ChartData::query()->where('chart_family_id', $request->input('chartid'))->get();
+            foreach ($data as $item) {
+                $chart_data[] = [
+                                'labels' => date('Y/m/d', strtotime($item->date)),
+                                'small' => $item->low,
+                                'large' => $item->high,
+                            ];
             }
             $response['data'] = $chart_data;
         }
