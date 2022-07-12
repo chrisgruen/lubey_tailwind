@@ -23,7 +23,6 @@
                                     <option
                                         data-chartid="{{$grand_children->id}}">{{$grand_children->name}}</option>
                                 @endforeach
-
                             @else
                                 <option data-chartid="{{$children->id}}">{{$children->name}}</option>
                             @endif
@@ -47,11 +46,11 @@
                 <!-- Chart legend -->
                 <div class="flex items-center">
                     <span class="inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"></span>
-                    <span>Organic</span>
+                    <span>Großmengen</span>
                 </div>
                 <div class="flex items-center">
                     <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
-                    <span>Paid</span>
+                    <span>Kleinstmengen</span>
                 </div>
             </div>
         </div>
@@ -102,14 +101,14 @@
                                 labels: labels,
                                 datasets: [
                                     {
-                                        label: 'small',
+                                        label: 'Kleinstmengen',
                                         backgroundColor: '#0694a2',
                                         borderColor: '#0694a2',
                                         data: data_small,
                                         fill: false,
                                     },
                                     {
-                                        label: 'large',
+                                        label: 'Großmengen',
                                         fill: false,
                                         backgroundColor: '#7e3af2',
                                         borderColor: '#7e3af2',
