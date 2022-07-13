@@ -11,8 +11,8 @@
         </div>
     </section>
 
-    <section class="container mx-auto my-5 p-5">
-        <select id="familyselector" onchange="callAjax()" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+    <section class="container mx-auto w-full lg:w-3/5 my-5 p-5">
+        <select id="familyselector" onchange="getFamiliyId()" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             @foreach($chart_families->children as $chart_family)
                 @if(!$chart_family->children->isEmpty())
                     <optgroup label="{{$chart_family->name}}">
@@ -20,11 +20,10 @@
                             @if(!$children->children->isEmpty())
                                 <option class="fake_optgroup" disabled>{{$children->name}}</option>
                                 @foreach($children->children as $grand_children)
-                                    <option
-                                        data-chartid="{{$grand_children->id}}">{{$grand_children->name}}</option>
+                                    <option data-chartid="{{$grand_children->id}}" value="{{$grand_children->id}}">{{$grand_children->name}}</option>
                                 @endforeach
                             @else
-                                <option data-chartid="{{$children->id}}">{{$children->name}}</option>
+                                <option data-chartid="{{$children->id}}" value="{{$children->id}}">{{$children->name}}</option>
                             @endif
                         @endforeach
                     </optgroup>
@@ -38,22 +37,28 @@
 
         <!-- Lines chart -->
         <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-            <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-                Lines
-            </h4>
-            <canvas id="line"></canvas>
-            <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
-                <!-- Chart legend -->
-                <div class="flex items-center">
-                    <span class="inline-block w-3 h-3 mr-1 bg-teal-500 rounded-full"></span>
-                    <span>Großmengen</span>
-                </div>
-                <div class="flex items-center">
-                    <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
-                    <span>Kleinstmengen</span>
+            <h2 class="text-3xl text-blue-800 text-center my-10">
+                Aktuelle Marktpreise
+            </h2>
+            <div class="flex-none w-10 text-sm text-left font-semibold mb-2">
+                €/Tonne
+            </div>
+                <div class="w-full">
+                    <canvas id="chart" height="100"></canvas>
+                    <div class="flex justify-center mt-7 space-x-3 text-sm text-gray-600 dark:text-gray-400 ">
+                        <!-- Chart legend -->
+                        <div class="flex items-center">
+                            <span class="inline-block w-3 h-3 mr-1 bg-[#51ADE6] rounded-full"></span>
+                            <span>Kleinstmengen</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="inline-block w-3 h-3 mr-1 bg-blue-800 rounded-full"></span>
+                            <span>Großmengen</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
     </section>
 </div>
 @endsection
@@ -62,10 +67,47 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
     <script>
-        function callAjax(){
+        let chartid = 3;
+        let optValues = [];
+        let find = false;
+        document.addEventListener("DOMContentLoaded", function(){
+
+            chartid = Math.floor(Math.random() * 35);
+            if(chartid > 0) {
+                chartid = chartid;
+            }
+
+            const select_family = document.querySelector('#familyselector');
+            const options = Array.from(select_family.options);
+            options.forEach((option, i) => {
+                optValues.push(option.value);
+                if (option.value == chartid) {
+                    select_family.selectedIndex = i;
+                    chartid = option.value;
+                    find = true;
+                }
+            });
+
+            if(find == true) {
+                chartid = chartid;
+            } else {
+                chartid = 3;
+            }
+
+            callAjax(chartid);
+        });
+
+        function getFamiliyId() {
+            if( typeof window.myChart !== 'undefined'){
+                window.myChart.destroy();
+            }
 
             select_chart = document.getElementById('familyselector');
             let chartid = select_chart.options[select_chart.selectedIndex].getAttribute('data-chartid');
+            callAjax(chartid);
+        }
+
+        function callAjax(chartid){
 
             let url = '{{ route('chartdata') }}';
             let ajax = new XMLHttpRequest();
@@ -80,21 +122,22 @@
                 if(this.readyState === 4 && this.status === 200) {
                     // Inserting the response from server into an HTML element
                     const response = JSON.parse(this.responseText);
-                    const graph_data = response.data;
-                    const labels = [];
-                    const data_small = [];
-                    const data_large = [];
 
                     //console.log(response.status);
                     if(response.status == 'ok'){
-                        familyselector = document.getElementById("familyselector");
+
+                        const graph_data = response.data;
+                        const labels = [];
+                        const data_small = [];
+                        const data_large = [];
+
                         for (var i in graph_data) {
                             labels.push(graph_data[i].labels);
                             data_small.push(graph_data[i].small);
                             data_large.push(graph_data[i].large);
                         }
 
-                        console.log(graph_data);
+                        //console.log(graph_data);
                         const lineConfig = {
                             type: 'line',
                             data: {
@@ -102,17 +145,18 @@
                                 datasets: [
                                     {
                                         label: 'Kleinstmengen',
-                                        backgroundColor: '#0694a2',
-                                        borderColor: '#0694a2',
+                                        backgroundColor: '#094992',
+                                        borderColor: '#51ADE6',
                                         data: data_small,
-                                        fill: false,
+                                        fill: '-1',
                                     },
                                     {
                                         label: 'Großmengen',
                                         fill: false,
-                                        backgroundColor: '#7e3af2',
-                                        borderColor: '#7e3af2',
+                                        backgroundColor: '#51ADE6',
+                                        borderColor: '#094992',
                                         data: data_large,
+                                        fill: '-1',
                                     },
                                 ],
                             },
@@ -152,8 +196,8 @@
                                 },
                             },
                         }
-                        const lineCtx = document.getElementById('line')
-                        window.myLine = new Chart(lineCtx, lineConfig)
+                        const lineCtx = document.getElementById('chart')
+                        window.myChart = new Chart(lineCtx, lineConfig)
                     }
                     //console.log(response)
                 }
@@ -161,7 +205,6 @@
             ajax.send(JSON.stringify(data));
         }
     </script>
-
 @endpush
 
 
