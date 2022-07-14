@@ -208,6 +208,11 @@
                     </label>
                     <select name="country_code" required class="peer shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                         <option value=""> ---------- </option>
+                        @foreach(\App\Models\Company::getCountryCodes() as $country)
+                            <option value="{{strtolower($country->alpha2)}}" @if(old('country_code') == strtolower($country->alpha2)) selected @endif >
+                                @lang('countries.'.strtolower($country->name))
+                            </option>
+                        @endforeach
                     </select>
                     <p class="invisible peer-invalid:visible text-sm text-red-700 font-light">
                         Bitte Land angeben

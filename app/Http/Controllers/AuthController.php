@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\Company;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
@@ -85,13 +86,73 @@ class AuthController extends Controller
             'city' => 'required',
             'street' => 'required',
             'street_number' => 'required',
-            'company' => 'required',
+            'company' => 'required|unique:companies',
             'country_code' => 'required',
             'accept_privacy' => 'required'
         ],
             ['accept_privacy.required' => 'Bitte bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben.']
         );
+        
+        $premiumDefault = intval($this->getSystemSettings('premium_default'));
+        
+        if ($premiumDefault > 0) {
+            $isPremium = 1;
+        } else {
+            $isPremium = 0;
+        }
+        
+        $user = new User([
+            'email'      => $request->input('email'),
+            'salutation' => $request->input('salutation'),
+            'firstname'  => $request->input('firstname'),
+            'lastname'   => $request->input('lastname'),
+            'password'   => bcrypt($request->input('password')),
+        ]);       
+        
+        $company = new Company([
+            'zipcode'             => $request->input('zipcode'),
+            'city'                => $request->input('city'),
+            'address'             => $request->input('street') . " " . $request->input('street_number'),
+            'street'              => $request->input('street'),
+            'street_number'       => $request->input('street_number'),
+            'company'             => $request->input('company'),
+            'ceo_name'            => $request->input('ceo_name'),
+            'country_code'        => $request->input('country_code'),
+            'faxnumber'           => $request->input('faxnumber', ''),
+            'company_court'       => $request->input('company_court'),
+            'company_register_id' => $request->input('company_register_id'),
+            'ustid'               => $request->input('ustid'),
+            'isPremium'           => $isPremium,
+            'authKeyPost'         => $this->randomReadbleKey(8),
+            'authKeyMail'         => $this->randomReadbleKey(8),
+            'uuid'                => $this->unique_uuid('companies'),
+            'phonenumber'         => $request->input('phonenumber'),
+            'mobilenumber'         => $request->input('mobilenumber'),
+            'faxnumber'         => $request->input('faxnumber'),
+            'registrationState'   => 'new',            
+        ]);
 
-        return view('registration.passedStep1');
+        $company->save();
+               
+        $user->company_id = $company->id;
+        $user->save();
+       
+        /*
+        $user->syncPermissions(User::$permissions);
+               
+        if ($isPremium) {
+            $premium_to = date('Y-m-d', (time() + $premiumDefault * 86400));
+            $premium = new PremiumData([
+                'company_id'   => $company->id,
+                'status'       => 1,
+                'premium_from' => date('Y-m-d'),
+                'premium_to'   => $premium_to,
+            ]);
+            $premium->save();
+        }
+        */
+        
+        Auth::login($user);
+        return view('registration.passedStep1', ['step' => 1, 'links' => false]);
     }
 }
