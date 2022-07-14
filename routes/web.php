@@ -39,7 +39,9 @@ Route::middleware(['guest'])->group(function () {
 
 Route::middleware(['auth'])->group(function () {
     // user
-    Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
+    Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');  
+    Route::view('/registration', 'registration.passedStep1')->name('user.registration');
+    
     Route::view('/user/settings', 'user.settings')->name('user.settings');
     Route::view('/user/profile', 'user.profile')->name('user.profile');
 

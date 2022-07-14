@@ -1,5 +1,6 @@
 <?php
 return [
+    "registration"                                                       => "Registrierung",
     "login"                                                              => "Anmelden",
     'login_lubey_trade'                                                  => 'Bei Lubey Trade anmelden',
     'signin_connect'                                                     => 'Bei Lubey Connect anmelden',
