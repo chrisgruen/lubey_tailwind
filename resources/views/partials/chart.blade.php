@@ -34,12 +34,12 @@
             <div class="flex justify-center mt-7 space-x-3 text-sm text-gray-600 dark:text-gray-400 ">
                 <!-- Chart legend -->
                 <div class="flex items-center">
-                    <span class="inline-block w-3 h-3 mr-1 bg-[#51ADE6] rounded-full"></span>
-                    <span>Kleinstmengen</span>
-                </div>
-                <div class="flex items-center">
                     <span class="inline-block w-3 h-3 mr-1 bg-blue-800 rounded-full"></span>
                     <span>Großmengen</span>
+                </div>
+                <div class="flex items-center">
+                    <span class="inline-block w-3 h-3 mr-1 bg-[#51ADE6] rounded-full"></span>
+                    <span>Kleinstmengen</span>
                 </div>
             </div>
         </div>
@@ -127,19 +127,19 @@
                             data: {
                                 labels: labels,
                                 datasets: [
-                                    {
-                                        label: 'Kleinstmengen',
+                                	{
+                                        label: 'Großmengen',
+                                        fill: false,
                                         backgroundColor: '#094992',
-                                        borderColor: '#51ADE6',
-                                        data: data_small,
+                                        borderColor: '#094992',
+                                        data: data_large,
                                         fill: '-1',
                                     },
                                     {
-                                        label: 'Großmengen',
-                                        fill: false,
+                                        label: 'Kleinstmengen',
                                         backgroundColor: '#51ADE6',
-                                        borderColor: '#094992',
-                                        data: data_large,
+                                        borderColor: '#51ADE6',
+                                        data: data_small,
                                         fill: '-1',
                                     },
                                 ],
