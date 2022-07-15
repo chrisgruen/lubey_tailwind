@@ -21,7 +21,9 @@
         @include('layouts.partials.sidebar_backend')
         <div class="flex flex-col flex-1 w-full">
             @include('layouts.partials.header_backend')
-            @yield('content')
+            <main class="h-full pb-16 overflow-y-auto">
+            	@yield('content')
+        	</main>
         </div>
     </div>
 </body>
