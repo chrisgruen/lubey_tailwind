@@ -46,8 +46,9 @@ Route::middleware(['auth'])->group(function () {
     Route::view('/user/profile', 'user.profile')->name('user.profile');
 
     // news
-    Route::get('admin/news/categories', [NewsCategoryController::class, 'index'])->name('admin.news.categories');
-    Route::get('admin/news/articles', [NewsController::class, 'index'])->name('admin.news.articles');
+    Route::get('news/categories', [NewsCategoryController::class, 'index'])->name('news.categories');
+   // Route::get('admin/news/articles', [NewsController::class, 'index'])->name('admin.news.articles');
+    Route::resource('news', NewsController::class);
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');

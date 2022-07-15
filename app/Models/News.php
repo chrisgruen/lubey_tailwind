@@ -7,6 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class News extends Model {
     //
+    
+    protected $fillable = [
+        'headline',
+        'teaser',
+        'body',
+    ];
+    
+    
     public function category() {
         return $this->belongsTo('App\Models\NewsCategory','news_category_id');
     }
