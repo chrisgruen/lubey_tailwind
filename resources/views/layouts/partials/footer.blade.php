@@ -1,7 +1,7 @@
 <footer class="bg-blue-800 text-white">
     <div class="container mx-auto px-6 pt-10 pb-6">
         <div class="flex flex-wrap">
-            <div class="w-full md:w-1/4 text-center md:text-left ">
+            <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left ">
                 <h5 class=" mb-6 text-lg font-semibold">Lubey AG</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
@@ -12,7 +12,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left ">
+            <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left ">
                 <h5 class=" mb-6 text-lg font-semibold">Produkte</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
@@ -29,7 +29,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left ">
+            <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left ">
                 <h5 class=" mb-6 text-lg font-semibold">Lubey AG</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
@@ -51,7 +51,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left ">
+            <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left ">
                 <h5 class=" mb-6 text-lg font-semibold">Rechtliches</h5>
                 <ul class="mb-4 font-extralight">
                     <li class="">
