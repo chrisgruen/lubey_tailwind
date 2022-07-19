@@ -15,7 +15,7 @@ class NewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {        
+    {
         $articles = News::latest()->paginate(10);
         return view('news.index',compact('articles'))->with('i', (request()->input('page', 1) - 1) * 10);
     }
@@ -42,9 +42,9 @@ class NewsController extends Controller
             'headline' => 'required',
             'body' => 'required',
         ]);
-        
+
         News::create($request->all());
-        
+
         return redirect()->route('news.index')->with('success','Artikel wurde angelegt');
     }
 
@@ -67,7 +67,8 @@ class NewsController extends Controller
      */
     public function edit(News $news)
     {
-        return view('news.edit',compact('news'));
+        $categories = NewsCategory::orderBy('name')->get();
+        return view('news.edit',compact('news', 'categories' ));
     }
 
     /**
@@ -79,12 +80,12 @@ class NewsController extends Controller
      */
     public function update(Request $request, News $news)
     {
-        $request->validate([            
-            'headline' => 'required',           
-            'body' => 'required',            
+        $request->validate([
+            'headline' => 'required',
+            'body' => 'required',
         ]);
-                     
-        $news->update($request->all());                   
+
+        $news->update($request->all());
         return redirect()->route('news.index')->with('success','Artikel wurde abgeändert');
     }
 
@@ -96,13 +97,19 @@ class NewsController extends Controller
      */
     public function destroy(News $news)
     {
-        $news->delete();           
+        $news->delete();
         return redirect()->route('news.index')->with('success','Product deleted successfully');
     }
-    
+
     public function public_news() {
         $news = News::query()->with(['category', 'category.mobile_img'])->orderBy('date', 'desc')->get();
         $categories = NewsCategory::query()->with('news')->get();
         return view('content.'.App::getLocale().'.news', ['news' => $news, 'categories' => $categories]);
+    }
+
+    public function public_news_detail($id) {
+        //$news = News::query()->with(['category', 'category.mobile_img'])->orderBy('date', 'desc')->get();
+        $news = News::find($id);
+        return view('content.'.App::getLocale().'.news_detail', ['news' => $news]);
     }
 }

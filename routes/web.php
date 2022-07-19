@@ -39,9 +39,9 @@ Route::middleware(['guest'])->group(function () {
 
 Route::middleware(['auth'])->group(function () {
     // user
-    Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');  
+    Route::get('/logout', [AuthController::class, 'getLogout'])->name('user.logout');
     Route::view('/registration', 'registration.passedStep1')->name('user.registration');
-    
+
     Route::view('/user/settings', 'user.settings')->name('user.settings');
     Route::view('/user/profile', 'user.profile')->name('user.profile');
 
@@ -55,7 +55,7 @@ Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/home', [HomeController::class, 'getHomeScreen'])->name('home');
 Route::get('/dashboard', [HomeController::class, 'getDashboard'])->name('bay.index');
 Route::get('/actual', [NewsController::class, 'public_news'])->name('content.actual');
-Route::get('/actual/{name}', [NewsController::class, 'public_news_detail'])->name('content.actual.detail');
+Route::get('/actual/{id}', [NewsController::class, 'public_news_detail'])->name('content.actual.detail');
 
 Route::get('/alloc_details/{allocationName}', [AllocationController::class, 'getDetails'])->name('alloc.details');
 Route::post('/newsletter_subscribe', [HomeController::class, 'subscribe_newsletter'])->name('newsletter.subscribe');
