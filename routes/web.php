@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AllocationController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\NewsCategoryController;
+use App\Http\Controllers\ChartPriceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,8 +48,9 @@ Route::middleware(['auth'])->group(function () {
 
     // news
     Route::get('news/categories', [NewsCategoryController::class, 'index'])->name('news.categories');
-   // Route::get('admin/news/articles', [NewsController::class, 'index'])->name('admin.news.articles');
     Route::resource('news', NewsController::class);
+
+    Route::get('chart/price', [ChartPriceController::class, 'index'])->name('chart.price');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');
