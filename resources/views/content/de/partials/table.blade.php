@@ -117,7 +117,7 @@
                                             <th scope="col" class="px-6 pt-4 align-middle whitespace-nowrap w-48">
                                                 @lang('allocation.lot') {{$lot->sort_order}}
                                             </th>
-                                            <th scope="col" class="px-6 pt-4 align-middle w-[400px]">
+                                            <th scope="col" class="px-6 pt-4 align-middle w-[400px] min-w-[400px]">
                                                 @if(isset($lot->family->name))
                                                     @lang('auction.'.$lot->family->name)
                                                 @else
