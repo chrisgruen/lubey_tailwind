@@ -117,7 +117,7 @@
                                             <th scope="col" class="px-6 pt-4 align-middle whitespace-nowrap w-48">
                                                 @lang('allocation.lot') {{$lot->sort_order}}
                                             </th>
-                                            <th scope="col" class="px-6 pt-4 align-middle min-w-[200px] max-w-[200px]">
+                                            <th scope="col" class="px-6 pt-4 align-middle w-[400px]">
                                                 @if(isset($lot->family->name))
                                                     @lang('auction.'.$lot->family->name)
                                                 @else
@@ -145,7 +145,7 @@
                                                         keine avvid
                                                     @endif
                                                 </td>
-                                                <td class="px-6 py-2 align-top min-w-[200px] max-w-[200px]">
+                                                <td class="px-6 py-2 align-top">
                                                     @if($slice->description)
                                                         {{$slice->description}}
                                                     @else
