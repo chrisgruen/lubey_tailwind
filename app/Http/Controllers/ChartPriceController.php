@@ -8,12 +8,27 @@ use App\Imports\ChartsImport;
 
 class ChartPriceController extends Controller
 {
-    public function index()
+    
+    public function getFile()
     {
+        return view('admin.chartprice');
+    }
+    
+    
+    public function fileImport(Request $request)
+    {
+        
+        $extensions = array("xls","xlsx");
+        
+        $this->validate($request, [
+            'formFile' => 'required|mimes:xlsx, csv, xls|max:2048'
+        ]);
+
         $import = new ChartsImport();
         $import->onlySheets('Daten-zusammengefasst');
 
-        Excel::import($import, 'storage/EuwidPreise1.xlsx');
-        return view('admin.chartprice');
+
+        Excel::import($import, $request->file('formFile')->store('temp'));
+        return back()->with('success', 'Chart-Tabelle wurde aktualisiert'); ;
     }
 }

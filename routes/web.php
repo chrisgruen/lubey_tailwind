@@ -50,7 +50,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('news/categories', [NewsCategoryController::class, 'index'])->name('news.categories');
     Route::resource('news', NewsController::class);
 
-    Route::get('chart/price', [ChartPriceController::class, 'index'])->name('chart.price');
+    Route::get('chart/file', [ChartPriceController::class, 'getFile'])->name('chart.file');
+    Route::get('chart/import', [ChartPriceController::class, 'import'])->name('chart.import');
+    Route::post('chart/import-file', [ChartPriceController::class, 'fileImport'])->name('chart.import-file');
 });
 
 Route::get('/', [HomeController::class, 'getHomeScreen'])->name('home');

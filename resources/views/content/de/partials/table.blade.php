@@ -85,7 +85,6 @@
                                     @lang('allocation.'.$allocation->legal_base)
                                 </td>
                                 <td  class="pr-5 lg-pr-0 min-w-[300px]">
-                                KELL - Kommunalentsorgung Landkreis Leipzig GmbH
                                     {{$allocation->company->company}}
                                 </td>
                                 <td class="px-6 py-4 align-middle text-base whitespace-nowrap">
