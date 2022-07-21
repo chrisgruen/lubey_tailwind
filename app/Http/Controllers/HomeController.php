@@ -71,9 +71,11 @@ class HomeController extends Controller {
         if ($request->has('chartid')) {
             $response['status'] = 'ok';
             $chart_data = [];
-            $data = ChartData::query()->where('chart_family_id', $request->input('chartid'))->orderBy('date')->latest()->take(12)->get();
+            $data = ChartData::query()->where('chart_family_id', $request->input('chartid'))->orderBy('date', 'desc')->take(12)->get();
+            $index = count($data);
             foreach ($data as $item) {
-                $chart_data[] = [
+              
+                $chart_data[--$index] = [
                                 'labels' => date('m/Y', strtotime($item->date)),
                                 'small' => $item->low,
                                 'large' => $item->high,

@@ -83,13 +83,14 @@
                                     <td class="w-96 whitespace-nowrap pr-5 lg-pr-0">
                                         @lang('allocation.'.$allocation->legal_base)
                                     </td>
-                                    <td  class="whitespace-nowrap pr-5 lg-pr-0">
+                                    <td  class="pr-5 lg-pr-0 min-w-[300px]">
+                                    KELL - Kommunalentsorgung Landkreis Leipzig GmbH
                                         {{$allocation->company->company}}
                                     </td>
-                                    <td class="px-6 py-4 align-middle whitespace-nowrap">
+                                    <td class="px-6 py-4 align-middle text-base whitespace-nowrap">
                                         {{date('d.m.Y, H:i',strtotime($allocation->offer_limit))}} Uhr
                                     </td>
-                                    <td class="text-right whitespace-nowrap pr-0 lg-pr-5">
+                                    <td class="pl-12 text-right whitespace-nowrap pr-0 lg-pr-5">
                                         <a class="inline-flex bg-[#51ADE6] border border-blue-300 text-white text-lg rounded py-1 px-3 hover:text-white hover:bg-blue-800 whitespace-nowrap"
                                            href="{{route('alloc.details',['allocationName'=>$allocation->name])}}">
                                             zur Vergabe
@@ -145,14 +146,14 @@
                                             <tbody>
                                             @foreach($lot->slices as $slice)
                                                 <tr class="bg-transparent">
-                                                    <td class="px-6 py-1 align-top">
+                                                    <td class="px-6 py-2 align-top">
                                                         @if(isset($slice->material->avvid))
                                                             {{$slice->material->avvid}}
                                                         @else
                                                             keine avvid
                                                         @endif
                                                     </td>
-                                                    <td class="px-6 py-1 align-top w-96">
+                                                    <td class="px-6 py-2 align-top w-96">
                                                         @if($slice->description)
                                                             {{$slice->description}}
                                                         @else
@@ -167,14 +168,14 @@
                                                             @endif
                                                         @endif
                                                     </td>
-                                                    <td class="px-6 py-1 align-top whitespace-nowrap">
+                                                    <td class="px-6 py-2 align-top whitespace-nowrap">
                                                         @if($slice->division_as_location && $slice->division)
                                                             {{$slice->division->zipcode}}, @lang('countries.'.$slice->division->get_country())
                                                         @else
                                                             {{$slice->zip_code}}, @lang('countries.'.$allocation->company->get_country())
                                                         @endif
                                                     </td>
-                                                    <td class="px-6 py-1 align-top whitespace-nowrap">
+                                                    <td class="px-6 py-2 align-top whitespace-nowrap">
                                                         &nbsp;
                                                     </td>
                                                 </tr>
