@@ -1,7 +1,6 @@
 <?php
 namespace App\Imports;
 
-use DB;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\ToCollection;
 use App\Models\ChartFamiliy;
@@ -11,10 +10,6 @@ class DataChartImport implements ToCollection
 {
     public function collection(Collection $rows)
     {
-        if ($rows) {
-            DB::table('chart_datas')->delete();
-        }
-
         $dateArray = [];
         foreach ($rows as $row_key => $row)
         {
